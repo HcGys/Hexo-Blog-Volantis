@@ -46,7 +46,7 @@ sitemap: false
 {% folding cyan, 资源链接 %}
 
 {% btns rounded grid4 %}
-{% cell 网站源码仓库::https://github.com/inkss/inkss.github.io::fas fa-code-merge %}
+{% cell 网站源码仓库::https://github.com/inkss/Hexo-Blog::fas fa-code-merge %}
 {% cell 博客主题仓库::https://github.com/inkss/volantis::fas fa-ghost %}
 {% cell 静态资源仓库::https://github.com/inkss/inkss-cdn::fas fa-space-station-moon-alt %}
 {% cell 网站图标仓库::https://github.com/inkss/fontawesome::fas fa-paint-roller %}

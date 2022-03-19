@@ -4,7 +4,7 @@ deploy:
   cloud: tencent
   bucket: web-inkss-1252055953
   region: ap-shanghai
-  cdnEnable: false              # 是否启用CDN加速
+  cdnEnable: false             # 是否启用CDN加速
   deleteExtraFiles: true       # 是否删除云端多余文件
   secretId: ''
   secretKey: ''
