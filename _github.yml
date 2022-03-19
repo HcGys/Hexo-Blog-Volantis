@@ -1,0 +1,8 @@
+# Deployment 部署
+deploy:
+  type: git
+  message: ''
+  repo:
+    github:
+      url: git@github.com:inkss/inkss.github.io.git
+      branch: main

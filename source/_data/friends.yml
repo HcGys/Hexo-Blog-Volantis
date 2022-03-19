@@ -1,0 +1,182 @@
+- group: <i class="fad fa-bow-arrow POMEGRANATE"></i>&nbsp;同学好友
+  icon: fad fa-bow-arrow
+  items:
+    - title: 猫之三千岁（主站）
+      avatar: https://static.szyink.com/common/static/avatar.jpg
+      url: https://szyink.com
+      backgroundColor: '#101115'
+      textColor: '#e3e3e3'
+      keywords:
+        - 记事
+        - 私人
+    - title: 忘川三途
+      avatar: /img/friend/raymond-zhao.jpg
+      url: https://raymond-zhao.top/
+      backgroundColor: '#b9b9b9'
+      textColor: '#FFF'
+      keywords:
+        - 学识渊博
+        - 经验丰富
+        - 代码风骚
+        - 效率恐怖
+    - title: Doreou's Blog
+      url: https://www.doreou.cn/
+      avatar: /img/friend/doreou.jpg
+- group: <i class="fad fa-candy-corn POMEGRANATE"></i>&nbsp;小可爱们 (排名不分先后)
+  icon: fad fa-candy-corn
+  items:
+    - title: xaoxuu
+      avatar: /img/friend/xaoxuu.jpg
+      url: https://xaoxuu.com
+      backgroundColor: '#87977F'
+      textColor: '#EFEFEF'
+      keywords:
+        - iOS
+    - title: Reqwey
+      avatar: /img/friend/lhkstudio.jpg
+      url: https://reqwey.vercel.app
+      backgroundColor: '#FFEBD2'
+      textColor: '#985B40'
+      keywords:
+        - OIer
+        - Qt
+    - title: MHuiG
+      avatar: /img/friend/mhuig.webp
+      url: https://blog.mhuig.top/
+      backgroundColor: '#f5dcca'
+      textColor: '#6d533f'
+      description: 'Be Yourself,Make a Difference.'
+    - title: Xu&#39;s Blog
+      avatar: /img/friend/hasaik.jpg
+      url: https://hasaik.com
+      backgroundColor: '#fcfcfc'
+      textColor: '#555'
+      description: '博观而约取，厚积而薄发！'
+    - title: Colsrch
+      avatar: /img/friend/colsrch.jpg
+      url: https://colsrch.cn
+      backgroundColor: '#d7d1d5'
+      textColor: '#5d5d5d'
+      description: '愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。'
+      keywords:
+        - C/C++
+        - MFC
+    - title: qinxs
+      avatar: /img/friend/qinxs.png
+      url: https://7bxing.com
+      backgroundColor: '#607D8B'
+      textColor: '#EFEFEF'
+      keywords:
+        - 技术总结
+        - 各种折腾
+    - title: Heson
+      avatar: /img/friend/heson525.png
+      url: https://www.heson10.com
+      backgroundColor: '#c61a26' # 卡片背景颜色
+      textColor: '#fefefe'  # 卡片文字颜色
+      keywords: [Hexo, 折腾, 生活]    # 标签
+      description: 人生在勤，不索何获。
+    - title: 淋竹
+      avatar: /img/friend/llscme.jfif
+      url: https://www.llscme.fun
+      backgroundColor: '#5b4c77' # 卡片背景颜色
+      textColor: '#fefefe'  # 卡片文字颜色
+      description: 冥然兀坐，万籁有声。
+    - title: W4J1e’s blog
+      avatar: /img/friend/hinCool.png
+      url: https://www.hin.cool
+      description: 总是偏爱不务正业
+    - title: Akilarの糖果屋
+      avatar: /img/friend/akilar.png
+      url: https://akilar.top/
+      screenshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
+      description: 期待您的光临！
+      keywords:
+        - 糖果屋
+    - title: Heo
+      avatar: /img/friend/zhheo.png
+      url: https://blog.zhheo.com/
+      screenshot: https://7.dusays.com/2020/10/27/ff9603f42ee09.png
+      description: 爱折腾的设计师
+    - title: Lznote
+      avatar: /img/friend/Lznote.png
+      url: https://lznote.com
+    - title: Charlie
+      avatar: /img/friend/charlie-zzy.png
+      url: https://charlie-zzy.github.io
+      backgroundColor: '#66CCFF'
+      textColor: '#EFEFEF'
+      keywords:
+        - OIer
+        - 版本跟进狂魔
+    - title: 杜老师说
+      avatar: /img/friend/dusays.png
+      url: https://dusays.com
+    - title: Uncle_drew
+      avatar: /img/friend/cndrew.png
+      url: https://cndrew.cn
+      description: Hand down,man down
+    - title: Hassan's Blog
+      avatar: /img/friend/hassanwong.jpg
+      url: https://hassanwong.top
+      description: 时不我待，只争朝夕
+    - title: 梦之国
+      avatar: /img/friend/achivedreams.jpg
+      url: https://www.achivedreams.com
+    - title: 梦墨
+      avatar: /img/friend/idream.jpeg
+      url: https://idream.ink
+      backgroundColor: '#f1d6dd'
+      textColor: '#2e2e2e'
+      description: May you do good and not evil.
+      keywords:
+        - Zhou
+    - title: 𝓗𝓪𝓻𝓻𝔂 の 心阁
+      avatar: /img/friend/mr90.jpeg
+      url: https://u.mr90.top/
+      description: 你必须非常努力，才能看起来毫不费力。
+    - title: 阅读・阅己
+      avatar: /img/friend/flypig.png
+      url: https://flypig.xyz
+      description: 逻辑只是工具，心地才是主宰！
+    - title: kelecn
+      avatar: /img/friend/kelecn.jpg
+      url: https://kelecn.top
+      description: 唯爱与科技不可辜负！
+    - title: Thrower 的博客
+      avatar: /img/friend/thrower.jpg
+      url: https://thrower.cc/
+    - title: 叶开楗博客
+      avatar: /img/friend/xiamuyourenzhang.png
+      url: https://qq.md/
+      description: 90后阿宅一枚，福建三明尤溪人士。
+    - title: modao
+      avatar: /img/friend/modao.png
+      url: https://modao.site
+      description: 凡有所学，必有所得
+
+
+- group: <i class="fad fa-siren-on red faa-flash faa-slow animated"></i>&nbsp;失联人士
+  icon: fad fa-siren-on
+  items:
+    - title: 残梦
+      avatar: /img/friend/sunhang.jpg
+      url: https://sunhang.top
+      backgroundColor: '#fcfcfc'
+      textColor: '#667086'
+      keywords:
+        - 前端
+        - JS
+    - title: hewith
+      avatar: /img/friend/hewith.jpg
+      url: https://heshun.run/
+      backgroundColor: '#5b4c77' # 卡片背景颜色
+      textColor: '#fefefe'  # 卡片文字颜色
+      description: 曾梦想仗剑走天涯，无奈贫穷挡住了步伐。
+    - title: coolxingge
+      url: http://www.coolxingge.cn/
+      avatar: /img/friend/coolxingge.jpg
+    - title: Yann
+      avatar: /img/friend/hiyann.jpg
+      url: https://www.hiyann.top/
+      description: 但行好事，莫问前程。

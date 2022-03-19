@@ -1,0 +1,197 @@
+# Hexo Configuration
+server:
+  ip: 0.0.0.0
+  port: 5500
+  logger: false
+
+# Site 网站
+title: 枋柚梓的猫会发光
+subtitle: 猫和它的小小窝
+description: 繁星永存，记忆亘古不变。
+keywords: 枋柚梓,Inkss,szyink
+author: 枋柚梓
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL 网址
+url: https://inkss.cn             # 网址
+root: /                           # 网站根目录
+permalink_defaults:               # 永久链接中各部分的默认值
+pretty_urls:                      # 改写 permalink 的值来美化 URL
+  trailing_index: false           # 是否在永久链接中保留尾部的 index.html
+permalink: blog/:abbrlink/        # 文章的 永久链接 格式
+
+# Directory 目录
+source_dir: source                # 资源文件夹，这个文件夹用来存放内容。
+public_dir: public                # 公共文件夹，这个文件夹用于存放生成的站点文件。
+tag_dir: /tags                    # 标签文件夹
+archive_dir: /archives            # 归档文件夹
+category_dir: /categories         # 分类文件夹
+code_dir: downloads/code          # Include code 文件夹，source_dir 下的子目录
+i18n_dir: :lang                   # 国际化（i18n）文件夹
+skip_render:                      # 跳过指定文件的渲染。匹配到的文件将会被不做改动的复制到 public 目录中。
+  - _posts/readme.md
+  - README.md
+  - robots.txt
+  - assets/*
+  - static/*
+  - fonts/*
+  - img/*
+  - CNAME
+
+# Writing 文章
+new_post_name: :title.md          # 新文章的文件名称
+default_layout: post              # 预设布局
+titlecase: true                   # 在中文和英文之间加入空格
+external_link:                    # 在新标签中打开链接
+  enable: true                    # 在新标签中打开链接
+  field: site                     # 适用于整个网站或仅发布
+  exclude:                        # 排除主机名。
+filename_case: 0                  # 把文件名称转换为 (1) 小写或 (2) 大写
+render_drafts: false              # 显示草稿
+post_asset_folder: true           # 启动 Asset 文件夹
+relative_link: false              # 把链接改为与根目录的相对位址
+future: true                      # 显示未来的文章
+highlight:                        # 代码块的设置
+  enable: true                    # 启用语法突出显示
+  line_number: false              # 显示行号
+  auto_detect: false              # 如果未指定语言，则启用自动检测
+  tab_replace:                    # 用 n 个空格替换制表符； 如果值为空，则不会替换标签
+
+# Home page setting 主页设置
+index_generator:
+  path: ''
+  per_page: 5
+  order_by: -date
+
+# Category & Tag 分类 & 标签
+default_category: uncategorized   # 默认分类
+category_map:                     # 分类别名
+tag_map:                          # 标签别名
+
+# Metadata elements
+meta_generator: false
+
+# Date / Time format 日期 / 时间格式
+date_format: YYYY-MM-DD           # 日期格式
+time_format: HH:mm:ss             # 时间格式
+updated_option: mtime
+
+# Pagination 分页
+per_page: 5                       # 每页显示的文章量
+pagination_dir: pagination        # 分页目录
+
+# ======================================================= #
+# =====================   部  署    ===================== #
+# ======================================================= #
+
+# Hexo 渲染系统
+# hexo-renderer-markdown-it
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-emoji
+    - markdown-it-abbr
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+  anchors:
+    level: 2
+    collisionSuffix: ''
+    permalink: false
+    permalinkClass: 'header-anchor'
+    permalinkSide: 'left'
+    permalinkSymbol: '¶'
+    case: 0
+    separator: ''
+
+# ======================================================= #
+# ===================== 主题特定配置 ===================== #
+# ======================================================= #
+
+# 主题 特定的主题配置
+theme: volantis
+use_cdn: true
+#baidu_analytics_key: 64341e907532327289e9de37759e2a21
+#google_analytics_key: UA-126183911-1
+avatar:  /img/avatar.jpg
+
+# ======================================================= #
+# ===================== 插件特定配置 ===================== #
+# ======================================================= #      
+
+# 一、文章永久链接 npm install hexo-abbrlink --save
+# 需要同步修改永久链接格式：permalink: article/:category/:abbrlink.html
+abbrlink:
+  alg: crc32
+  rep: hex
+
+# 二、SEO 优化 npm install hexo-autonofollow --save
+nofollow:
+  enable: true
+  exclude: 
+    - inkss.cn
+
+# 三、SEO 优化二网站地图 npm install hexo-generator-seo-friendly-sitemap --save
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
+
+
+# 四、RSS npm install hexo-generator-feed --save
+feed:
+  type: atom
+  path: atom.xml
+  limit: 5
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon/cat192.png
+  autodiscovery: true
+
+# 五、npm install hexo-tag-tiy --save （弃用）
+tiy:
+  enable: false                        # 是否启用插件
+  base_url: "https://tiy.adc.ink/"     # 基础 URL
+  height_pc: 500px                     # 电脑版高度
+  height_mobile: 700px                 # 手机版高度
+  width_pc: 100%                       # 电脑版宽度
+  width_mobile: 100%                   # 手机版宽度
+  margin: "1rem 0"                     # margin，遵循 CSS 格式
+  border: "1px solid #eee"             # 边框样式，遵循 CSS 格式
+
+# 六、npm i -S hexo-tag-aplayer       （弃用）
+aplayer:
+  meting: true
+  asset_inject: false
+
+# 七、npm install --save hexo-submit-urls-to-search-engine （弃用）
+hexo_submit_urls_to_search_engine:
+  submit_condition: count
+  txt_path: submit.txt
+  baidu: 1
+  baidu_host: https://inkss.cn
+  baidu_token: 0
+  bing: 1
+  bing_host: https://inkss.cn
+  bing_token: 0
+
+# 八、hexo-hide-posts
+hide_posts:
+  enable: true
+  # 可以改成其他你喜欢的名字
+  filter: hidden
+  # 指定你想要传递隐藏文章的 generator，比如让所有隐藏文章在存档页面可见
+  # 常见的 generators 有：index, tag, category, archive, sitemap, feed, etc.
+  public_generators: [tag, category, archive, sitemap, feed, json-content]
+  # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
+  noindex: true

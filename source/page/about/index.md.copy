@@ -1,0 +1,132 @@
+---
+layout: page
+seo_title: 关于
+date: 2019/11/18 18:15
+updated: 2021/07/28 01:35
+comments: true
+sidebar: []
+top_meta: []
+bottom_meta: []
+meta:
+  header: []
+  footer: []
+sitemap: false
+---
+
+<p class="p center logo ultra" style="margin-bottom: -50px;">{% emoji family-bicycle %}</p>
+
+*{% p center logo small gray, 繁星永存 记忆亘古不变 %}*
+
+{% tabs tab-id %} 
+
+<!-- tab <i class="fal fa-frosty-head"></i><i style="font-weight: normal;font-style: normal;">&nbsp;封面占位</i> -->
+
+<p><em>本来无一物,何处惹尘埃.</em></p>
+
+<!-- endtab -->
+
+<!-- tab <i class="fal fa-user-crown"></i><i style="font-weight: normal;font-style: normal;">&nbsp;站点信息</i> -->
+
+{% folding cyan, <i class="fal fa-user-crown"></i> 说点什么 %}
+
+&emsp;&emsp;本站的具体建站日期不太清楚了，后来就以域名的注册日期 `2018/03/15` 作为开始日期。这样算下来兜兜转转也是蛮久了，记忆中建站的原因很简单就是想有一个不受限制，没有约束的文字记录平台，那个时候只是把它当作自己的一个精致的小玩具。
+
+&emsp;&emsp;后来也是断断续续状态，写了一些不明所以的文章，要说是真正打理这个站点时间应该在毕业后，换掉了主题、删掉了没意义的文章等等。努力往高质量博主的方向发展，当然这里还得感谢 Volantis 这个主题，精致的主题很能让人产生写点啥的念头。最后，这个站点的定位很明确：记录折腾路上的点点滴滴：*代码*、*项目*、*笔记*、*教程*，当看到码下的文字真的能帮到有些人也是很令人喜悦。
+
+&emsp;&emsp;如今个人博客似乎没什么前景，各家巨头都在努力建设封闭的生态圈。个人博客真的就是个一亩三分地了，似乎就越来越没有生存空间，但毕竟还有一群人在坚守，何况受制于人的感觉非常不美丽。对于我们来说一直不懈的背后，可能就是因为它是心头的白月光吧，就像是那个十年之约的项目，它可是一个约定呀。
+
+{% endfolding %}
+
+<!-- endtab -->
+
+<!-- tab <i class="fal fa-download"></i><i style="font-weight: normal;font-style: normal;">&nbsp;资源链接</i> -->
+
+{% note warning::您可以在以下链接找到本站的基础数据，但请注意，本站原始数据不开源。 %}
+
+{% folding cyan, 资源链接 %}
+
+{% btns rounded grid5 %}
+{% cell 博客源码仓库::https://gitea.szyink.com/szyink/Hexo-Blog::fas fa-blog %}
+{% cell 网站源码仓库::https://github.com/inkss/inkss.github.io::fas fa-code-merge %}
+{% cell 博客主题仓库::https://github.com/inkss/volantis::fas fa-ghost %}
+{% cell 静态资源仓库::https://github.com/inkss/inkss-cdn::fas fa-space-station-moon-alt %}
+{% cell 网站图标仓库::https://github.com/inkss/fontawesome::fas fa-paint-roller %}
+{% endbtns %}
+
+{% endfolding %}
+
+<!-- endtab -->
+
+<!-- tab <i class="fal fa-user-secret"></i><i style="font-weight: normal;font-style: normal;">&nbsp;数据说明</i> -->
+
+<div class="not-select">
+
+#### 一、隐私声明
+
+&emsp;&emsp;当您访问本站时会在服务器中记录您相应的访问日志，这些日志仅包含基础的 IP 地址、您浏览器的 UA 信息，此部分数据存储在本站服务器之中，同时由于本站全面使用了腾讯云 CDN 分发，故相应也有一份 CDN 的浏览日志存储在腾讯云对象存储中，一般情形下此两者日志是共同相似的；当您使用本站的评论系统时，系统同时也会记录您的一些访问信息，诸如 IP、UA 等等，此部分数据存储于腾讯云云函数数据库中。
+
+&emsp;&emsp;您理解，本站会至少存储您的访问信息两个月，根据中华人民共和国[《互联网信息服务管理办法》](http://www.gov.cn/zhengce/2020-12/26/content_5574367.htm)第十四条：
+
+> 从事新闻、出版以及电子公告等服务项目的互联网信息服务提供者，应当记录提供的信息内容及其发布时间、互联网地址或者域名；互联网接入服务提供者应当记录上网用户的上网时间、用户账号、互联网地址或者域名、主叫电话号码等信息。
+>
+> 互联网信息服务提供者和互联网接入服务提供者的记录备份应当保存60日，并在国家有关机关依法查询时，予以提供。
+
+#### 二、免责声明
+
+- 本站部分资源来源网络，如因传播、转载、商业使用等导致的法律纠纷，与本博客无关；
+
+- 本站提供非实名制评论功能，博主有权在未告知评论用户的前提下，修改、删除任何评论内容；
+
+- 本站不对评论数据的可靠性做保证，同时您在本站的评论行为视为将评论内容授权于本站；
+
+- 最终解释权归本站所有。
+
+</div>
+
+<!-- endtab -->
+
+<!-- tab <i class="fal fa-closed-captioning"></i><i style="font-weight: normal;font-style: normal;">&nbsp;知识共享</i> -->
+
+<iframe width="100%" height="400" class="embed-show" src="https://adc.ink/#fileView&path=https%3A%2F%2Fadc.ink%2F%3Fexplorer%2Fshare%2Ffile%26hash%3D67fddoUBC5YJfpoMXqx9kRWYqR2iJo2kWLo9C5AhOt-mita0V-tTiiDZ%26name%3D%2F%25E7%259F%25A5%25E8%25AF%2586%25E5%2585%25B1%25E4%25BA%25AB.md%26size%3D15405%26createTime%3D1631889405" allowtransparency="true" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" scrolling="no"></iframe>
+
+<!-- endtab -->
+
+<!-- tab <i class="fal fa-computer-classic"></i><i style="font-weight: normal;font-style: normal;">&nbsp;自定义右键</i> -->
+
+*{% p center logo gray, 本站实现了自定义右键，你可以通过以下按钮自行关闭/启动 %}*
+
+<div style="min-height: 30px;font-family: 'SentyGoldenBell';font-size: 1.5rem;font-weight: 600;">
+  <div id="destroyRightContent" style="display: none">
+    <p class="article center" style="text-align: center;">关闭自定义右键：<span id="destroyRightMenu" class="btn">
+        <a class="button" href="javascript:;" title="注销右键">注销右键</a></span>
+    </p>
+  </div>
+  <p id="initRightContent" class="article center" style="text-align: center;display: none">激活自定义右键：<span
+      id="initRightMenu" class="btn"><a class="button" href="javascript:;" title="激活右键">激活右键</a></span></p>
+</div>
+
+{% p right logo gray, 仅本此浏览生效 %}
+
+<!-- endtab -->
+
+<!-- tab <i class="fal fa-triangle-music"></i><i style="font-weight: normal;font-style: normal;">&nbsp;视频</i> -->
+
+<iframe width="100%" height="400" class="embed-show" src="https://adc.ink/#fileView&path=https%3A%2F%2Fadc.ink%2F%3Fexplorer%2Fshare%2Ffile%26hash%3D928fqK-3jOi94pmdwo5uXeYGbHsEtnUBSzcjJIrinUtGnpx0qq83mL8%26name%3D%25E8%25B5%25B7%25E9%25A3%258E%25E4%25BA%2586_x264.mp4%26size%3D36290875%26createTime%3D1625997194" allowtransparency="true" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" scrolling="no"></iframe>
+
+<p style="text-align: center;"><em>以爱之名 你还愿意吗</em></p>
+
+<!-- endtab -->
+
+<!-- tab <i class="fal fa-sigma"></i><i style="font-weight: normal;font-style: normal;">&nbsp;统计</i> -->
+
+<div class="not-select"> 
+
+当前页面访问量：<span class="p gray small right" id="twikoo_visitors"><i class="fad fa-balloons fa-fw" style="display: inline-block;" aria-hidden="true"></i></span> 
+
+</div>
+
+<!-- endtab -->
+
+{% endtabs %}
+
+<div style="margin-top: -30px;"></div>

@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+.deploy*/
+.coscache/
+node_modules/
+
+public/
+markdown/
+
+_multiconfig.yml
+
