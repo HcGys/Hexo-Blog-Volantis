@@ -140,7 +140,7 @@ article:
       copyright:
         enable: true
         content:
-          - '博客内容遵循 <a href="/page/cc">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)</a> 协议。'
+          - '博客内容遵循 <a href="/page/cc">署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)</a> 协议。'
 
 comments:
   title: <i class='fad fa-comments POMEGRANATE'></i> 评论
@@ -155,7 +155,7 @@ comments:
     branch: master
 
 sidebar:
-  for_page: [blogger, navigation, lastupdate, webinfo]
+  for_page: [blogger, notice, navigation, lastupdate, webinfo]
   for_post: []
   widget_library:
     blogger:
@@ -212,7 +212,8 @@ sidebar:
         icon: fad fa-ghost PETERRIVE 
         title: 公共信息
       content:
-        - '缺失'
+        - '您好，这里是枋柚梓的笔记站，主要是用于记录一些偏专业向的内容，生活向内容请见：[猫的三千年](https://szyink.com/)。'
+        - '<a href="https://www.foreverblog.cn/go.html" target="_blank" style="margin-right: 6px;"><img src="/img/default/wormhole.gif" alt="虫洞" style="width:auto;height:31px;border-radius:4px;" title="穿梭虫洞-随机访问十年之约友链博客"></a><a href="/page/cc"><img src="/img/default/cc.png"  title="署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)" alt="CC BY-SA 4.0"></a>'
     updateList:
       class: text
       display: [desktop]
@@ -264,7 +265,7 @@ tag_plugins:
 
 site_footer:
   layout: [icp, cpy, me, icon]
-  lic: '<div class="footerMax560"><p>博客内容遵循 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">「署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)」</a> 协议</p></div>'
+  lic: '<div class="footerMax560"><p>博客内容遵循 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">「署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)」</a> 协议</p></div>'
   inf: '<div class="footerMax490">本站使用 <a href="https://github.com/volantis-x/hexo-theme-volantis" target="_blank" class="codename" rel="external nofollow noopener noreferrer">Volantis</a> 作为主题 | <span> 由 <a href="https://webify.cloudbase.net" target="_blank" class="codename" rel="external nofollow noopener noreferrer">CloudBase Webify</a> 提供网站托管服务</span></div>'
   icp: '<div class="footerMax490">皖 ICP 备 <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow" style="cursor:wait;">2021008088</a> 号 | <span>辽公网安备 <a href="https://www.beian.gov.cn/" rel="nofollow" target="_blank" style="cursor:wait;">21021702000331</a> 号</span></div>'
   cpy: '<div class="footerMax490">Copyright 2018 - 2022 szyink. All Rights Reserved</div>'
@@ -329,7 +330,7 @@ plugins:
     copyright:  # 是否在复制时弹出版权提示
       enable: true
       title: '知识共享许可协议'
-      message: '请遵守 CC BY-NC-SA 4.0 协议。'
+      message: '请遵守 CC BY-SA 4.0 协议。'
       icon: 'fab fa-creative-commons light-blue'
     aplayer:
       enable: true
