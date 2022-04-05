@@ -7,6 +7,7 @@ const replace = require('gulp-replace');
 const imagemin = require('gulp-imagemin');
 const cwebp = require('gulp-cwebp');                 // npm i --save-dev gulp-cwebp
 const webpHtml = require('./gulp-webp-html');
+const csp = require('./gulp_csp');
 
 // 压缩css文件
 const minify_css = () => (
@@ -82,15 +83,6 @@ const html_webp = async () => {
     .pipe(gulp.dest('./public'))
 }
 
-module.exports = {
-  img_webp: img_webp,
-  html_webp: html_webp,
-  minify_html: minify_html,
-  minify_css: minify_css,
-  minify_js: minify_js,
-  minify_img: minify_img
-};
-
 // 压缩 + 静态资源连接替换
 gulp.task('one', gulp.parallel(
   minify_html,
@@ -109,4 +101,10 @@ gulp.task('img', gulp.parallel(
   minify_img
 ));
 
-gulp.task('default', gulp.series('one'));
+// CSP
+gulp.task('csp', gulp.parallel(
+  csp.csp_hash,
+  csp.csp_replace
+));
+
+gulp.task('default', gulp.series('one', 'csp'));

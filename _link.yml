@@ -3,5 +3,5 @@ import:
   link:
     - <link rel="preconnect" href="https://static.inkss.cn">
     - <link rel="preconnect" href="https://static.szyink.com">
-    - <link rel="preload" href="https://static.inkss.cn/css/roboto.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    - <link rel="preload" href="https://static.inkss.cn/css/roboto.css" as="style">
 
