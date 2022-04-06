@@ -20,9 +20,6 @@ const minify_css = () => (
 const minify_html = () => (
   gulp.src(['./public/**/*.html', '!./public/{lib,lib/**}'])
     .pipe(replace('src="/js/', 'src="https://static.inkss.cn/js/'))
-    .pipe(replace('src="/libs/', 'src="https://static.inkss.cn/libs/'))
-    .pipe(replace('href="/css/"', 'href="https://static.inkss.cn/css/'))
-    .pipe(replace('href="/libs/"', 'href="https://static.inkss.cn/libs/'))
     .pipe(replace('../../img/article', 'https://static.inkss.cn/img/article'))
     .pipe(htmlclean())
     .pipe(htmlmin({
