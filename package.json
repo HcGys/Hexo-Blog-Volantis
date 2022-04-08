@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "s": "hexo clean && hexo server --config _config.yml,_local.yml",
+    "s": "hexo clean && hexo server --config _config.yml",
     "r": "hexo server",
     "rebuild": "hexo clean && hexo g && gulp",
     "deployGitHub": "hexo deploy --config _github.yml",
