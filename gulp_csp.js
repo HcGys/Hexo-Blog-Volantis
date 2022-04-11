@@ -20,6 +20,9 @@ unsafe_script_list = [
   "errorImgCover(this)",
   "return false;",
   "return!1",
+  "history.back()",
+  "history.forward()",
+  "window.location.reload()",
 ]
 
 // script hash White list
