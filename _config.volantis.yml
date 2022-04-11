@@ -13,6 +13,7 @@ cdn:
     js:
       app: /js/app.js
       rightMenu: /js/plugins/rightMenu.js
+      rightMenus: /js/plugins/rightMenus.js
       iconfontInkss: /js/thirdparty/iconfontInkss.js
     css:
       style: /css/style.css
@@ -296,7 +297,7 @@ plugins:
     enable: false
   fontawesome_animation:
     enable: false
-    css: /css/szyink/font-awesome-animation.min.css
+    css: /css/font-awesome-animation.min.css
   wordcount:
     enable: true
   aplayer:
@@ -324,6 +325,8 @@ plugins:
     enable: false
   message:
     enable: true
+    js:  /js/thirdparty/message.js
+    css: /css/message.css
     icon:     # 默认图标，支持对图标添加颜色，可选值：see：/source/css/_plugins/message.styl
       default: fa-duotone fa-info-circle light-blue
       quection: fa-duotone fa-question-circle light-blue
@@ -338,8 +341,52 @@ plugins:
       pause: fa-duotone fa-pause light-blue
       error: fa-duotone fa-exclamation-square red
 
-rightmenu:
+rightmenus:
   enable: true
+  order:
+    - plugins.navigation  
+    - hr
+    - plugins.inputBox
+    - plugins.seletctText
+    - plugins.elementCheck
+    - menus.links
+    - plugins.articlePage
+    - menus.darkMode
+  options:
+    iconPrefix: fa-duotone PETERRIVE
+    articleShowLink: true
+  plugins:
+    navigation: 
+      - {id: 'left', name: '转到上一页', icon: 'fa-duotone fa-arrow-left PETERRIVE', event: 'history.back()', group: 'navigation'}
+      - {id: 'right', name: '转到下一页', icon: 'fa-duotone fa-arrow-right PETERRIVE', event: 'history.forward()', group: 'navigation'}
+      - {id: 'redo', name: '刷新当前页面', icon: 'fa-duotone fa-redo PETERRIVE', event: 'window.location.reload()', group: 'navigation'}
+      - {id: 'home', name: '回到首页', icon: 'fa-duotone fa-home PETERRIVE', link: '/', group: 'navigation'}
+    articlePage:
+      - {id: 'printMode', name: '打印页面', icon: 'fa-duotone fa-print TURQUOISE', event: 'printMode', group: 'articlePage'}
+      - {id: 'readMode', name: '阅读模式', icon: 'fa-duotone fa-book-open EMERALD', event: 'readMode', group: 'articlePage'}
+    inputBox:
+      - {id: 'copyPaste', name: '粘贴文本', icon: 'fa-duotone PETERRIVE fa-paste', event: 'copyPaste', group: 'inputBox'}
+      - {id: 'copyAll', name: '全选文本', icon: 'fa-duotone PETERRIVE fa-object-ungroup', event: 'copyAll', group: 'inputBox'}
+      - {id: 'copyCut', name: '剪切文本', icon: 'fa-duotone PETERRIVE fa-cut', event: 'copyCut', group: 'inputBox'}
+    seletctText:
+      - {id: 'copyText', name: '复制文本', icon: 'fa-duotone PETERRIVE fa-copy', event: 'copyText', group: 'seletctText'}
+      - {id: 'searchWord', name: '站内搜索', icon: 'fa-duotone PETERRIVE fa-search', event: 'OpenSearch(__text__)', group: 'seletctText'}
+      - {id: 'bingSearch', name: '必应搜索', icon: 'fa-duotone PETERRIVE fa-search', event: 'window.open(`https://cn.bing.com/search?q=${__text__}`)', group: 'seletctText'}
+    elementCheck:
+      - {id: 'openTab', name: '新标签页打开', icon: 'fa-duotone PETERRIVE fa-external-link-square-alt', event: 'window.open(__link__)', group: 'elementCheck'}
+      - {id: 'copyLink', name: '复制链接地址', icon: 'fa-duotone PETERRIVE fa-link', event: 'copyLink', group: 'elementCheck'}
+      - {id: 'copyImg', name: '复制图片文件', icon: 'fa-duotone PETERRIVE fa-image', event: 'copyImg', group: 'elementCheck'}
+  menus:
+    links:
+      - {id: 'notes', name: '文档笔记', icon: 'fa-duotone fa-books GREENSEA', link: '/page/notes/', group: 'link'}
+      - {id: 'friends', name: '我的朋友们', icon: 'fa-duotone fa-flower-daffodil AMETHYST', link: '/page/friends/', group: 'link'}
+      - {id: 'archive', name: '文章归档', icon: 'fa-duotone fa-globe-asia CONCRETE', link: '/archives/', group: 'link'}
+      - {id: 'about', name: '关于我', icon: 'fa-duotone fa-gingerbread-man WISTERIA', link: '/page/about/', group: 'link'}
+    darkMode: 
+      - {id: 'darkMode', name: '暗黑模式', icon: 'fa-duotone fa-eclipse-alt WISTERIA', event: 'volantis.dark.toggle()', group: 'darkMode'}
+
+rightmenu: ## fa-solid, fa-regular, fa-light, fa-thin, fa-duotone, fa-brands
+  enable: false
   faicon: fa-duotone PETERRIVE      #   笔记   好友     归档   关于
   layout: [copy, navigation, hr, notes, friends, text, about, print, reading, darkmode]
   customPicUrl:
