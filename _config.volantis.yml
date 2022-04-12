@@ -213,7 +213,7 @@ sidebar:
         icon: fa-duotone fa-ghost PETERRIVE 
         title: 公共信息
       content:
-        - '您好，这里是枋柚梓的笔记站，主要是用于记录一些偏专业向的内容，生活向内容请见：[猫的三千年](https://szyink.com/)。'
+        - '嘿，这里是枋柚梓的笔记站，主要是用于记录一些偏专业向的内容，生活向内容请见：[枋柚梓的博客](https://szyink.com/)。'
         - '<a href="https://www.foreverblog.cn/go.html" target="_blank" style="margin-right: 6px;"><img src="/img/default/wormhole.gif" alt="虫洞" style="width:auto;height:31px;border-radius:4px;" title="穿梭虫洞-随机访问十年之约友链博客"></a><a href="/page/cc"><img src="/img/default/cc.png"  title="署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)" alt="CC BY-SA 4.0"></a>'
     updateList:
       class: text

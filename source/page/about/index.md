@@ -86,6 +86,16 @@ sitemap: false
 
 <!-- endtab -->
 
+<!-- tab <i class="fal fa-triangle-music"></i><i style="font-weight: normal;font-style: normal;">&nbsp;联系我</i> -->
+
+本站不支持留言，有两种方式允许您联系到我：
+
+- 一般性讨论可以右转我的生活站：[枋柚梓的博客](https://szyink.com/message.html)。
+- 细致性讨论可以发邮件给我：me#szyink.com。
+
+
+<!-- endtab -->
+
 {% endtabs %}
 
 <div style="margin-top: -30px;"></div>
