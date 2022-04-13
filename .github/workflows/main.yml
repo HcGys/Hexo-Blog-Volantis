@@ -10,6 +10,7 @@ jobs:
     name: '部署博客：分发'
     env:
       GPG_TTY: $(tty)
+      TZ: Asia/Shanghai
     steps:
       - name: '显示服务地址'
         run: |    
@@ -111,6 +112,7 @@ jobs:
     name: '部署博客：同步'
     env:
       GPG_TTY: $(tty)
+      TZ: Asia/Shanghai
     steps:
       - name: '同步仓库内容'
         uses: actions/checkout@v2
