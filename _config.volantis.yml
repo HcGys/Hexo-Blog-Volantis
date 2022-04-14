@@ -145,7 +145,7 @@ article:
 
 comments:
   title: <i class='fa-duotone fa-comments POMEGRANATE'></i> 评论
-  service: artalk
+  service: 
   disqus:
     shortname: inkss
   twikoo:
