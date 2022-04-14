@@ -159,10 +159,9 @@ comments:
     css: https://unpkg.com/artalk@2.1.8/dist/Artalk.css
     server: https://artalk.szyink.com/api
     emoticons: https://static.szyink.com/storage/owo.json
-    gravatar: {
+    gravatar:
       mirror: https://cravatar.cn/avatar/
-      "default": 404
-    }
+      default: 404
 
 sidebar:
   for_page: [blogger, notice, navigation, lastupdate, webinfo]
