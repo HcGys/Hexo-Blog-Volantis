@@ -10,9 +10,9 @@ meta:
 sitemap: false
 ---
 
-{% noteblock quote, 建站史 %}
+{% blocknote quote, 建站史 %}
 这里简略了记述了本站的发展历史，不定期更新。
-{% endnoteblock %}
+{% endblocknote %}
 
 {% tabs note %}
 

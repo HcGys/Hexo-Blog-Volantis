@@ -281,19 +281,19 @@ PS: 为了兼顾暗黑模式占位颜色可使用 bg=var(--color-card) 的形式
 
 {% endfolding %}
 
-#### 引用块 note/noteblock
+#### 引用块 note/blocknote
 
-{% folding yellow, note/noteblock %}
+{% folding yellow, note/blocknote %}
 
 {% tabs note %}
 <!-- tab 效果 -->
 
-{% note info, *noteblock* 比 *note* 多出了显示标题的能力 %}
+{% note info, *blocknote* 比 *note* 多出了显示标题的能力 %}
 
-{% noteblock quote, 《寻隐者不遇》 %}
+{% blocknote quote, 《寻隐者不遇》 %}
 松下问童子，言师采药去。
 只在此山中，云深不知处。
-{% endnoteblock %}
+{% endblocknote %}
 
 <!-- endtab -->
 {% endtabs %}
