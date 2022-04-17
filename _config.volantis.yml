@@ -47,7 +47,10 @@ navbar:
           url: /page/about/
         - name: 小伙伴
           icon: fa-duotone fa-stamp ALIZARIN faa-vertical
-          url: /page/friends/   
+          url: /page/friends/
+        - name: 站内留言
+          icon: fal fa-comment-alt-smile CARROT faa-vertical
+          url: /page/info/
         - name: 博客历史
           icon: fa-duotone fa-leaf-heart POMEGRANATE faa-vertical
           url: /page/timeline/
@@ -63,7 +66,7 @@ navbar:
       icon: fa-duotone fa-umbrella POMEGRANATE faa-vertical
       description: 站外资源列表
       rows:
-        - name: BT
+        - name: BT 
           description: 宝塔面板
           icon: fa-duotone fa-spider-web SUNFLOWER faa-vertical
           url: https://web.adc.ink/
@@ -145,7 +148,7 @@ article:
 
 comments:
   title: <i class='fa-duotone fa-comments POMEGRANATE'></i> 评论
-  service: 
+  service: artalk
   disqus:
     shortname: inkss
   twikoo:
@@ -155,13 +158,15 @@ comments:
     repo: inkss/blog-comments
     branch: master
   artalk:
-    js: https://unpkg.com/artalk@2.1.8/dist/Artalk.js
-    css: https://unpkg.com/artalk@2.1.8/dist/Artalk.css
+    js: https://unpkg.com/artalk@2.1.9/dist/Artalk.js
+    css: https://unpkg.com/artalk@2.1.9/dist/Artalk.css
     server: https://artalk.szyink.com/api
     emoticons: https://static.szyink.com/storage/owo.json
     gravatar:
       mirror: https://cravatar.cn/avatar/
       default: 404
+    placeholder: 请输入评论内容
+    maxNesting: 2
 
 sidebar:
   for_page: [blogger, notice, navigation, lastupdate, webinfo]
@@ -348,6 +353,9 @@ plugins:
       play: fa-duotone fa-play light-blue
       pause: fa-duotone fa-pause light-blue
       error: fa-duotone fa-exclamation-square red
+    rightmenu:
+      enable: true
+      notice: true
 
 rightmenus:
   enable: true
@@ -357,6 +365,7 @@ rightmenus:
     - plugins.inputBox
     - plugins.seletctText
     - plugins.elementCheck
+    - plugins.elementImage
     - menus.links
     - plugins.articlePage
     - menus.darkMode
@@ -383,7 +392,8 @@ rightmenus:
     elementCheck:
       - {id: 'openTab', name: '新标签页打开', icon: 'fa-duotone PETERRIVE fa-external-link-square-alt', event: 'window.open(__link__)', group: 'elementCheck'}
       - {id: 'copyLink', name: '复制链接地址', icon: 'fa-duotone PETERRIVE fa-link', event: 'copyLink', group: 'elementCheck'}
-      - {id: 'copyImg', name: '复制图片文件', icon: 'fa-duotone PETERRIVE fa-image', event: 'copyImg', group: 'elementCheck'}
+    elementImage:
+      - {id: 'copyImg', name: '复制图片文件', icon: 'fa-duotone PETERRIVE fa-image', event: 'copyImg', group: 'elementImage'}
   menus:
     links:
       - {id: 'notes', name: '文档笔记', icon: 'fa-duotone fa-books GREENSEA', link: '/page/notes/', group: 'link'}
