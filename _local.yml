@@ -1,5 +1,5 @@
 
 # 本地预览时使用的配置文件
 import:
- link:
-   - <link rel="preload" href="/css/roboto-local.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  head_end:
+    - <link rel="preload" href="/css/roboto-local.css" as="style" onload="this.onload=null;this.rel='stylesheet'">

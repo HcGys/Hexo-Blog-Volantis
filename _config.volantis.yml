@@ -114,8 +114,8 @@ article:
   preview:
     line_style: hidden
   body:
-    top_meta: [author, wordcount, counter, updated]
-    bottom_meta: [category, tags, date]
+    top_meta: [author, wordcount, updated]
+    bottom_meta: [category, tags, date, counter]
     meta_library:
       author:
         avatar: https://static.inkss.cn/img/avatar.jpg
@@ -491,10 +491,10 @@ custom_css:
   max_width: 1080px
   fontfamily:
     logofont:
-      fontfamily: 'Noto Serif SC,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
+      fontfamily: 'Roboto, Noto Serif SC,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
       url: ''
     bodyfont:
-      fontfamily: 'Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
+      fontfamily: '"Noto Serif SC", Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
       url: ''
     codefont:
       fontfamily: 'JetBrainsMono, Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace'
