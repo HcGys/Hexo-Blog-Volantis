@@ -158,8 +158,8 @@ comments:
     repo: inkss/blog-comments
     branch: master
   artalk:
-    js: https://unpkg.com/artalk@2.2.3/dist/Artalk.js
-    css: https://unpkg.com/artalk@2.2.3/dist/Artalk.css
+    js: https://unpkg.com/artalk@2.2.4/dist/Artalk.js
+    css: https://unpkg.com/artalk@2.2.4/dist/Artalk.css
     server: https://artalk.szyink.com/api
     emoticons: https://static.szyink.com/storage/owo.json
     gravatar:
