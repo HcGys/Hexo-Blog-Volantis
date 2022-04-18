@@ -15,18 +15,16 @@ bottom_meta: []
 sitemap: false
 ---
 
-<!-- <p class="p center logo ultra">{% emoji app-email %}</p> -->
+<p class="p center logo ultra">{% emoji aini %}</p>
 
 <!-- <div style="margin-top: -50px"></div> -->
 
-<!-- {% p center logo, 暂不接受留言，如有需求请邮件联系。 %} -->
-
-<!-- <div style="margin-top: -20px"></div> -->
+<div style="margin-top: -20px"></div>
 
 <!-- <div style="margin-top: -30px"></div> -->
 
-<!-- {% p center logo h3 gray, 请遵守相关法律法规，文明灌水，谢谢合作~ %} -->
+{% p center logo h3 gray, 请遵守相关法律法规，文明灌水，谢谢合作~ %}
 
-<span class="p gray small right" id="twikoo_visitors"><i class="fad fa-balloons fa-fw" style="display: inline-block;" aria-hidden="true"></i></span>
+<span class="p gray small right" id="artalk_visitors"><i class="fad fa-balloons fa-fw" style="display: inline-block;" aria-hidden="true"></i></span>
 
 <div style="margin-top: -50px"></div>

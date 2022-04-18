@@ -491,13 +491,13 @@ custom_css:
   max_width: 1080px
   fontfamily:
     logofont:
-      fontfamily: '-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
+      fontfamily: 'Noto Serif SC,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
       url: ''
     bodyfont:
-      fontfamily: '-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
+      fontfamily: 'Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
       url: ''
     codefont:
-      fontfamily: 'Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace'
+      fontfamily: 'JetBrainsMono, Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace'
       url: ''
 
 analytics:

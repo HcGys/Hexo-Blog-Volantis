@@ -16,6 +16,7 @@ function getRandStr(len) {
 unsafe_script_list = [
   "this.media='all';this.onload=null",
   'this.media="all",this.onload=null',
+  'this.onload=null;this.rel="stylesheet"',
   "errorImgAvatar(this)",
   "errorImgCover(this)",
   "return false;",
