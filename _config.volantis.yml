@@ -42,19 +42,9 @@ navbar:
     - name: 功能
       icon: fa-duotone fa-anchor GREENSEA faa-vertical
       rows:
-        - name: 关于
-          icon: fa-duotone fa-drafting-compass SUNFLOWER faa-vertical
-          url: /page/about/
-        - name: 小伙伴
-          icon: fa-duotone fa-stamp ALIZARIN faa-vertical
-          url: /page/friends/
         - name: 站内留言
-          icon: fa-duotone fa-comment-alt-smile CARROT faa-vertical
+          icon: fa-duotone fa-hand-love ALIZARIN faa-vertical
           url: /page/info/
-        - name: 博客历史
-          icon: fa-duotone fa-leaf-heart POMEGRANATE faa-vertical
-          url: /page/timeline/
-        - name: hr  
         - name: RSS 订阅
           icon: fa-duotone fa-rss SUNFLOWER faa-vertical
           url: /page/atom/
@@ -158,8 +148,8 @@ comments:
     repo: inkss/blog-comments
     branch: master
   artalk:
-    js: https://unpkg.com/artalk@2.2.5/dist/Artalk.js
-    css: https://unpkg.com/artalk@2.2.5/dist/Artalk.css
+    js: https://unpkg.com/artalk@2.2.6/dist/Artalk.js
+    css: https://unpkg.com/artalk@2.2.6/dist/Artalk.css
     server: https://artalk.szyink.com/api
     emoticons: https://static.szyink.com/storage/owo.json
     gravatar:
@@ -305,7 +295,7 @@ plugins:
     enable: true
     onlypost: false
   scrollreveal:
-    enable: false
+    enable: true
   highlightjs:
     enable: false
   fontawesome_animation:
