@@ -150,7 +150,7 @@ comments:
   artalk:
     js: https://unpkg.com/artalk@2.2.6/dist/Artalk.js
     css: https://unpkg.com/artalk@2.2.6/dist/Artalk.css
-    server: https://artalk.szyink.com/api
+    server: https://artalk.szyink.com
     emoticons: https://static.szyink.com/storage/owo.json
     gravatar:
       mirror: https://cravatar.cn/avatar/
@@ -354,9 +354,11 @@ rightmenus:
     - hr
     - plugins.inputBox
     - plugins.seletctText
+    - hr
     - plugins.elementCheck
     - plugins.elementImage
     - menus.links
+    - hr
     - plugins.articlePage
     - menus.darkMode
   options:
@@ -390,6 +392,7 @@ rightmenus:
       - {id: 'friends', name: '我的朋友们', icon: 'fa-duotone fa-flower-daffodil AMETHYST', link: '/page/friends/', group: 'link'}
       - {id: 'archive', name: '文章归档', icon: 'fa-duotone fa-globe-asia CONCRETE', link: '/archives/', group: 'link'}
       - {id: 'about', name: '关于我', icon: 'fa-duotone fa-gingerbread-man WISTERIA', link: '/page/about/', group: 'link'}
+      - {id: 'info', name: '留言板', icon: 'fa-duotone fa-hand-love ALIZARIN', link: '/page/info/', group: 'link'}
     darkMode: 
       - {id: 'darkMode', name: '暗黑模式', icon: 'fa-duotone fa-eclipse-alt WISTERIA', event: 'volantis.dark.toggle()', group: 'darkMode'}
 
