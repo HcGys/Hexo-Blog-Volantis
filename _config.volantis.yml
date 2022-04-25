@@ -151,7 +151,6 @@ comments:
     js: https://artalk.szyink.com/dist/Artalk.js
     css: https://artalk.szyink.com/dist/Artalk.css
     server: https://artalk.szyink.com
-    useBackendConf: true
 
 sidebar:
   for_page: [blogger, notice, navigation, lastupdate, webinfo]
