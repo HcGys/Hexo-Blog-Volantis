@@ -4,5 +4,5 @@ deploy:
   message: ''
   repo:
     github:
-      url: git@github.com:inkss/inkss.github.io.git
-      branch: main
+      url: git@github.com:inkss/inkss-website.git
+      branch: me

@@ -141,7 +141,7 @@ jobs:
           git config --global commit.gpgsign true
           git clone git@github.com:inkss/markdown.git ~/markdown
           git clone git@github.com:inkss/inkss-cdn.git ~/inkss-cdn
-          git clone git@github.com:inkss/inkss.github.io.git ~/inkss
+          git clone git@github.com:inkss/inkss-website.git ~/inkss
           rm -rf ~/markdown/Hexo
           rm -rf ~/inkss-cdn/js
           rm -rf ~/inkss-cdn/css
