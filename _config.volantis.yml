@@ -351,6 +351,8 @@ rightmenus:
     - hr
     - plugins.elementCheck
     - plugins.elementImage
+    - menus.prevNext
+    - hr
     - menus.links
     - hr
     - plugins.articlePage
@@ -389,6 +391,9 @@ rightmenus:
       - {id: 'info', name: '留言板', icon: 'fa-duotone fa-hand-love ALIZARIN', link: '/page/info/', group: 'link'}
     darkMode: 
       - {id: 'darkMode', name: '暗黑模式', icon: 'fa-duotone fa-eclipse-alt WISTERIA', event: 'volantis.dark.toggle()', group: 'darkMode'}
+    prevNext:
+      - {id: 'prev', name: '查看上一篇', icon: 'fa-duotone fa-angles-left PETERRIVE', event: "volantis.rightmenu.jump('prev')", group: 'prevNext'}
+      - {id: 'next', name: '查看下一篇', icon: 'fa-duotone fa-angles-right PETERRIVE', event: "volantis.rightmenu.jump('next')", group: 'prevNext'}
 
 rightmenu: ## fa-solid, fa-regular, fa-light, fa-thin, fa-duotone, fa-brands
   enable: false
