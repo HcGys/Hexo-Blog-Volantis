@@ -119,8 +119,6 @@ article:
         icon: fa-duotone fa-folder-open EMERALD
       counter:
         icon: fa-duotone fa-eye NEPHRITIS
-      valinecount:
-        icon: fa-duotone fa-comment-dots NEPHRITIS
       walinecount:
         icon: fa-duotone fa-comment-dots NEPHRITIS
       wordcount:
@@ -316,8 +314,6 @@ plugins:
     enable: true
   darkmodejs:
     enable: true
-  backstretch:
-    enable: false
   tag_plugin_load_on_demand:
     enable: false
   message:
@@ -359,7 +355,7 @@ rightmenus:
     - menus.darkMode
   options:
     iconPrefix: fa-duotone PETERRIVE
-    articleShowLink: true
+    articleShowLink: false
   plugins:
     navigation: 
       - {id: 'left', name: '转到上一页', icon: 'fa-duotone fa-arrow-left PETERRIVE', event: 'history.back()', group: 'navigation'}
