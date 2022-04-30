@@ -146,8 +146,8 @@ comments:
     repo: inkss/blog-comments
     branch: master
   artalk:
-    js: https://artalk.szyink.com/dist/Artalk.js
-    css: https://artalk.szyink.com/dist/Artalk.css
+    js: https://static.szyink.com/storage/artalk/Artalk.js
+    css: https://static.szyink.com/storage/artalk/Artalk.css
     server: https://artalk.szyink.com
 
 sidebar:
