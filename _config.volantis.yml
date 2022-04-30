@@ -443,12 +443,12 @@ color_scheme:
     card: '#282c34'
     text: '#abb2bf'
     block: '#21252b'
-    h1: '#979fa-duotone'
-    h2: '#979fa-duotone'
-    h3: '#979fa-duotone'
-    h4: '#979fa-duotone'
-    h5: '#979fa-duotone'
-    h6: '#979fa-duotone'
+    h1: '#979fad'
+    h2: '#979fad'
+    h3: '#979fad'
+    h4: '#979fad'
+    h5: '#979fad'
+    h6: '#979fad'
     p: '#abb2bf'
 
 custom_css:
