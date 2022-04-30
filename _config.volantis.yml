@@ -433,8 +433,6 @@ rightmenu: ## fa-solid, fa-regular, fa-light, fa-thin, fa-duotone, fa-brands
     url: /page/about/
 
 color_scheme:
-  common:
-    selection: '#ddf4ff'
   light:
     site_bg: '#f7f9fe'
     meta: '#666'
