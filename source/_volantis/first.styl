@@ -3,11 +3,11 @@
 ///////////////////////
 
 // 导航栏样式 仅当 2K 分辨率时使用
-.l_header
-  @media screen and (max-width: $device-2k)
-    left: 0 !important
-    border-radius: 0 !important
-    max-width: 100% !important
+//.l_header
+//  @media screen and (max-width: $device-2k)
+//    left: 0 !important
+//    border-radius: 0 !important
+//    max-width: 100% !important
 
 // 修改文章行间距
 article p
@@ -39,11 +39,6 @@ article p
     #l_side
       .widget.mobile
         border-radius: 0
-
-// 字体覆盖
-h1,h2,h3
-  font-family: $fontfamily-logo
-
 
 .iconfont
   width: 1em;
@@ -82,10 +77,6 @@ h1,h2,h3
   @media screen and (max-width: 500px)
     font-size: 2rem
 
-// 修改列表页 note 的缩进
-.post.post-v3.white-box .note > p
-  text-indent: 0
-
 //修复开启首行缩进后的图片
 #l_main>article.cus-indent p img
   display: block
@@ -93,3 +84,7 @@ h1,h2,h3
 // 评论
 #comments
   overflow: inherit
+
+// 阅读模式自定义背景
+.common_read .cus-article-bkg
+  display none !important

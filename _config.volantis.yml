@@ -433,23 +433,8 @@ rightmenu: ## fa-solid, fa-regular, fa-light, fa-thin, fa-duotone, fa-brands
     url: /page/about/
 
 color_scheme:
-  light:
-    site_bg: '#f7f9fe'
-    meta: '#666'
-    site_footer: '#444'
   dark:
-    site_bg: '#21252b'
-    site_footer: '#abb2bf'
-    card: '#282c34'
-    text: '#abb2bf'
-    block: '#21252b'
-    h1: '#979fad'
-    h2: '#979fad'
-    h3: '#979fad'
-    h4: '#979fad'
-    h5: '#979fad'
-    h6: '#979fad'
-    p: '#abb2bf'
+    card: '#1d1f23'
 
 custom_css:
   toc_smooth: true # TOC 目录平滑滚动效果
@@ -469,11 +454,11 @@ custom_css:
     root: 16px
     footnote: .78rem
   body:
-    effect: [floatable] # [shadow, floatable, blur]  
+    effect: [floatable, shadow] # [shadow, floatable, blur]  
   navbar:
-    effect: [floatable]
+    effect: [floatable, shadow]
   sidebar:
-    effect: [floatable] # [shadow, floatable, blur]  
+    effect: [floatable, shadow] # [shadow, floatable, blur]  
   max_width: 1080px
   fontfamily:
     logofont:
