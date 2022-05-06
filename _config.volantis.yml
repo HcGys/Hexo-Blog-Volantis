@@ -1,4 +1,4 @@
-InconfontFlag: true
+InconfontFlag: false
 
 default:
   avatar: /img/default/avatar.svg
@@ -25,75 +25,75 @@ navbar:
   search: 想找些什么~
   menu:
     - name: 首页
-      icon: fa-duotone fa-home CARROT faa-vertical
+      icon: fa-light fa-home CARROT faa-vertical
       url: /
     - name: 导航
-      icon: fa-duotone fa-cube NEPHRITIS
+      icon: fa-light fa-cube NEPHRITIS
       rows:
         - name: 分类列表
-          icon: fa-duotone fa-folder-open TURQUOISE faa-vertical
+          icon: fa-light fa-folder-open TURQUOISE faa-vertical
           url: /categories/
         - name: 文章归档
-          icon: fa-duotone fa-archive PETERRIVE faa-vertical
+          icon: fa-light fa-archive PETERRIVE faa-vertical
           url: /archives/
         - name: 个人笔记
-          icon: fa-duotone fa-books CARROT faa-vertical
+          icon: fa-light fa-books CARROT faa-vertical
           url: /page/notes/
     - name: 功能
-      icon: fa-duotone fa-anchor GREENSEA faa-vertical
+      icon: fa-light fa-anchor GREENSEA faa-vertical
       rows:
         - name: 站内留言
-          icon: fa-duotone fa-hand-love ALIZARIN faa-vertical
+          icon: fa-light fa-hand-love ALIZARIN faa-vertical
           url: /page/info/
         - name: RSS 订阅
-          icon: fa-duotone fa-rss SUNFLOWER faa-vertical
+          icon: fa-light fa-rss SUNFLOWER faa-vertical
           url: /page/atom/
         - name: Start 列表
           description: 有用的开源软件列表
-          icon: fa-duotone fa-star-half-alt WISTERIA faa-vertical
+          icon: fa-light fa-star-half-alt WISTERIA faa-vertical
           url: /page/start/
     - name: 更多
-      icon: fa-duotone fa-umbrella POMEGRANATE faa-vertical
+      icon: fa-light fa-umbrella POMEGRANATE faa-vertical
       description: 站外资源列表
       rows:
         - name: BT 
           description: 宝塔面板
-          icon: fa-duotone fa-spider-web SUNFLOWER faa-vertical
+          icon: fa-light fa-spider-web SUNFLOWER faa-vertical
           url: https://web.adc.ink/
         - name: Github
           description: 少年，来一份星星不？
-          icon: fa-duotone fa-code-merge WISTERIA faa-vertical
+          icon: fa-light fa-code-merge WISTERIA faa-vertical
           url: https://github.com/inkss
         - name: Blog
           description: 这是一份记录文字的博客站点
-          icon: fa-duotone fa-stream BELIZEHOLE faa-vertical
+          icon: fa-light fa-stream BELIZEHOLE faa-vertical
           url: https://szyink.com
     - name: 虫洞
       description: 十年之约，探索虫洞
-      icon: fa-duotone fa-bullseye-pointer BELIZEHOLE faa-vertical
+      icon: fa-light fa-bullseye-pointer BELIZEHOLE faa-vertical
       url: https://www.foreverblog.cn/go.html
 
 cover:
   height_scheme: full
-  layout_scheme: blank
+  layout_scheme: text
   display:
-    home: false
+    home: true
     archive: false
     others: false
-  background: /img/bkg/wallhaven-8oj7wk.png
+  background: /img/wallhaven-m96we9.png
   search: 想找些什么？
   features:
     - name: 关于
-      icon: fa-duotone fa-drafting-compass
+      icon: fa-light fa-drafting-compass
       url: /page/about/
     - name: 友链
-      icon: fa-duotone fa-stamp
+      icon: fa-light fa-stamp
       url: /page/friends/
     - name: 留言
-      icon: fa-duotone fa-comment-alt-smile
+      icon: fa-light fa-comment-alt-smile
       url: /page/info/
     - name: 归档
-      icon: fa-duotone fa-archive
+      icon: fa-light fa-archive
       url: /archives/
 
 pages:
@@ -112,30 +112,30 @@ article:
         name: 枋柚梓
         url: /
       date:
-        icon: fa-duotone fa-calendar-alt TURQUOISE
+        icon: fa-light fa-calendar-alt TURQUOISE
       updated:
-        icon: fa-duotone fa-edit GREENSEA
+        icon: fa-light fa-edit GREENSEA
       category:
-        icon: fa-duotone fa-folder-open EMERALD
+        icon: fa-light fa-folder-open EMERALD
       counter:
-        icon: fa-duotone fa-eye NEPHRITIS
+        icon: fa-light fa-eye NEPHRITIS
       walinecount:
-        icon: fa-duotone fa-comment-dots NEPHRITIS
+        icon: fa-light fa-comment-dots NEPHRITIS
       wordcount:
-        icon_wordcount: fa-duotone fa-keyboard PETERRIVE
-        icon_duration: fa-duotone fa-hourglass-half BELIZEHOLE
+        icon_wordcount: fa-light fa-keyboard PETERRIVE
+        icon_duration: fa-light fa-hourglass-half BELIZEHOLE
       tags:
-        icon: fa-duotone fa-hashtag CARROT
+        icon: fa-light fa-hashtag CARROT
     footer_widget:
       references:
-        icon: fa-duotone fa-quote-left CONCRETE
+        icon: fa-light fa-quote-left CONCRETE
       copyright:
         enable: true
         content:
           - '博客内容遵循 <a href="/page/cc">署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)</a> 协议。'
 
 comments:
-  title: <i class='fa-duotone fa-comments POMEGRANATE'></i> 评论
+  title: <i class='fa-light fa-comments POMEGRANATE'></i> 评论
   service: artalk
   disqus:
     shortname: inkss
@@ -168,29 +168,29 @@ sidebar:
       class: lastupdate
       display: [desktop]
       header:
-        icon: fa-duotone fa-clock WISTERIA
+        icon: fa-light fa-clock WISTERIA
         title: 最近更新
     toc:
       display: [desktop, mobile]
       header:
-        icon: fa-duotone fa-list ASBESTOS
+        icon: fa-light fa-list ASBESTOS
     category:
       display: [desktop]
       header:
-        icon: fa-duotone fa-folder-open ASBESTOS
+        icon: fa-light fa-folder-open ASBESTOS
         url: /categories/
     tagcloud:
       display: [desktop]
       header:
         title: 标签列表
-        icon: fa-duotone fa-tags WISTERIA 
+        icon: fa-light fa-tags WISTERIA 
         url: /tags/
       max_font: 24
       min_font: 16
     webinfo:
       display: [desktop]
       header:
-        icon: fa-duotone fa-award NEPHRITIS
+        icon: fa-light fa-award NEPHRITIS
       type:
         runtime:
           data: '2018/03/15'
@@ -205,7 +205,7 @@ sidebar:
       class: text
       display: [desktop]
       header:
-        icon: fa-duotone fa-ghost PETERRIVE 
+        icon: fa-light fa-ghost PETERRIVE 
         title: 公共信息
       content:
         - '嘿，这里是枋柚梓的笔记站，主要是用于记录一些偏专业向的内容，生活向内容请见：[枋柚梓的博客](https://szyink.com/)。'
@@ -214,7 +214,7 @@ sidebar:
       class: text
       display: [desktop]
       header:
-        icon: fa-duotone fa-wrench SUNFLOWER 
+        icon: fa-light fa-wrench SUNFLOWER 
         title: 更新日志
       content:
         - 暂无
@@ -223,33 +223,33 @@ sidebar:
       class: grid
       display: [desktop]
       header:
-        icon: fa-duotone fa-map-signs POMEGRANATE 
+        icon: fa-light fa-map-signs POMEGRANATE 
         title: 站内导航
       fixed: true # 固定宽度
       rows:
         - name: 文档笔记
-          icon: fa-duotone fa-books GREENSEA
+          icon: fa-light fa-books GREENSEA
           url:  /page/notes/
         - name: 关于本站
-          icon: fa-duotone fa-drafting-compass NEPHRITIS
+          icon: fa-light fa-drafting-compass NEPHRITIS
           url: /page/about/  
         - name: 建站历史
-          icon: fa-duotone fa-history POMEGRANATE
+          icon: fa-light fa-history POMEGRANATE
           url: /page/timeline/
         - name: 文章归档
-          icon: fa-duotone fa-archive PETERRIVE faa-vertical
+          icon: fa-light fa-archive PETERRIVE faa-vertical
           url: /archives/
         - name: 小伙伴们
-          icon: fa-duotone fa-stamp CONCRETE
+          icon: fa-light fa-stamp CONCRETE
           url: /page/friends/
         - name: 十年之约
-          icon: fa-duotone fa-glass-cheers PETERRIVE
+          icon: fa-light fa-glass-cheers PETERRIVE
           url: /page/foreverblog/
     wiki-hexo-theme:
       class: list
       display: [desktop]
       header:
-        icon: fa-duotone fa-flower-daffodil ASBESTOS
+        icon: fa-light fa-flower-daffodil ASBESTOS
         title: 笔记本
         url: /page/notes/index.html
 
@@ -266,7 +266,7 @@ site_footer:
   icp: '<div class="footerMax490">皖 ICP 备 <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow" style="cursor:wait;">2021008088</a> 号 | <span>辽公网安备 <a href="https://www.beian.gov.cn/" rel="nofollow" target="_blank" style="cursor:wait;">21021702000331</a> 号</span></div>'
   cpy: '<div class="footerMax490">Copyright 2018 - 2022 szyink. All Rights Reserved</div>'
   me: '<a href="/">枋柚梓的猫会发光</a> '
-  icon: '<i class="fa-duotone fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i>'
+  icon: '<i class="fa-light fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i>'
 
 plugins:
   fontawesome: https://static.szyink.com/fontawesome/css/all.min.css
@@ -287,7 +287,7 @@ plugins:
     enable: true
     onlypost: false
   scrollreveal:
-    enable: true
+    enable: false
   highlightjs:
     enable: false
   fontawesome_animation:
@@ -321,18 +321,18 @@ plugins:
     js:  /js/thirdparty/message.js
     css: /css/message.css
     icon:     # 默认图标，支持对图标添加颜色，可选值：see：/source/css/_plugins/message.styl
-      default: fa-duotone fa-info-circle light-blue
-      quection: fa-duotone fa-question-circle light-blue
+      default: fa-light fa-info-circle light-blue
+      quection: fa-light fa-question-circle light-blue
     copyright:  # 是否在复制时弹出版权提示
       enable: true
       title: '知识共享许可协议'
       message: '请遵守 CC BY-SA 4.0 协议。'
-      icon: 'fab fa-creative-commons light-blue'
+      icon: 'fa-light fa-creative-commons light-blue'
     aplayer:
       enable: true
-      play: fa-duotone fa-play light-blue
-      pause: fa-duotone fa-pause light-blue
-      error: fa-duotone fa-exclamation-square red
+      play: fa-light fa-play light-blue
+      pause: fa-light fa-pause light-blue
+      error: fa-light fa-exclamation-square red
     rightmenu:
       enable: true
       notice: true
@@ -354,82 +354,82 @@ rightmenus:
     - plugins.articlePage
     - menus.darkMode
   options:
-    iconPrefix: fa-duotone PETERRIVE
+    iconPrefix: fa-light PETERRIVE
     articleShowLink: false
   plugins:
     navigation: 
-      - {id: 'left', name: '转到上一页', icon: 'fa-duotone fa-arrow-left PETERRIVE', event: 'history.back()', group: 'navigation'}
-      - {id: 'right', name: '转到下一页', icon: 'fa-duotone fa-arrow-right PETERRIVE', event: 'history.forward()', group: 'navigation'}
-      - {id: 'redo', name: '刷新当前页面', icon: 'fa-duotone fa-redo PETERRIVE', event: 'window.location.reload()', group: 'navigation'}
-      - {id: 'home', name: '回到首页', icon: 'fa-duotone fa-home PETERRIVE', link: '/', group: 'navigation'}
+      - {id: 'left', name: '转到上一页', icon: 'fa-light fa-arrow-left PETERRIVE', event: 'history.back()', group: 'navigation'}
+      - {id: 'right', name: '转到下一页', icon: 'fa-light fa-arrow-right PETERRIVE', event: 'history.forward()', group: 'navigation'}
+      - {id: 'redo', name: '刷新当前页面', icon: 'fa-light fa-redo PETERRIVE', event: 'window.location.reload()', group: 'navigation'}
+      - {id: 'home', name: '回到首页', icon: 'fa-light fa-home PETERRIVE', link: '/', group: 'navigation'}
     articlePage:
-      - {id: 'printMode', name: '打印页面', icon: 'fa-duotone fa-print TURQUOISE', event: 'printMode', group: 'articlePage'}
-      - {id: 'readMode', name: '阅读模式', icon: 'fa-duotone fa-book-open EMERALD', event: 'readMode', group: 'articlePage'}
+      - {id: 'printMode', name: '打印页面', icon: 'fa-light fa-print TURQUOISE', event: 'printMode', group: 'articlePage'}
+      - {id: 'readMode', name: '阅读模式', icon: 'fa-light fa-book-open EMERALD', event: 'readMode', group: 'articlePage'}
     inputBox:
-      - {id: 'copyPaste', name: '粘贴文本', icon: 'fa-duotone PETERRIVE fa-paste', event: 'copyPaste', group: 'inputBox'}
-      - {id: 'copyAll', name: '全选文本', icon: 'fa-duotone PETERRIVE fa-object-ungroup', event: 'copyAll', group: 'inputBox'}
-      - {id: 'copyCut', name: '剪切文本', icon: 'fa-duotone PETERRIVE fa-cut', event: 'copyCut', group: 'inputBox'}
+      - {id: 'copyPaste', name: '粘贴文本', icon: 'fa-light PETERRIVE fa-paste', event: 'copyPaste', group: 'inputBox'}
+      - {id: 'copyAll', name: '全选文本', icon: 'fa-light PETERRIVE fa-object-ungroup', event: 'copyAll', group: 'inputBox'}
+      - {id: 'copyCut', name: '剪切文本', icon: 'fa-light PETERRIVE fa-cut', event: 'copyCut', group: 'inputBox'}
     seletctText:
-      - {id: 'copyText', name: '复制文本', icon: 'fa-duotone PETERRIVE fa-copy', event: 'copyText', group: 'seletctText'}
-      - {id: 'searchWord', name: '站内搜索', icon: 'fa-duotone PETERRIVE fa-search', event: 'OpenSearch(__text__)', group: 'seletctText'}
-      - {id: 'bingSearch', name: '必应搜索', icon: 'fa-duotone PETERRIVE fa-search', event: 'window.open(`https://cn.bing.com/search?q=${__text__}`)', group: 'seletctText'}
+      - {id: 'copyText', name: '复制文本', icon: 'fa-light PETERRIVE fa-copy', event: 'copyText', group: 'seletctText'}
+      - {id: 'searchWord', name: '站内搜索', icon: 'fa-light PETERRIVE fa-search', event: 'OpenSearch(__text__)', group: 'seletctText'}
+      - {id: 'bingSearch', name: '必应搜索', icon: 'fa-light PETERRIVE fa-search', event: 'window.open(`https://cn.bing.com/search?q=${__text__}`)', group: 'seletctText'}
     elementCheck:
-      - {id: 'openTab', name: '新标签页打开', icon: 'fa-duotone PETERRIVE fa-external-link-square-alt', event: 'window.open(__link__)', group: 'elementCheck'}
-      - {id: 'copyLink', name: '复制链接地址', icon: 'fa-duotone PETERRIVE fa-link', event: 'copyLink', group: 'elementCheck'}
+      - {id: 'openTab', name: '新标签页打开', icon: 'fa-light PETERRIVE fa-external-link-square-alt', event: 'window.open(__link__)', group: 'elementCheck'}
+      - {id: 'copyLink', name: '复制链接地址', icon: 'fa-light PETERRIVE fa-link', event: 'copyLink', group: 'elementCheck'}
     elementImage:
-      - {id: 'copyImg', name: '复制图片文件', icon: 'fa-duotone PETERRIVE fa-image', event: 'copyImg', group: 'elementImage'}
+      - {id: 'copyImg', name: '复制图片文件', icon: 'fa-light PETERRIVE fa-image', event: 'copyImg', group: 'elementImage'}
   menus:
     links:
-      - {id: 'notes', name: '文档笔记', icon: 'fa-duotone fa-books GREENSEA', link: '/page/notes/', group: 'link'}
-      - {id: 'friends', name: '我的朋友们', icon: 'fa-duotone fa-flower-daffodil AMETHYST', link: '/page/friends/', group: 'link'}
-      - {id: 'archive', name: '文章归档', icon: 'fa-duotone fa-globe-asia CONCRETE', link: '/archives/', group: 'link'}
-      - {id: 'about', name: '关于我', icon: 'fa-duotone fa-gingerbread-man WISTERIA', link: '/page/about/', group: 'link'}
-      - {id: 'info', name: '留言板', icon: 'fa-duotone fa-hand-love ALIZARIN', link: '/page/info/', group: 'link'}
+      - {id: 'notes', name: '文档笔记', icon: 'fa-light fa-books GREENSEA', link: '/page/notes/', group: 'link'}
+      - {id: 'friends', name: '我的朋友们', icon: 'fa-light fa-flower-daffodil AMETHYST', link: '/page/friends/', group: 'link'}
+      - {id: 'archive', name: '文章归档', icon: 'fa-light fa-globe-asia CONCRETE', link: '/archives/', group: 'link'}
+      - {id: 'about', name: '关于我', icon: 'fa-light fa-gingerbread-man WISTERIA', link: '/page/about/', group: 'link'}
+      - {id: 'info', name: '留言板', icon: 'fa-light fa-hand-love ALIZARIN', link: '/page/info/', group: 'link'}
     darkMode: 
-      - {id: 'darkMode', name: '暗黑模式', icon: 'fa-duotone fa-eclipse-alt WISTERIA', event: 'volantis.dark.toggle()', group: 'darkMode'}
+      - {id: 'darkMode', name: '暗黑模式', icon: 'fa-light fa-eclipse-alt WISTERIA', event: 'volantis.dark.toggle()', group: 'darkMode'}
     prevNext:
-      - {id: 'prev', name: '查看上一篇', icon: 'fa-duotone fa-angles-left PETERRIVE', event: "volantis.rightmenu.jump('prev')", group: 'prevNext'}
-      - {id: 'next', name: '查看下一篇', icon: 'fa-duotone fa-angles-right PETERRIVE', event: "volantis.rightmenu.jump('next')", group: 'prevNext'}
+      - {id: 'prev', name: '查看上一篇', icon: 'fa-light fa-angles-left PETERRIVE', event: "volantis.rightmenu.jump('prev')", group: 'prevNext'}
+      - {id: 'next', name: '查看下一篇', icon: 'fa-light fa-angles-right PETERRIVE', event: "volantis.rightmenu.jump('next')", group: 'prevNext'}
 
-rightmenu: ## fa-solid, fa-regular, fa-light, fa-thin, fa-duotone, fa-brands
+rightmenu: ## fa-solid, fa-regular, fa-light, fa-thin, fa-light, fa-brands
   enable: false
-  faicon: fa-duotone PETERRIVE      #   笔记   好友     归档   关于
+  faicon: fa-light PETERRIVE      #   笔记   好友     归档   关于
   layout: [copy, navigation, hr, notes, friends, text, about, print, reading, darkmode]
   customPicUrl:
     enable: false  
   darkmode:
     name: 暗黑模式
-    icon: fa-duotone fa-eclipse-alt WISTERIA
+    icon: fa-light fa-eclipse-alt WISTERIA
   print:
     name: 打印页面
-    icon: fa-duotone fa-print TURQUOISE
+    icon: fa-light fa-print TURQUOISE
     defaultStyles: true
   reading:
     name: 阅读模式
-    icon: fa-duotone fa-book-open EMERALD
+    icon: fa-light fa-book-open EMERALD
   foreverblog:
     name: 十年之约
-    icon: fa-duotone fa-glass-cheers PETERRIVE
+    icon: fa-light fa-glass-cheers PETERRIVE
     url: /page/foreverblog/
   friends:
     name: 我的朋友们
-    icon: fa-duotone fa-flower-daffodil AMETHYST
+    icon: fa-light fa-flower-daffodil AMETHYST
     url: /page/friends/
   info:
     name: 留言板
-    icon: fa-duotone fa-fish CARROT
+    icon: fa-light fa-fish CARROT
     url: /page/info/
   notes:
     name: 文档笔记
-    icon: fa-duotone fa-books GREENSEA
+    icon: fa-light fa-books GREENSEA
     url: /page/notes/
   text:
     name: 文章归档
-    icon: fa-duotone fa-globe-asia CONCRETE
+    icon: fa-light fa-globe-asia CONCRETE
     url: /archives/
   about:
     name: 关于我
-    icon: fa-duotone fa-gingerbread-man WISTERIA
+    icon: fa-light fa-gingerbread-man WISTERIA
     url: /page/about/
 
 color_scheme:
@@ -454,11 +454,11 @@ custom_css:
     root: 16px
     footnote: .78rem
   body:
-    effect: [floatable, shadow] # [shadow, floatable, blur]  
+    effect: [floatable] # [shadow, floatable, blur]  
   navbar:
-    effect: [floatable, shadow]
+    effect: [floatable]
   sidebar:
-    effect: [floatable, shadow] # [shadow, floatable, blur]  
+    effect: [floatable] # [shadow, floatable, blur]  
   max_width: 1080px
   fontfamily:
     logofont:
