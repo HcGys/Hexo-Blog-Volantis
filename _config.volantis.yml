@@ -1,4 +1,4 @@
-InconfontFlag: false
+InconfontFlag: true
 
 default:
   avatar: /img/default/avatar.svg
@@ -31,7 +31,7 @@ navbar:
       icon: fa-light fa-cube NEPHRITIS
       rows:
         - name: 分类列表
-          icon: fa-light fa-folder-open TURQUOISE faa-vertical
+          icon: fa-light fa-folder-open ALIZARIN faa-vertical
           url: /categories/
         - name: 文章归档
           icon: fa-light fa-archive PETERRIVE faa-vertical
@@ -39,7 +39,7 @@ navbar:
         - name: 个人笔记
           icon: fa-light fa-books CARROT faa-vertical
           url: /page/notes/
-    - name: 功能
+    - name: 页面
       icon: fa-light fa-anchor GREENSEA faa-vertical
       rows:
         - name: 站内留言
@@ -48,18 +48,33 @@ navbar:
         - name: RSS 订阅
           icon: fa-light fa-rss SUNFLOWER faa-vertical
           url: /page/atom/
-        - name: Start 列表
-          description: 有用的开源软件列表
-          icon: fa-light fa-star-half-alt WISTERIA faa-vertical
-          url: /page/start/
+        - name: 授权协议
+          icon: fa-light fa-universal-access SUNFLOWER faa-vertical
+          url: /page/cc/
+        - name: 建站历史
+          icon: fa-light fa-history ALIZARIN faa-vertical
+          url: /page/timeline/
     - name: 更多
       icon: fa-light fa-umbrella POMEGRANATE faa-vertical
       description: 站外资源列表
       rows:
         - name: BT 
           description: 宝塔面板
-          icon: fa-light fa-spider-web SUNFLOWER faa-vertical
+          icon: fa-light fa-command BELIZEHOLE faa-vertical
           url: https://web.adc.ink/
+        - name: Cloud
+          description: 可道云
+          icon: fa-light fa-cloud WISTERIA faa-vertical
+          url: https://cloud.adc.ink/
+        - name: Drawio
+          icon: fa-light fa-compass-drafting PETERRIVE faa-vertical
+          description: Drawio
+          url: https://draw.szyink.com/?offline=1
+        - name: Hoppscotch
+          icon: fa-light fa-staff-aesculapius PETERRIVE faa-vertical
+          description: RESTApi
+          url: https://hop.szyink.com/cn
+        - hr
         - name: Github
           description: 少年，来一份星星不？
           icon: fa-light fa-code-merge WISTERIA faa-vertical
