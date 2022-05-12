@@ -1,5 +1,4 @@
 # Deployment 部署
-v6_51_la: JgcVkXNZKtKny1eA
 deploy:
   type: cos-cdn                # npm install hexo-deployer-cos-cdn --save
   cloud: tencent
