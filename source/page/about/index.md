@@ -19,15 +19,15 @@ sitemap: false
 
 {% tabs tab-id %} 
 
-<!-- tab <i class="fal fa-frosty-head"></i><i style="font-weight: normal;font-style: normal;">&nbsp;封面占位</i> -->
+<!-- tab <i class="fa-light fa-frosty-head"></i><i style="font-weight: normal;font-style: normal;">&nbsp;封面占位</i> -->
 
 <p><em>本来无一物,何处惹尘埃.</em></p>
 
 <!-- endtab -->
 
-<!-- tab <i class="fal fa-user-crown"></i><i style="font-weight: normal;font-style: normal;">&nbsp;站点信息</i> -->
+<!-- tab <i class="fa-light fa-user-crown"></i><i style="font-weight: normal;font-style: normal;">&nbsp;站点信息</i> -->
 
-{% folding cyan, <i class="fal fa-user-crown"></i> 说点什么 %}
+{% folding cyan, <i class="fa-light fa-user-crown"></i> 说点什么 %}
 
 &emsp;&emsp;本站的具体建站日期不太清楚了，后来就以域名的注册日期 `2018/03/15` 作为开始日期。这样算下来兜兜转转也是蛮久了，记忆中建站的原因很简单就是想有一个不受限制，没有约束的文字记录平台，那个时候只是把它当作自己的一个精致的小玩具。
 
@@ -39,7 +39,7 @@ sitemap: false
 
 <!-- endtab -->
 
-<!-- tab <i class="fal fa-download"></i><i style="font-weight: normal;font-style: normal;">&nbsp;资源链接</i> -->
+<!-- tab <i class="fa-light fa-download"></i><i style="font-weight: normal;font-style: normal;">&nbsp;资源链接</i> -->
 
 {% note warning::您可以在以下链接找到本站的基础数据，但请注意，本站原始数据不开源。 %}
 
@@ -56,7 +56,7 @@ sitemap: false
 
 <!-- endtab -->
 
-<!-- tab <i class="fal fa-user-secret"></i><i style="font-weight: normal;font-style: normal;">&nbsp;数据说明</i> -->
+<!-- tab <i class="fa-light fa-user-secret"></i><i style="font-weight: normal;font-style: normal;">&nbsp;数据说明</i> -->
 
 <div class="not-select">
 
@@ -83,6 +83,12 @@ sitemap: false
 - 最终解释权归本站所有。
 
 </div>
+
+<!-- endtab -->
+
+<!-- tab <i class="fa-light fa-guitar-electric"></i><i style="font-weight: normal;font-style: normal;">&nbsp;描绘着那场梦</i> -->
+
+<iframe width="100%" height="514px" class="embed-show" src="https://cloud.adc.ink/#fileView&path=https%3A%2F%2Fcloud.adc.ink%2F%3Fexplorer%2Fshare%2Ffile%26hash%3Df655PRtPNu7qcE3X-gHDqQ-MC3wkurXaf5q3ymdgnYHmpP8pgSNf7eMK5eoDh3zN-A%26name%3D%2FYOASOBI%25E3%2580%258C%25E3%2581%2582%25E3%2581%25AE%25E5%25A4%25A2%25E3%2582%2592%25E3%2581%25AA%25E3%2581%259E%25E3%2581%25A3%25E3%2581%25A6%2520%2528Ballade%2520Ver.%2529%25E3%2580%258D%2520-%2520%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E6%2598%25A0%25E7%2594%25BB%25E3%2580%258E%25E5%25A4%25A2%25E3%2581%25AE%25E9%259B%25AB%25E3%2581%25A8%25E6%2598%259F%25E3%2581%25AE%25E8%258A%25B1%25E3%2580%258F%25E3%2582%25B3%25E3%2583%25A9%25E3%2583%259C%25E3%2582%25B9%25E3%2583%259A%25E3%2582%25B7%25E3%2583%25A3%25E3%2583%25AB%25E3%2583%25A0%25E3%2583%25BC%25E3%2583%2593%25E3%2583%25BC.mp4%26_etag%3Df8890" allowtransparency="true" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" scrolling="no"></iframe>
 
 <!-- endtab -->
 

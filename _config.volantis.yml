@@ -95,7 +95,7 @@ cover:
     home: true
     archive: false
     others: false
-  background: /img/wallhaven-m96we9.png
+  background: /img/main.png
   search: 想找些什么？
   features:
     - name: 关于
