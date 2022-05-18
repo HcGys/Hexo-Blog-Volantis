@@ -167,6 +167,7 @@ comments:
     userImgUpload:
       url: 'https://7bu.top/api/v1/upload'
       token: '58|0Z18ZA8rxh9VjM8PVTvT88gNfKgWvONwQWowIMUe'
+
 sidebar:
   for_page: [blogger, notice, navigation, lastupdate, webinfo]
   for_post: []
@@ -353,6 +354,10 @@ plugins:
     rightmenu:
       enable: true
       notice: true
+  parallax:
+    enable: true
+    images:
+      - https://static.szyink.com/common/img/bkg.png
 
 rightmenus:
   enable: true
@@ -452,7 +457,7 @@ rightmenu: ## fa-solid, fa-regular, fa-light, fa-thin, fa-light, fa-brands
 
 color_scheme:
   dark:
-    card: '#1d1f23'
+    site_bd: '#14171a'
 
 custom_css:
   toc_smooth: true # TOC 目录平滑滚动效果
