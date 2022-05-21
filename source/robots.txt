@@ -1,17 +1,10 @@
 # robots.txt https://inkss.cn
 User-agent: * 
-Allow: /index.html
-Allow: /blog/
-
 Disallow: /js
 Disallow: /css
 Disallow: /img
 Disallow: /icon
 Disallow: /fonts
-Disallow: /tags
-Disallow: /archives
-Disallow: /pagination
-
 Disallow: /404.html
 Disallow: /403.html
 Disallow: /search.xml

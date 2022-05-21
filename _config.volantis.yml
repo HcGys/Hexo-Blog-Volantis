@@ -164,9 +164,10 @@ comments:
     js: https://static.szyink.com/storage/artalk/Artalk.js
     css: https://static.szyink.com/storage/artalk/Artalk.css
     server: https://artalk.szyink.com
-    userImgUpload:
-      url: 'https://7bu.top/api/v1/upload'
-      token: '58|0Z18ZA8rxh9VjM8PVTvT88gNfKgWvONwQWowIMUe'
+    imgUploader:
+      api: 'https://7bu.top/api/v1/upload'
+      token: 'Bearer 58|0Z18ZA8rxh9VjM8PVTvT88gNfKgWvONwQWowIMUe'
+      resp: 'data.links.url'
 
 sidebar:
   for_page: [blogger, notice, navigation, lastupdate, webinfo]
