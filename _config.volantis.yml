@@ -119,7 +119,7 @@ article:
   preview:
     line_style: hidden
   body:
-    top_meta: [author, wordcount, updated]
+    top_meta: [author, wordcount, artalkcount, updated]
     bottom_meta: [category, tags, date, counter]
     meta_library:
       author:
@@ -136,6 +136,9 @@ article:
         icon: fa-light fa-eye NEPHRITIS
       walinecount:
         icon: fa-light fa-comment-dots NEPHRITIS
+      artalkcount:
+        icon: fa-light fa-comment-dots NEPHRITIS
+        desc: '条评论' # 条评论
       wordcount:
         icon_wordcount: fa-light fa-keyboard PETERRIVE
         icon_duration: fa-light fa-hourglass-half BELIZEHOLE
@@ -170,7 +173,7 @@ comments:
       resp: 'data.links.url'
 
 sidebar:
-  for_page: [blogger, notice, navigation, lastupdate, webinfo]
+  for_page: [blogger, notice, navigation, artalk, lastupdate, webinfo]
   for_post: []
   widget_library:
     blogger:
