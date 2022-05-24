@@ -361,7 +361,7 @@ plugins:
   parallax:
     enable: true
     images:
-      - https://static.szyink.com/common/img/bkg.png
+      - https://static.szyink.com/storage/hexo/wallhaven-l3pzly.jpg
 
 rightmenus:
   enable: true
