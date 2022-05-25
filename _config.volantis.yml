@@ -173,7 +173,7 @@ comments:
       resp: 'data.links.url'
 
 sidebar:
-  for_page: [blogger, notice, navigation, artalk, lastupdate, webinfo]
+  for_page: [blogger, notice, navigation, artalk, webinfo]
   for_post: []
   widget_library:
     blogger:
