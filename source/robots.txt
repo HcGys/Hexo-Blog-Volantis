@@ -5,7 +5,3 @@ Disallow: /css
 Disallow: /img
 Disallow: /icon
 Disallow: /fonts
-Disallow: /404.html
-Disallow: /403.html
-Disallow: /search.xml
-Disallow: /README.md

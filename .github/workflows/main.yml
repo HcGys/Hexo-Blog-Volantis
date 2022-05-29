@@ -99,13 +99,13 @@ jobs:
           cat _backup_config.yml >> _github.yml
           npm run deployGitHub
 
-      # - name: '部署网站：四 - SEO with Baidu'
-      #   env:
-      #     BAIDU_TOKEN: ${{ secrets.BAIDU_TOKEN }}
-      #     BING_TOKEN: ${{ secrets.BING_TOKEN }}
-      #   run: |
-      #     cat _backup_config.yml >> _seo.yml
-      #     npm run deploySeo
+      - name: '部署网站：四 - SEO with Baidu'
+        env:
+          BAIDU_TOKEN: ${{ secrets.BAIDU_TOKEN }}
+          BING_TOKEN: ${{ secrets.BING_TOKEN }}
+        run: |
+          cat _backup_config.yml >> _seo.yml
+          npm run deploySeo
   syncFile:
     runs-on: ubuntu-latest
     needs: buildToGit
