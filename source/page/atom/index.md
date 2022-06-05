@@ -3,7 +3,6 @@ seo_title: ＲＳＳ
 meta:
   header: [author, counter]
   footer: []
-sidebar: []
 top_meta: []
 bottom_meta: []
 sitemap: false

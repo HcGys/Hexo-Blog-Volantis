@@ -4,7 +4,6 @@ seo_title: 关于
 date: 2019/11/18 18:15
 updated: 2021/07/28 01:35
 comments: true
-sidebar: []
 top_meta: []
 bottom_meta: []
 meta:
@@ -60,27 +59,13 @@ sitemap: false
 
 <div class="not-select">
 
-#### 一、隐私声明
+#### 一、授权协议
 
-&emsp;&emsp;您的访问记录会被 CDN 日志收集，比较关键的数据有：IP,ISP,UA,etc..，建议您主动伪装以避免数据被收集，关于如果避免被收集关键数据，这里提供了一些建议：
+{% link 授权协议::/page/cc/ %}
 
-- **client_ip**：建议使用诸如 Clash 之类的软件在开启代理状况下访问本站，我可以非常明确的告诉您通过修改请求头的 `X-Real-Ip` 和 `X-Forwarded-For` 是无法隐藏真实地址的。
-- **referer**：由于本站开启了防盗链，此字段必须拥有不能置空或修改为其他。但是您可以利用插件将此字段修改为 `https://inkss.cn/` 以避免被收集到来路信息，比如这个插件：[Referer Control](https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin)。
-- **ua**：建议您伪装一个常见的 User Agents 信息，您可以在 [此网站](https://developers.whatismybrowser.com/) 查看常见的 User Agents，另外标新立异的数据反而更容易过滤查找，正所谓大隐隐于市，选择一个常见 User Agents 有利于伪装。
+#### 二、网站政策
 
-------
-
-&emsp;&emsp;法律规定日志数据要存储至少六个月，但关我屁事，查到再说，爷不关心 🐻‍❄️。
-
-#### 二、免责声明
-
-- 本站部分资源来源网络，如因传播、转载、商业使用等导致的法律纠纷，与本博客无关；
-
-- 本站提供非实名制评论功能，博主有权在未告知评论用户的前提下，修改、删除任何评论内容；
-
-- 本站不对评论数据的可靠性做保证，同时您在本站的评论行为视为将评论内容授权于本站；
-
-- 最终解释权归本站所有。
+{% link 网站政策::/page/policy/ %}
 
 </div>
 

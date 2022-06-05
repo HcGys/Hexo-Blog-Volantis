@@ -1,7 +1,6 @@
 ---
 layout: friends     # 必须
 seo_title: 友链   # 可选，这是友链页的标题
-sidebar: []
 meta:
   header: []
   footer: []

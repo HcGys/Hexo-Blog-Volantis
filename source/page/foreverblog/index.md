@@ -1,7 +1,6 @@
 ---
 layout: page
 seo_title: 十年之约
-sidebar: []
 date: 2020/06/25 18:16
 updated: 2020/06/25 18:16
 meta:
