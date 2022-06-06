@@ -119,8 +119,8 @@ article:
   preview:
     line_style: hidden
   body:
-    top_meta: [author, wordcount, artalkcount, updated]
-    bottom_meta: [category, tags, date, counter]
+    top_meta: [author, wordcount, artalkcount]
+    bottom_meta: [category, tags, counter]
     meta_library:
       author:
         avatar: https://static.inkss.cn/img/avatar.jpg
@@ -286,7 +286,7 @@ tag_plugins:
 site_footer:
   layout: [copyright, powered]
   icon: '<i class="fa-light fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i>'
-  copyright: '<span>© 2018 - 2022 </span><i class="fa-light fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i><span> 枋柚梓</span>'
+  copyright: '<span>© 2018 - 2022&nbsp;</span><span><i class="fa-light fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i></span><span>&nbsp;枋柚梓</span>'
   powered: '<a href="/page/cc/">授权</a> · <a href="/page/policy/">政策</a> | 本站使用 <a href="https://volantis.js.org/" target="_blank">Volantis</a> 主题设计'
 
 plugins:
