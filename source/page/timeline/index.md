@@ -1,29 +1,40 @@
 ---
 seo_title: 建站史
 date: 2024/04/23 22:47
-sidebar: [] 
-top_meta: [] 
-bottom_meta: [] 
-meta: 
-  header: [] 
-  footer: [] 
 sitemap: false
+comments: false
+bottom_meta: []  
 ---
 
-{% blocknote quote, 建站史 %}
-这里简略了记述了本站的发展历史，不定期更新。
-{% endblocknote %}
 
 {% tabs note %}
 
-<!-- tab 2021 -->
-{% timeline 枋柚梓的猫会发光：博客大事记 %}
+<!-- tab 2022 -->
+{% timeline %}
 
-{% timenode 2022/02/27 %}
+{% timenode 2022/06/05 %}
 
-关闭了没卵用的评论系统，烦请邮件联系。
+仿照 Next 主题，修改了部分样式，去掉了导航栏什么的。
 
 {% endtimenode %}
+
+{% timenode 2022/04/19 %}
+
+使用了自部署的 Artalk 评论系统，迁移评论系统。
+
+{% endtimenode %}
+
+{% timenode 2022/03/19 %}
+
+本站及主题仓库部署于 Github 公开仓库中。
+
+{% endtimenode %}
+
+{% endtimeline %}
+<!-- endtab -->
+
+<!-- tab 2021 -->
+{% timeline %}
 
 {% timenode 2021/08/16 %}
 
@@ -81,16 +92,35 @@ sitemap: false
 
 {% endtimenode %}
 
+{% timenode 2021/03/21 %}
+
+重生设置了下网站字体， {% b 方正FW筑紫A圆 %} 和 {% b 方正苏新诗柳楷简体 %} 。
+
+{% endtimenode %}
+
+{% timenode 2021/03/01 %}
+
+调整了夜间模式的配色，参考了 One Dark Pro。
+
+{% endtimenode %}
+
+{% timenode 2021/02/05 %}
+
+重写了右键实现，丰富自定义右键菜单中的功能。
+
+{% endtimenode %}
+
+{% timenode 2021/01/12 %}
+
+搭建 code-server ，在自己的服务器上部署。
+
+{% endtimenode %}
+
 {% endtimeline %}
 <!-- endtab -->
 
-<!-- tab Long Long ago -->
-{% timelines 枋柚梓的猫会发光：博客大事记 %}
-
-{% timenodes fal fa-genderless %}2021/03/21 重生设置了下网站字体， {% b 方正FW筑紫A圆 %} 和 {% b 方正苏新诗柳楷简体 %} 。{% endtimenodes %}
-{% timenodes fal fa-genderless %}2021/03/01 调整了夜间模式的配色，参考了 One Dark Pro。{% endtimenodes %}
-{% timenodes fal fa-genderless %}2021/02/05 重写了右键实现，丰富自定义右键菜单中的功能。{% endtimenodes %}
-{% timenodes fal fa-genderless %}2021/01/12 搭建 code-server ，在自己的服务器上部署。{% endtimenodes %}
+<!-- tab 2020~ -->
+{% timelines  %}
 {% timenodes fal fa-telescope %}2020/08/17 主题更新至 3.0 版本，总算稳定啦。{% endtimenodes %}
 {% timenodes fal fa-gift %}2020/08/02 提供了一个相对比较强大的自定义右键菜单。{% endtimenodes %}
 {% timenodes fal fa-hand-point-right %} 2020/06/13 替换全站鼠标手型，样式提取自 Ubuntu 的主题文件。{% endtimenodes %}

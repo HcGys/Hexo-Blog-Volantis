@@ -173,7 +173,7 @@ comments:
       resp: 'data.links.url'
 
 sidebar:
-  for_page: [nextsite, navigation, artalk, webinfo]
+  for_page: [nextsite, artalk, webinfo]
   for_post: [nextsite, toc, webinfo]
   widget_library:
     blogger:
@@ -271,9 +271,10 @@ sidebar:
     wiki-hexo-theme:
       class: list
       display: [desktop]
+      sticky: true
       header:
         icon: fa-light fa-flower-daffodil ASBESTOS
-        title: 笔记本
+        title: 《个人笔记》
         url: /page/notes/index.html
 
 tag_plugins:
@@ -285,7 +286,7 @@ tag_plugins:
 site_footer:
   layout: [copyright, powered]
   icon: '<i class="fa-light fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i>'
-  copyright: '© 2018 - 2022 <i class="fa-light fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i> 枋柚梓'
+  copyright: '<span>© 2018 - 2022 </span><i class="fa-light fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i><span> 枋柚梓</span>'
   powered: '<a href="/page/cc/">授权</a> · <a href="/page/policy/">政策</a> | 本站使用 <a href="https://volantis.js.org/" target="_blank">Volantis</a> 主题设计'
 
 plugins:

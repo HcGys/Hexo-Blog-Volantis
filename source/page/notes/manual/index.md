@@ -2,7 +2,7 @@
 layout: docs 
 title: Volantis 主题用户手册 
 seo_title: Volantis 主题用户手册 
-sidebar: [wiki-hexo-theme,music, toc] 
+sidebar: [nextsite, wiki-hexo-theme, toc] 
 top_meta: [] 
 bottom_meta: [] 
 date: 2021/03/04 00:00 

@@ -1,7 +1,7 @@
 ---
 layout: page 
 title: Windows 软件列表 
-sidebar: [wiki-hexo-theme,music, toc] 
+sidebar: [nextsite, wiki-hexo-theme, toc] 
 top_meta: [] 
 bottom_meta: [] 
 date: 2020/09/26 
