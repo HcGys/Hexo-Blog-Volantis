@@ -176,9 +176,25 @@ sidebar:
   for_page: [nextsite, nextblogger, artalk, webinfo]
   for_post: [nextsite, toc, webinfo]
   widget_library:
+    nextblogger:
+      class: nextblogger
+      display: [desktop, cus-shadow] # [desktop, mobile]
+      avatar: /img/avatar.jpg
+      url: /page/about/
+      subtitle: 言语道断，非物所拘。
+      lists:
+        - url: https://github.com/inkss
+          icon: fa-brands fa-github
+          title: Github
+        - url: /page/atom/
+          icon: fa-solid fa-rss
+          title: RSS
+        - url: /page/timeline/
+          icon: fa-solid fa-history
+          title: History  
     blogger:
       class: blogger
-      display: [desktop] # [desktop, mobile]
+      display: [desktop, cus-shadow] # [desktop, mobile]
       avatar: /img/avatar.jpg
       shape: circle # circle, rectangle
       url: /page/about/
@@ -188,21 +204,21 @@ sidebar:
       social:
     lastupdate:
       class: lastupdate
-      display: [desktop]
+      display: [desktop, cus-shadow]
       header:
         icon: fa-light fa-clock WISTERIA
         title: 最近更新
     toc:
-      display: [desktop, mobile]
+      display: [desktop, mobile, cus-shadow]
       header:
         icon: fa-light fa-list ASBESTOS
     category:
-      display: [desktop]
+      display: [desktop, cus-shadow]
       header:
         icon: fa-light fa-folder-open ASBESTOS
         url: /categories/
     tagcloud:
-      display: [desktop]
+      display: [desktop, cus-shadow]
       header:
         title: 标签列表
         icon: fa-light fa-tags WISTERIA 
@@ -210,7 +226,7 @@ sidebar:
       max_font: 24
       min_font: 16
     webinfo:
-      display: [desktop]
+      display: [desktop, cus-shadow]
       header:
         icon: fa-light fa-award NEPHRITIS
       type:
@@ -225,7 +241,7 @@ sidebar:
             enable: false
     notice:
       class: text
-      display: [desktop]
+      display: [desktop, cus-shadow]
       header:
         icon: fa-light fa-ghost PETERRIVE 
         title: 公共信息
@@ -234,7 +250,7 @@ sidebar:
         - '<a href="https://www.foreverblog.cn/go.html" target="_blank" style="margin-right: 6px;"><img src="/img/default/wormhole.gif" alt="虫洞" style="width:auto;height:31px;border-radius:4px;" title="穿梭虫洞-随机访问十年之约友链博客"></a><a href="/page/cc"><img src="/img/default/cc.png"  title="署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)" alt="CC BY-SA 4.0"></a>'
     updateList:
       class: text
-      display: [desktop]
+      display: [desktop, cus-shadow]
       header:
         icon: fa-light fa-wrench SUNFLOWER 
         title: 更新日志
@@ -243,7 +259,7 @@ sidebar:
     # 自定义 站内导航    
     navigation:
       class: grid
-      display: [desktop]
+      display: [desktop, cus-shadow]
       header:
         icon: fa-light fa-map-signs POMEGRANATE 
         title: 站内导航
@@ -267,10 +283,16 @@ sidebar:
         - name: RSS
           icon: fa-light fa-rss
           url: /page/atom/
-
+    artalk:
+      class: artalk
+      sticky: true
+      display: [desktop, cus-shadow]
+    nextsite:
+      class: nextsite
+      display: [desktop, mobile, cus-shadow]
     wiki-hexo-theme:
       class: list
-      display: [desktop]
+      display: [desktop, cus-shadow]
       sticky: true
       header:
         icon: fa-light fa-flower-daffodil ASBESTOS
