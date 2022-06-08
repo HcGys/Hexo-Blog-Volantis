@@ -1,12 +1,9 @@
 ---
 layout: page
 seo_title: 命令合集
-sidebar: [wiki-hexo-theme, toc]
-meta:
-  header: []
-  footer: [updated, counter]
-date: 2020/06/05 15:12
-updated: 2021/02/01 11:35
+sidebar: [nextsite, wiki-hexo-theme, toc] 
+top_meta: [] 
+bottom_meta: [] 
 sitemap: false
 ---
 

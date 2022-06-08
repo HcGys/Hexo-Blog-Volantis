@@ -1,15 +1,8 @@
 ---
 layout: page
 title: 署名-非商业性使用-相同方式共享 4.0 国际
-date: 2022/06/05
-updated: 2022/06/05
 comments: false
 top_meta: []
-bottom_meta: []
-meta:
-  header: []
-  footer: []
-sitemap: false
 thumbnail: ../../img/default/fc_approved_tiny.png
 ---
 

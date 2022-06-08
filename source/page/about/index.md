@@ -1,15 +1,10 @@
 ---
 layout: page
 seo_title: 关于
-date: 2019/11/18 18:15
-updated: 2021/07/28 01:35
 comments: true
 top_meta: []
-bottom_meta: []
-meta:
-  header: []
-  footer: []
-sitemap: false
+artalk:
+  placeholder: 吾法念无念念、行无行行、言无言言、修无修修，会者近尔，迷者远乎！
 ---
 
 <p class="p center logo ultra" style="margin-bottom: -50px;">{% emoji family-bicycle %}</p>
@@ -87,5 +82,3 @@ sitemap: false
 <!-- endtab -->
 
 {% endtabs %}
-
-<div style="margin-top: -30px;"></div>

@@ -1,15 +1,8 @@
 ---
 layout: page
 title: 网站政策
-date: 2022/06/05
-updated: 2022/06/05
 comments: false
 top_meta: []
-bottom_meta: []
-meta:
-  header: []
-  footer: []
-sitemap: false
 ---
 
 本页面所列之内容为 “枋柚梓的猫会发光” 网站（以下简称 “本站”）所采用之**著作权规范**、**评论规则**、**免责声明**、**隐私政策**。

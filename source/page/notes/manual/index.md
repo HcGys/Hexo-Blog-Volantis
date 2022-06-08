@@ -5,12 +5,10 @@ seo_title: Volantis 主题用户手册
 sidebar: [nextsite, wiki-hexo-theme, toc] 
 top_meta: [] 
 bottom_meta: [] 
-date: 2021/03/04 00:00 
-updated: 2021/03/04 00:00 
 sitemap: false
 ---
 
-<p class="p center logo large"><em>Volantis 主题用户手册 <sup>自用</sup></em></p>
+<p class="p center logo large">Volantis 主题用户手册<em><sup>自用</sup></em></p>
 
 ## 一、Front-matter
 
@@ -318,6 +316,8 @@ PS: 为了兼顾暗黑模式占位颜色可使用 bg=var(--color-card) 的形式
 
 ## 三、表情包
 
+{% folding, emoji %}
+
 | 代码                     |            效果             | 代码                   |           效果            | 代码                      |             效果             |
 | ------------------------ | :-------------------------: | ---------------------- | :-----------------------: | ------------------------- | :--------------------------: |
 | `{% emoji youling %}`    |  {% emoji youling %} 幽灵   | `{% emoji bizui %}`    |  {% emoji bizui %} 闭嘴   | `{% emoji baiyan %}`      |   {% emoji baiyan %} 白眼    |
@@ -350,3 +350,5 @@ PS: 为了兼顾暗黑模式占位颜色可使用 bg=var(--color-card) 的形式
 | `{% emoji taoyan1 %}`        |     {% emoji taoyan1 %} 讨厌啦      | `{% emoji en %}`        |      {% emoji en %} 恩       | `{% emoji leng %}`  | {% emoji leng %} 冷  |
 | `{% emoji xingxingyan %}`    |   {% emoji xingxingyan %} 星星眼    | `{% emoji a %}`         |       {% emoji a %} 啊       |                     |                      |
 | `{% emoji liukoushui %}`     |    {% emoji liukoushui %} 流口水    |                         |                              |                     |                      |
+
+{% endfolding %}

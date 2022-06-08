@@ -1,11 +1,9 @@
 ---
 layout: page 
 seo_title: Github Actions 
-sidebar: [nextsite, wiki-hexo-theme, toc] 
+sidebar: [nextsite, wiki-hexo-theme, toc]
 top_meta: [] 
 bottom_meta: [] 
-date: 2020/06/05 15:12 
-updated: 2020/06/12 09:34 
 sitemap: false
 ---
  

@@ -1,12 +1,8 @@
 ---
 layout: friends     # 必须
 seo_title: 友链   # 可选，这是友链页的标题
-meta:
-  header: []
-  footer: []
-twikoo:
+artalk:
   placeholder: 这里是友链，虽然我一直不怎么处理友链的啊喂...
-sitemap: false
 ---
 
 {% p center logo gray large, 今夕复何夕，共此灯烛光。 %}

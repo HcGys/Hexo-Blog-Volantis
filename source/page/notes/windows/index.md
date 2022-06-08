@@ -4,8 +4,6 @@ title: Windows 软件列表
 sidebar: [nextsite, wiki-hexo-theme, toc] 
 top_meta: [] 
 bottom_meta: [] 
-date: 2020/09/26 
-updated: 2020/09/26 
 sitemap: false
 ---
  

@@ -5,8 +5,6 @@ comments: false
 sidebar: [nextsite, wiki-hexo-theme, toc] 
 top_meta: [] 
 bottom_meta: [] 
-date: 2020/06/05 15:12 
-updated: 2020/09/26 
 ---
 
  
@@ -18,8 +16,8 @@ updated: 2020/09/26
    
 ## 二、文档 
  
-- [Volantis 主题用户手册-自用](/page/notes/manual/) 
- 
+- [Volantis 主题用户手册](/page/notes/manual/) 
+- [Volantis 主题用户手册 - 速查](/page/notes/manual/quick) 
  
 ## 三、备份 
  

@@ -1,9 +1,8 @@
 ---
-seo_title: 建站史
-date: 2024/04/23 22:47
-sitemap: false
+title: 建站史
 comments: false
-bottom_meta: []  
+top_meta: []
+layout: page
 ---
 
 
