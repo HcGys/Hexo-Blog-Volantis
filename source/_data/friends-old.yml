@@ -26,3 +26,45 @@
       keywords: [莫得标签]
       textColor: '#000000'
       description: 记录成长，向未来奔跑
+    - title: 猫之三千岁（主站）
+      avatar: https://static.szyink.com/common/static/avatar.jpg
+      url: https://szyink.com
+      backgroundColor: '#101115'
+      textColor: '#e3e3e3'
+      keywords:
+        - 记事
+        - 私人
+    - title: 忘川三途
+      avatar: /img/friend/raymond-zhao.jpg
+      url: https://raymond-zhao.top/
+      backgroundColor: '#b9b9b9'
+      textColor: '#FFF'
+      keywords:
+        - 学识渊博
+        - 经验丰富
+        - 代码风骚
+        - 效率恐怖
+    - title: Doreou's Blog
+      url: https://www.doreou.cn/
+      avatar: /img/friend/doreou.jpg  
+    - title: 残梦
+      avatar: /img/friend/sunhang.jpg
+      url: https://sunhang.top
+      backgroundColor: '#fcfcfc'
+      textColor: '#667086'
+      keywords:
+        - 前端
+        - JS
+    - title: hewith
+      avatar: /img/friend/hewith.jpg
+      url: https://heshun.run/
+      backgroundColor: '#5b4c77' # 卡片背景颜色
+      textColor: '#fefefe'  # 卡片文字颜色
+      description: 曾梦想仗剑走天涯，无奈贫穷挡住了步伐。
+    - title: coolxingge
+      url: http://www.coolxingge.cn/
+      avatar: /img/friend/coolxingge.jpg
+    - title: Yann
+      avatar: /img/friend/hiyann.jpg
+      url: https://www.hiyann.top/
+      description: 但行好事，莫问前程。

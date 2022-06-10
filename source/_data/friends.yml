@@ -1,28 +1,4 @@
-- group: <i class="fad fa-bow-arrow POMEGRANATE"></i>&nbsp;同学好友
-  icon: fad fa-bow-arrow
-  items:
-    - title: 猫之三千岁（主站）
-      avatar: https://static.szyink.com/common/static/avatar.jpg
-      url: https://szyink.com
-      backgroundColor: '#101115'
-      textColor: '#e3e3e3'
-      keywords:
-        - 记事
-        - 私人
-    - title: 忘川三途
-      avatar: /img/friend/raymond-zhao.jpg
-      url: https://raymond-zhao.top/
-      backgroundColor: '#b9b9b9'
-      textColor: '#FFF'
-      keywords:
-        - 学识渊博
-        - 经验丰富
-        - 代码风骚
-        - 效率恐怖
-    - title: Doreou's Blog
-      url: https://www.doreou.cn/
-      avatar: /img/friend/doreou.jpg
-- group: <i class="fad fa-candy-corn POMEGRANATE"></i>&nbsp;小可爱们 (排名不分先后)
+- group: <i class="fad fa-candy-corn POMEGRANATE"></i>&nbsp;小可爱们 (<em>按添加顺序排序</em>)
   icon: fad fa-candy-corn
   items:
     - title: xaoxuu
@@ -76,12 +52,6 @@
       textColor: '#fefefe'  # 卡片文字颜色
       keywords: [Hexo, 折腾, 生活]    # 标签
       description: 人生在勤，不索何获。
-    - title: 淋竹
-      avatar: /img/friend/llscme.jfif
-      url: https://www.llscme.fun
-      backgroundColor: '#5b4c77' # 卡片背景颜色
-      textColor: '#fefefe'  # 卡片文字颜色
-      description: 冥然兀坐，万籁有声。
     - title: W4J1e’s blog
       avatar: /img/friend/hinCool.png
       url: https://www.hin.cool
@@ -122,15 +92,7 @@
       description: 时不我待，只争朝夕
     - title: 梦之国
       avatar: /img/friend/achivedreams.jpg
-      url: www.dreamcs6.com
-    - title: 梦墨
-      avatar: /img/friend/idream.jpeg
-      url: https://idream.ink
-      backgroundColor: '#f1d6dd'
-      textColor: '#2e2e2e'
-      description: May you do good and not evil.
-      keywords:
-        - Zhou
+      url: https://www.dreamcs6.com
     - title: 𝓗𝓪𝓻𝓻𝔂 の 心阁
       avatar: /img/friend/mr90.jpeg
       url: https://u.mr90.top/
@@ -154,29 +116,25 @@
       avatar: /img/friend/modao.png
       url: https://modao.site
       description: 凡有所学，必有所得
-
+    - title: Bowenの破站
+      url: https://bowenyoung.cn
+      avatar: /img/friend/bowenyoung.png
+      description: 总之岁月漫长，然而值得等待等待
 
 - group: <i class="fad fa-siren-on red faa-flash faa-slow animated"></i>&nbsp;失联人士
   icon: fad fa-siren-on
   items:
-    - title: 残梦
-      avatar: /img/friend/sunhang.jpg
-      url: https://sunhang.top
-      backgroundColor: '#fcfcfc'
-      textColor: '#667086'
-      keywords:
-        - 前端
-        - JS
-    - title: hewith
-      avatar: /img/friend/hewith.jpg
-      url: https://heshun.run/
+    - title: 淋竹
+      avatar: /img/friend/llscme.jfif
+      url: https://www.llscme.fun
       backgroundColor: '#5b4c77' # 卡片背景颜色
       textColor: '#fefefe'  # 卡片文字颜色
-      description: 曾梦想仗剑走天涯，无奈贫穷挡住了步伐。
-    - title: coolxingge
-      url: http://www.coolxingge.cn/
-      avatar: /img/friend/coolxingge.jpg
-    - title: Yann
-      avatar: /img/friend/hiyann.jpg
-      url: https://www.hiyann.top/
-      description: 但行好事，莫问前程。
+      description: 冥然兀坐，万籁有声。
+    - title: 梦墨
+      avatar: /img/friend/idream.jpeg
+      url: https://idream.ink
+      backgroundColor: '#f1d6dd'
+      textColor: '#2e2e2e'
+      description: May you do good and not evil.
+      keywords:
+        - Zhou      

@@ -44,7 +44,7 @@ artalk:
 <p>
 <span class='not-select'>访问地址：</span><code>https://inkss.cn</code><br>
 <span class='not-select'>站点名称：</span><code>枋柚梓的猫会发光</code><br>
-<span class='not-select'>头像地址：</span><code>https://cdn.jsdelivr.net/gh/inkss/common@1/static/avatar.jpg</code><br>
+<span class='not-select'>头像地址：</span><code>https://o.static.szyink.com/common/static/hexo/inkss.jpeg</code><br>
 <span class='not-select'>描述信息：</span><code>繁星永存，记忆更古不变。</code>
 </p>
 
