@@ -21,3 +21,12 @@ deploy:
 theme_config:
   sidebar:
     for_page: [artalk, webinfo]
+  ShowICPInfo: true
+  plugins:
+    fancybox:
+      css: https://static.inkss.cn/js/szyink/fancybox.css
+      js: https://static.inkss.cn/js/szyink/fancybox.umd.js
+    lazyload:
+      js: https://static.inkss.cn/js/szyink/lazyload.min.js
+    pjax:
+      js: https://static.inkss.cn/js/szyink/pjax.min.js

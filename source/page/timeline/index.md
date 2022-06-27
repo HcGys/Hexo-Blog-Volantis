@@ -11,6 +11,12 @@ layout: page
 <!-- tab 2022 -->
 {% timeline %}
 
+{% timenode 2022/06/28 %}
+
+重启了博客的多线部署，现在境内部分交由腾讯对象存储、CDN分发，境外部分交由 Github Page, Jsdelivr 处理。
+
+{% endtimenode %}
+
 {% timenode 2022/06/05 %}
 
 仿照 Next 主题，修改了部分样式，去掉了导航栏什么的。

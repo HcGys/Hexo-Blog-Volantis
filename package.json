@@ -6,6 +6,7 @@
     "s": "hexo clean && hexo server --config _config.yml,_local.yml",
     "r": "hexo server",
     "g": "hexo clean && hexo server --config _github.yml",
+    "t": "hexo clean && hexo server --config _tencent.yml",
     "rebuildTencent": "hexo clean && hexo generate --config _tencent.yml && gulp one && gulp csp",
     "rebuildGithub": "hexo clean && hexo generate --config _github.yml && gulp two && gulp csp",
     "deployGitHub": "hexo deploy --config _github.yml",

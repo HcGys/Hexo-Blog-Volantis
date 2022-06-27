@@ -30,8 +30,6 @@ theme_config:
     for_post: [nextsite, toc, webinfo]
   article:
     body:
-      top_meta: [author, wordcount]
-      bottom_meta: [category, tags]
       meta_library:
         author:
           avatar: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/img/avatar.jpg
@@ -39,6 +37,13 @@ theme_config:
     service: disqus
   plugins:
     fontawesome: https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.1.0/css/all.min.css
+    fancybox:
+      css: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/szyink/fancybox.css
+      js: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/szyink/fancybox.umd.js
+    lazyload:
+      js: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/szyink/lazyload.min.js
+    pjax:
+      js: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/szyink/pjax.min.js
   custom_css:
     cursor:
       text: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/text.png
