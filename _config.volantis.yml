@@ -12,7 +12,6 @@ cdn:
   set:
     js:
       app: /js/app.js
-      rightMenu: /js/plugins/rightMenu.js
       rightMenus: /js/plugins/rightMenus.js
       iconfontInkss: /js/thirdparty/iconfontInkss.js
     css:
@@ -276,7 +275,7 @@ sidebar:
         icon: fa-light fa-ghost PETERRIVE 
         title: 公共信息
       content:
-        - '您现在访问的为境外分支，目前还处在开发阶段。由于主分支部分资源未对境外开发，资源调整或存在遗漏，存在加载失败的可能。'
+        - '您现在访问的为境外分支，目前还处在开发阶段。由于主分支部分资源未对境外开放，资源调整或存在遗漏，存在加载失败的可能。'
         - '如遇到以上情况，欢迎留言。'
     updateList:
       class: text

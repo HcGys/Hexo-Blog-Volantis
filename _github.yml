@@ -18,8 +18,23 @@ deploy:
 theme_config:
   cdn:
     perfix: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main
+    set:
+      js:
+        app: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/app.js
+        rightMenus: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/plugins/rightMenus.js
+        iconfontInkss: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/thirdparty/iconfontInkss.js
+      css:
+        style: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/css/style.css
   sidebar:
     for_page: [nextsite, nextblogger, notice, webinfo]
+    for_post: [nextsite, toc, webinfo]
+  article:
+    body:
+      top_meta: [author, wordcount]
+      bottom_meta: [category, tags]
+      meta_library:
+        author:
+          avatar: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/img/avatar.jpg
   comments:
     service: disqus
   plugins:
