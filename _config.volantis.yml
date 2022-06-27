@@ -258,9 +258,11 @@ sidebar:
         icon: fa-light fa-award NEPHRITIS
       type:
         runtime:
+          enable: true
           data: '2018/03/15'
         wordcount:
           unit: ''
+          enable: true
         visitcounter:
           siteuv:
             enable: false
