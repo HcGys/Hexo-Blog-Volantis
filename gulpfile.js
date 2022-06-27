@@ -17,11 +17,12 @@ const minify_css = () => (
 
 // 压缩html文件
 const minify_html = () => (
-  gulp.src(['./public/**/*.html', '!./public/{lib,lib/**}'])
+  gulp.src(['./public/*.html', '!./public/{lib,lib/**}'])
     .pipe(replace('src="/js/', 'src="https://static.inkss.cn/js/'))
     .pipe(replace('../../img/article', 'https://static.inkss.cn/img/article'))
     .pipe(htmlclean())
     .pipe(htmlmin({
+      collapseWhitespace: true,
       removeComments: true,
       minifyJS: true,
       minifyCSS: true,
@@ -37,6 +38,7 @@ const minify_html_github = () => (
     .pipe(replace('https://static.inkss.cn/js/', 'https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/'))
     .pipe(htmlclean())
     .pipe(htmlmin({
+      collapseWhitespace: true,
       removeComments: true,
       minifyJS: true,
       minifyCSS: true,
@@ -76,15 +78,16 @@ gulp.task('webp', gulp.parallel(
 gulp.task('one', gulp.parallel(
   minify_html,
   minify_css,
-  minify_js,
-  csp.csp_hash,
-  csp.csp_replace
+  minify_js
 ));
 
 gulp.task('two', gulp.parallel(
   minify_html_github,
   minify_css,
-  minify_js,
+  minify_js
+));
+
+gulp.task('csp', gulp.parallel(
   csp.csp_hash,
   csp.csp_replace
 ));

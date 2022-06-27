@@ -17,3 +17,7 @@ deploy:
   secretId: ''
   secretKey: ''
 
+# 主题配置覆盖
+theme_config:
+  sidebar:
+    for_page: [artalk, webinfo]
