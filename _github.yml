@@ -1,3 +1,5 @@
+google_analytics_key: UA-126183911-1
+
 # Deployment 部署
 deploy:
   type: git
@@ -6,3 +8,23 @@ deploy:
     github:
       url: git@github.com:inkss/inkss-website.git
       branch: me
+
+# 主题配置覆盖
+theme_config:
+  cdn:
+    perfix: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main
+  sidebar:
+    for_page: [nextsite, nextblogger, notice, webinfo]
+  comments:
+    service: disqus
+  plugins:
+    fontawesome: https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.1.0/css/all.min.css
+  custom_css:
+    cursor:
+      text: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/text.png
+      pointer: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/pointer.png
+      default: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/left_ptr.png
+      not-allowed: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/circle.png
+      zoom-out: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/zoom-out.png
+      zoom-in: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/zoom-in.png
+      grab: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/openhand.png

@@ -65,12 +65,6 @@ jobs:
           deploy.secretId: ${{secrets.TENCENT_ID}}
           deploy.secretKey: ${{secrets.TENCENT_KEY}}
           deploy.message: '${{ github.event.head_commit.message }}'
-      - name: '博客源码生成'
-        run: |
-          npm run rebuild
-          cd public
-          rm -rf media
-          rm -rf libs
 
       # - name: '部署网站：一 - Tencent CVS'    （弃用）
       #   uses: easingthemes/ssh-deploy@v2
@@ -90,22 +84,16 @@ jobs:
         continue-on-error: true
         run: |
           cat _config.yml >> _tencent.yml
+          npm run rebuildTencent
           npm run deployCos
       
       - name: '部署网站：三 - Github Repository'
-        timeout-minutes: 10
+        timeout-minutes: 5
         continue-on-error: true
         run: | 
           cat _backup_config.yml >> _github.yml
+          npm run rebuildGithub
           npm run deployGitHub
-
-      - name: '部署网站：四 - SEO with Baidu'
-        env:
-          BAIDU_TOKEN: ${{ secrets.BAIDU_TOKEN }}
-          BING_TOKEN: ${{ secrets.BING_TOKEN }}
-        run: |
-          cat _backup_config.yml >> _seo.yml
-          npm run deploySeo
   syncFile:
     runs-on: ubuntu-latest
     needs: buildToGit
@@ -146,16 +134,19 @@ jobs:
           rm -rf ~/inkss-cdn/js
           rm -rf ~/inkss-cdn/css
           rm -rf ~/inkss-cdn/img
+          rm -rf ~/inkss-cdn/icon
           rm -rf ~/inkss-cdn/fonts
           mkdir -p ~/markdown/Hexo
           mkdir -p ~/inkss-cdn/js
           mkdir -p ~/inkss-cdn/css
           mkdir -p ~/inkss-cdn/img
+          mkdir -p ~/inkss-cdn/icon
           mkdir -p ~/inkss-cdn/fonts
           cp -R ~/work/Hexo-Blog/Hexo-Blog/source/_posts/* ~/markdown/Hexo
           cp -R ~/inkss/js/* ~/inkss-cdn/js
           cp -R ~/inkss/css/* ~/inkss-cdn/css
           cp -R ~/inkss/img/* ~/inkss-cdn/img
+          cp -R ~/inkss/icon/* ~/inkss-cdn/icon
           cp -R ~/inkss/fonts/* ~/inkss-cdn/fonts
       - name: '同步文档仓库'
         run: |

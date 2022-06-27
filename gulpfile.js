@@ -4,7 +4,6 @@ const htmlmin = require('gulp-html-minifier-terser');
 const htmlclean = require('gulp-htmlclean');
 const terser = require('gulp-terser');
 const replace = require('gulp-replace');
-const imagemin = require('gulp-imagemin');
 const cwebp = require('gulp-cwebp');                 // npm i --save-dev gulp-cwebp
 const webpHtml = require('./gulp-webp-html');
 const csp = require('./gulp_csp');
@@ -31,39 +30,26 @@ const minify_html = () => (
     .pipe(gulp.dest('./public'))
 )
 
+const minify_html_github = () => (
+  gulp.src(['./public/**/*.html', '!./public/{lib,lib/**}'])
+    .pipe(replace('src="/js/', 'src=https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/'))
+    .pipe(replace('../../img/article', 'https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/img/article'))
+    .pipe(htmlclean())
+    .pipe(htmlmin({
+      removeComments: true,
+      minifyJS: true,
+      minifyCSS: true,
+      minifyURLs: true,
+    }))
+    .pipe(gulp.dest('./public'))
+)
+
 // 压缩js文件
 const minify_js = () => (
   gulp.src(['./public/**/*.js', '!./public/**/*.min.js', '!./public/{libs,libs/**,/}'])
     .pipe(terser())
     .pipe(gulp.dest('./public'))
 )
-
-// 压缩 img 文件
-const minify_img = async () => {
-  gulp.src(['./public/img/**/*', '!./public/img/bkg/..'])
-    .pipe(imagemin([
-      imagemin.gifsicle({
-        interlaced: true
-      }),
-      imagemin.mozjpeg({
-        quality: 90,
-        progressive: true
-      }),
-      imagemin.optipng({
-        optimizationLevel: 5
-      }),
-      imagemin.svgo({
-        plugins: [{
-          removeViewBox: true
-        },
-        {
-          cleanupIDs: false
-        }
-        ]
-      })
-    ]))
-    .pipe(gulp.dest('./public/img'))
-}
 
 
 // 图片转 Webp
@@ -80,28 +66,25 @@ const html_webp = async () => {
     .pipe(gulp.dest('./public'))
 }
 
-// 压缩 + 静态资源连接替换
-gulp.task('one', gulp.parallel(
-  minify_html,
-  minify_css,
-  minify_js
-));
-
 // 图片转 webp + 页面资源替换
 gulp.task('webp', gulp.parallel(
   img_webp,
   html_webp
 ));
 
-// 图片压缩
-gulp.task('img', gulp.parallel(
-  minify_img
-));
-
-// CSP
-gulp.task('csp', gulp.parallel(
+gulp.task('one', gulp.parallel(
+  minify_html,
+  minify_css,
+  minify_js,
   csp.csp_hash,
   csp.csp_replace
 ));
 
-gulp.task('default', gulp.series('one', 'csp'));
+gulp.task('two', gulp.parallel(
+  minify_html_github,
+  minify_css,
+  minify_js,
+  csp.csp_hash,
+  csp.csp_replace
+));
+

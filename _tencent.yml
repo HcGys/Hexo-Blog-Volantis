@@ -1,3 +1,5 @@
+v6_51_la: JgcVkXNZKtKny1eA
+
 # Deployment 部署
 deploy:
   type: cos-cdn                # npm install hexo-deployer-cos-cdn --save
