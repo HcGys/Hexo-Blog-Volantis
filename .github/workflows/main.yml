@@ -55,8 +55,6 @@ jobs:
           git config --global user.email ${{ secrets.EMAIL_SZYINK }}
           git config --global user.signingkey ${{ secrets.GPG_PRIVATE_ID }}
           git config --global commit.gpgsign true
-          cp _config.yml _backup_config.yml
-          cat _link.yml >> _config.yml
       - name: '配置密文填充'
         uses: microsoft/variable-substitution@v1
         with:
@@ -91,7 +89,7 @@ jobs:
         timeout-minutes: 5
         continue-on-error: true
         run: | 
-          cat _backup_config.yml >> _github.yml
+          cat _config.yml >> _github.yml
           npm run rebuildGithub
           npm run deployGitHub
   syncFile:

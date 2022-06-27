@@ -1,5 +1,11 @@
 v6_51_la: JgcVkXNZKtKny1eA
 
+import:
+  head_end:
+    - <link rel="preconnect" href="https://static.inkss.cn">
+    - <link rel="preconnect" href="https://static.szyink.com">
+    - <link rel="stylesheet" href="https://static.inkss.cn/css/roboto.css">
+
 # Deployment 部署
 deploy:
   type: cos-cdn                # npm install hexo-deployer-cos-cdn --save

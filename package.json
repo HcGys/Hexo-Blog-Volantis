@@ -5,11 +5,10 @@
   "scripts": {
     "s": "hexo clean && hexo server --config _config.yml,_local.yml",
     "r": "hexo server",
-    "rebuildTencent": "hexo clean && hexo g && gulp one",
-    "rebuildGithub": "hexo clean && hexo g && gulp two",
+    "rebuildTencent": "hexo clean && hexo generate --config _tencent.yml && gulp one",
+    "rebuildGithub": "hexo clean && hexo generate --config _github.yml && gulp two",
     "deployGitHub": "hexo deploy --config _github.yml",
     "deployCos": "hexo deploy --config _tencent.yml",
-    "deploySeo": "hexo deploy --config _seo.yml",
     "build": "hexo generate",
     "clean": "hexo clean",
     "server": "hexo server"
