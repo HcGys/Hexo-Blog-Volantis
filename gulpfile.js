@@ -32,7 +32,7 @@ const minify_html = () => (
 
 const minify_html_github = () => (
   gulp.src(['./public/**/*.html', '!./public/{lib,lib/**}'])
-    .pipe(replace('src="/js/', 'src=https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/'))
+    .pipe(replace('src="/js/', 'src="https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/'))
     .pipe(replace('../../img/article', 'https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/img/article'))
     .pipe(htmlclean())
     .pipe(htmlmin({
