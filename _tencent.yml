@@ -1,10 +1,11 @@
-v6_51_la: JgcVkXNZKtKny1eA
+#v6_51_la: JgcVkXNZKtKny1eA
 
 import:
   head_end:
     - <link rel="preconnect" href="https://static.inkss.cn">
     - <link rel="preconnect" href="https://static.szyink.com">
     - <link rel="stylesheet" href="https://static.inkss.cn/css/roboto.css">
+    - <script async defer data-website-id="ce840cfa-99c1-4abc-a304-9b377f904b50" src="https://um.adc.ink/szyinkum.js"></script>
 
 # Deployment 部署
 deploy:
