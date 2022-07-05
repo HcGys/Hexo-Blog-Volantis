@@ -66,3 +66,12 @@ artalk:
 <!-- endtab -->
 
 {% endtabs %}
+
+{% folding cyan, 时间之外 %}
+
+<style>.szyink-cloud-music{text-align: center;}</style>
+<div class="szyink-cloud-music">
+<iframe width="90%" height="90%" class="embed-show" src="https://cloud.adc.ink/#fileView&path=https%3A%2F%2Fcloud.adc.ink%2F%3Fexplorer%2Fshare%2Ffile%26hash%3D942cdLwHrlJNJNOPBI6p8_aEQjfUdozgoF_bQFqL-cIUMQdtiwoMeX0DsxwdZLRGnQ%26name%3D%2FIU%2520-%2520%25EC%258B%259C%25EA%25B0%2584%25EC%259D%2598%2520%25EB%25B0%2594%25EA%25B9%25A5%2520%2528%25E6%2597%25B6%25E9%2597%25B4%25E4%25B9%258B%25E5%25A4%2596%2529.mp3%26_etag%3D93fa0" allowtransparency="true" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" scrolling="no"></iframe>
+</div>
+
+{% endfolding %}
