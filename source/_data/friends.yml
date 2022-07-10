@@ -1,4 +1,48 @@
-- group: <i class="fad fa-candy-corn POMEGRANATE"></i>&nbsp;小可爱们 (<em>按添加顺序排序</em>)
+- group: <i class="fad fa-helmet-battle GREENSEA"></i>&nbsp;星火
+  icon: fad fa-candy-corn
+  items:
+    - title: W4J1e’s blog
+      avatar: /img/friend/hinCool.png
+      url: https://www.hin.cool
+      description: 总是偏爱不务正业
+    - title: Akilarの糖果屋
+      avatar: /img/friend/akilar.png
+      url: https://akilar.top/
+      screenshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
+      description: 期待您的光临！
+    - title: Heo
+      avatar: /img/friend/zhheo.png
+      url: https://blog.zhheo.com/
+      screenshot: https://7.dusays.com/2020/10/27/ff9603f42ee09.png
+      description: 爱折腾的设计师
+    - title: 杜老师说
+      avatar: /img/friend/dusays.png
+      url: https://dusays.com
+    - title: 梦之国
+      avatar: /img/friend/achivedreams.jpg
+      url: https://www.dreamcs6.com
+      description: IT技术分享平台
+    - title: 𝓗𝓪𝓻𝓻𝔂 の 心阁
+      avatar: /img/friend/mr90.jpeg
+      url: https://u.mr90.top/
+      description: 你必须非常努力，才能看起来毫不费力。
+    - title: Hassan's Blog
+      avatar: /img/friend/hassanwong.jpg
+      url: https://hassanwong.top
+      description: 时不我待，只争朝夕
+    - title: 阅读・阅己
+      avatar: /img/friend/flypig.png
+      url: https://flypig.xyz
+      description: 逻辑只是工具，心地才是主宰！
+    - title: 叶开楗博客
+      avatar: /img/friend/xiamuyourenzhang.png
+      url: https://qq.md/
+      description: 90后阿宅一枚，福建三明尤溪人士。
+    - title: Bowenの破站
+      url: https://bowenyoung.cn
+      avatar: /img/friend/bowenyoung.png
+      description: 总之岁月漫长，然而值得等待等待
+- group: <i class="fad fa-candy-corn POMEGRANATE"></i>&nbsp;小可爱
   icon: fad fa-candy-corn
   items:
     - title: xaoxuu
@@ -34,9 +78,6 @@
       backgroundColor: '#d7d1d5'
       textColor: '#5d5d5d'
       description: '愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。'
-      keywords:
-        - C/C++
-        - MFC
     - title: qinxs
       avatar: /img/friend/qinxs.png
       url: https://7bxing.com
@@ -50,27 +91,7 @@
       url: https://www.heson10.com
       backgroundColor: '#c61a26' # 卡片背景颜色
       textColor: '#fefefe'  # 卡片文字颜色
-      keywords: [Hexo, 折腾, 生活]    # 标签
       description: 人生在勤，不索何获。
-    - title: W4J1e’s blog
-      avatar: /img/friend/hinCool.png
-      url: https://www.hin.cool
-      description: 总是偏爱不务正业
-    - title: Akilarの糖果屋
-      avatar: /img/friend/akilar.png
-      url: https://akilar.top/
-      screenshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
-      description: 期待您的光临！
-      keywords:
-        - 糖果屋
-    - title: Heo
-      avatar: /img/friend/zhheo.png
-      url: https://blog.zhheo.com/
-      screenshot: https://7.dusays.com/2020/10/27/ff9603f42ee09.png
-      description: 爱折腾的设计师
-    - title: Lznote
-      avatar: /img/friend/Lznote.png
-      url: https://lznote.com
     - title: Charlie
       avatar: /img/friend/charlie-zzy.png
       url: https://charlie-zzy.github.io
@@ -79,47 +100,18 @@
       keywords:
         - OIer
         - 版本跟进狂魔
-    - title: 杜老师说
-      avatar: /img/friend/dusays.png
-      url: https://dusays.com
     - title: Uncle_drew
       avatar: /img/friend/cndrew.png
       url: https://cndrew.cn
       description: Hand down,man down
-    - title: Hassan's Blog
-      avatar: /img/friend/hassanwong.jpg
-      url: https://hassanwong.top
-      description: 时不我待，只争朝夕
-    - title: 梦之国
-      avatar: /img/friend/achivedreams.jpg
-      url: https://www.dreamcs6.com
-    - title: 𝓗𝓪𝓻𝓻𝔂 の 心阁
-      avatar: /img/friend/mr90.jpeg
-      url: https://u.mr90.top/
-      description: 你必须非常努力，才能看起来毫不费力。
-    - title: 阅读・阅己
-      avatar: /img/friend/flypig.png
-      url: https://flypig.xyz
-      description: 逻辑只是工具，心地才是主宰！
     - title: kelecn
       avatar: /img/friend/kelecn.jpg
       url: https://kelecn.top
       description: 唯爱与科技不可辜负！
-    - title: Thrower 的博客
-      avatar: /img/friend/thrower.jpg
-      url: https://thrower.cc/
-    - title: 叶开楗博客
-      avatar: /img/friend/xiamuyourenzhang.png
-      url: https://qq.md/
-      description: 90后阿宅一枚，福建三明尤溪人士。
     - title: modao
       avatar: /img/friend/modao.png
       url: https://modao.site
       description: 凡有所学，必有所得
-    - title: Bowenの破站
-      url: https://bowenyoung.cn
-      avatar: /img/friend/bowenyoung.png
-      description: 总之岁月漫长，然而值得等待等待
 
 - group: <i class="fad fa-siren-on red faa-flash faa-slow animated"></i>&nbsp;失联人士
   icon: fad fa-siren-on
@@ -138,3 +130,6 @@
       description: May you do good and not evil.
       keywords:
         - Zhou      
+    - title: Thrower 的博客
+      avatar: /img/friend/thrower.jpg
+      url: https://thrower.cc/
