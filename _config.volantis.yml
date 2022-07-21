@@ -275,8 +275,8 @@ sidebar:
         icon: fa-light fa-ghost PETERRIVE 
         title: 公共信息
       content:
-        - '您现在访问的为境外分支，目前还处在开发阶段。由于主分支部分资源未对境外开放，资源调整或存在遗漏，存在加载失败的可能。'
-        - '如遇到以上情况，欢迎留言。'
+        - '欢迎访问，祝您身心愉悦。'
+        - '本站托管于 Github Page。'
     updateList:
       class: text
       display: [desktop, cus-shadow]

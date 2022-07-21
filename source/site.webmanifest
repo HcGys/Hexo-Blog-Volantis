@@ -1,6 +1,9 @@
 {
-    "name": "\u678b\u67da\u6893\u7684\u732b\u4f1a\u53d1\u5149",
-    "short_name": "\u678b\u67da\u6893\u7684\u732b\u4f1a\u53d1\u5149",
+    "lang": "zh-cn",
+    "name": "枋柚梓的猫会发光",
+    "short_name": "枋柚梓博客",
+    "description": "繁星永存，记忆亘古不变。",
+    "start_url": "/",
     "icons": [
         {
             "src": "/icon/android-chrome-36x36.png",
@@ -51,4 +54,5 @@
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone"
-}
+  }
+  
