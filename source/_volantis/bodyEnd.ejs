@@ -60,3 +60,9 @@
     next.title = articleNext ? articleNext.innerText : null;
   }, 'prevNext', false)
 </script>
+
+<script type="module">
+  import 'https://inkss.cn/pwaupdate';
+  const el = document.createElement('pwa-update');
+  document.body.appendChild(el);
+</script>
