@@ -13,7 +13,7 @@ cdn:
     js:
       app: /js/app.js
       rightMenus: /js/plugins/rightMenus.js
-      iconfontInkss: /js/thirdparty/iconfontInkss.js
+      iconfontInkss: /js/szyink/iconfontInkss.js
     css:
       style: /css/style.css
 
@@ -390,7 +390,7 @@ plugins:
     enable: false
   message:
     enable: true
-    js:  /js/thirdparty/message.js
+    js:  /js/szyink/message.js
     css: /css/message.css
     icon:     # 默认图标，支持对图标添加颜色，可选值：see：/source/css/_plugins/message.styl
       default: fa-light fa-info-circle light-blue

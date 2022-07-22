@@ -23,7 +23,7 @@ theme_config:
       js:
         app: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/app.js
         rightMenus: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/plugins/rightMenus.js
-        iconfontInkss: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/thirdparty/iconfontInkss.js
+        iconfontInkss: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/szyink/iconfontInkss.js
       css:
         style: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/css/style.css
   sidebar:
