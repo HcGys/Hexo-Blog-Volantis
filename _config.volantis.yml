@@ -514,7 +514,7 @@ analytics:
     app_key:
 
 open_graph:
-  image: icon/cat192.png
+  image: icon/android-chrome-192x192.png
 
 structured_data:
   enable: true
@@ -524,7 +524,7 @@ structured_data:
       sns:
         - https://github.com/inkss
     logo:
-      path: icon/cat192.png
+      path: icon/android-chrome-192x192.png
       width: 192
       height: 192
 

@@ -156,7 +156,7 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: icon/cat192.png
+  icon: icon/android-chrome-192x192.png
   autodiscovery: true
 
 # 五、npm install hexo-tag-tiy --save （弃用）
