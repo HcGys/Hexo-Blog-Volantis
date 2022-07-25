@@ -11,6 +11,12 @@ layout: page
 <!-- tab 2022 -->
 {% timeline %}
 
+{% timenode 2022/07/22 %}
+
+为网站添加了 PWA 支持，感谢 PWABuilder。
+
+{% endtimenode %}
+
 {% timenode 2022/06/28 %}
 
 重启了博客的多线部署，现在境内部分交由腾讯对象存储、CDN分发，境外部分交由 Github Page, Jsdelivr 处理。

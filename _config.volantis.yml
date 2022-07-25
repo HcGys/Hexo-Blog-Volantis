@@ -218,6 +218,9 @@ sidebar:
         - url: /page/timeline/
           icon: fa-solid fa-history
           title: History  
+        - url: https://ut.adc.ink/status/me
+          icon: fa-solid fa-eye
+          title: Status
     blogger:
       class: blogger
       display: [desktop, cus-shadow] # [desktop, mobile]
