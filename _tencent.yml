@@ -7,7 +7,7 @@ import:
     - <link rel="stylesheet" href="https://static.inkss.cn/css/roboto.css">
     - <script async defer data-website-id="ce840cfa-99c1-4abc-a304-9b377f904b50" src="https://um.adc.ink/szyinkum.js" data-domains="inkss.cn"></script>
   body_end:
-    - <script type="module">import 'https://adn.arcitcgn.cn/npm/@pwabuilder/pwaupdate';const el = document.createElement('pwa-update');document.body.appendChild(el);</script>
+    - <script type="module">import 'https://static.szyink.com/common/js/pwaupdate.js';const el = document.createElement('pwa-update');document.body.appendChild(el);</script>
 
 # Deployment 部署
 deploy:
