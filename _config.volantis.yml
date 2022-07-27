@@ -151,7 +151,7 @@ article:
     bottom_meta: [category, tags, counter]
     meta_library:
       author:
-        avatar: https://static.inkss.cn/img/avatar.jpg
+        avatar: https://static.inkss.cn/img/avatar.png
         name: 枋柚梓
         url: /
       date:
@@ -205,7 +205,7 @@ sidebar:
     nextblogger:
       class: nextblogger
       display: [desktop, cus-shadow] # [desktop, mobile]
-      avatar: /img/avatar.jpg
+      avatar: /img/avatar.png
       url: /page/about/
       subtitle: 言语道断，非物所拘。
       lists:
@@ -224,7 +224,7 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop, cus-shadow] # [desktop, mobile]
-      avatar: /img/avatar.jpg
+      avatar: /img/avatar.png
       shape: circle # circle, rectangle
       url: /page/about/
       title:

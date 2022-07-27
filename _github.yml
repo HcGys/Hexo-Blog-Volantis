@@ -33,7 +33,7 @@ theme_config:
     body:
       meta_library:
         author:
-          avatar: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/img/avatar.jpg
+          avatar: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/img/avatar.png
   comments:
     service: disqus
   plugins:
