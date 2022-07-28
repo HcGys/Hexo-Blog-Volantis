@@ -112,6 +112,10 @@
       avatar: /img/friend/modao.png
       url: https://modao.site
       description: 凡有所学，必有所得
+    - title: Ethan.Tzy
+      url: https://tzy1997.com/
+      avatar: /img/friend/tzy1997.jpg
+      description: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。
 
 - group: <i class="fad fa-siren-on red faa-flash faa-slow animated"></i>&nbsp;失联人士
   icon: fad fa-siren-on
