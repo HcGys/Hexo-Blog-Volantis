@@ -116,6 +116,9 @@
       url: https://tzy1997.com/
       avatar: /img/friend/tzy1997.jpg
       description: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。
+    - title: Thrower 的博客
+      avatar: /img/friend/thrower.jpg
+      url: https://thrower.cc/
 
 - group: <i class="fad fa-siren-on red faa-flash faa-slow animated"></i>&nbsp;失联人士
   icon: fad fa-siren-on
@@ -134,6 +137,3 @@
       description: May you do good and not evil.
       keywords:
         - Zhou      
-    - title: Thrower 的博客
-      avatar: /img/friend/thrower.jpg
-      url: https://thrower.cc/
