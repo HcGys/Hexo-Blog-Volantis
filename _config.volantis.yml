@@ -118,6 +118,10 @@ nextNavbar:
       icon: 'fa-light fa-bullseye-pointer'
       url: https://www.foreverblog.cn/go.html
       target: '_blank'  
+    - name: '- 搜索 °| Search'
+      icon: 'fa-light fa-search'
+      url: 'javascript:void(0)'
+      click: 'OpenSearch()'
 
 cover:
   enable: false

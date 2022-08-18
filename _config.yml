@@ -196,3 +196,15 @@ hide_posts:
   public_generators: [tag, category, archive, sitemap, feed, json-content]
   # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
   noindex: true
+
+# 九、npm i -S hexo-generator-json-content
+jsonContent:
+  ignore:
+    paths:
+      - 404.html
+      - manifest.json
+      - pwabuilder-sw.js
+      - robots.txt
+      - js/
+      - css/
+      - page/
