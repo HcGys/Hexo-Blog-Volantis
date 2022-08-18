@@ -24,6 +24,7 @@ unsafe_script_list = [
   "history.back()",
   "history.forward()",
   "window.location.reload()",
+  "OpenSearch()"
 ]
 
 // script hash White list
