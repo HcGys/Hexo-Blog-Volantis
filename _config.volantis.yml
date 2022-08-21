@@ -10,23 +10,7 @@ default:
 cdn_system:
   system_config:
     custom:
-      volantis_app: /js/app.js
-      volantis_style: /css/style.css
-      volantis_rightMenus: /js/plugins/rightMenus.js
-      iconfontInkss: /js/szyink/iconfontInkss.js
       busuanzi: https://cdn.dusays.com/bsz.js
-      artalk_js: https://static.szyink.com/storage/artalk/Artalk.js
-      artalk_css: https://static.szyink.com/storage/artalk/Artalk.css
-      fontawesome: https://static.szyink.com/fontawesome/css/all.min.css
-      aplayer_js: https://static.szyink.com/common/js/aplayer.min.js
-      aplayer_css: https://static.szyink.com/common/js/aplayer.min.js
-      meting: https://static.szyink.com/common/js/Meting.min.js
-      fancybox_js: https://static.inkss.cn/js/szyink/fancybox.umd.js
-      fancybox_css: https://static.inkss.cn/js/szyink/fancybox.css
-      vanilla-lazyload: https://static.inkss.cn/js/szyink/lazyload.min.js
-      izitoast_css: https://static.inkss.cn/css/message.css
-      izitoast_js: https://static.inkss.cn/js/szyink/message.js
-      pjax: https://static.inkss.cn/js/szyink/pjax.min.js
 
 replace:
 

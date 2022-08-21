@@ -22,6 +22,17 @@ deploy:
 
 # 主题配置覆盖
 theme_config:
+  cdn_system:
+    system_config:
+      local:
+        prefix: https://static.inkss.cn/
+      custom:
+        artalk_js: https://static.szyink.com/storage/artalk/Artalk.js
+        artalk_css: https://static.szyink.com/storage/artalk/Artalk.css
+        fontawesome: https://static.szyink.com/fontawesome/css/all.min.css
+        aplayer_js: https://static.szyink.com/common/js/aplayer.min.js
+        aplayer_css: https://static.szyink.com/common/js/aplayer.min.js
+        meting: https://static.szyink.com/common/js/Meting.min.js
   sidebar:
     for_page: [artalk, webinfo]
   ShowICPInfo: true

@@ -1,6 +1,28 @@
 iconfontInkss:
   name: iconfontInkss
-  version: unknown
-  npm: false
-  static: false
-  cdnjs: false
+  local: true
+  file: source/js/szyink/iconfontInkss.js
+fancybox_css:
+  name: "@fancyapps/ui"
+  local: true
+  file: source/js/szyink/fancybox.css
+fancybox_js:
+  name: "@fancyapps/ui"
+  local: true
+  file: source/js/szyink/fancybox.umd.js
+vanilla-lazyload:
+  name: vanilla-lazyload
+  local: true
+  file: source/js/szyink/lazyload.min.js
+pjax:
+  name: pjax
+  local: true
+  file: source/js/szyink/pjax.min.js
+izitoast_css:
+  name: izitoast
+  local: true
+  file: /css/message.css
+izitoast_js:
+  name: izitoast
+  local: true
+  file: source/js/szyink/message.js
