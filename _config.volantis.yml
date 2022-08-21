@@ -15,7 +15,7 @@ cdn_system:
       volantis_rightMenus: /js/plugins/rightMenus.js
       iconfontInkss: /js/szyink/iconfontInkss.js
       busuanzi: https://cdn.dusays.com/bsz.js
-      artalk: https://static.szyink.com/storage/artalk/Artalk.js
+      artalk_js: https://static.szyink.com/storage/artalk/Artalk.js
       artalk_css: https://static.szyink.com/storage/artalk/Artalk.css
       fontawesome: https://static.szyink.com/fontawesome/css/all.min.css
       aplayer_js: https://static.szyink.com/common/js/aplayer.min.js
