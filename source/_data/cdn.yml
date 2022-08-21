@@ -21,7 +21,7 @@ pjax:
 izitoast_css:
   name: izitoast
   local: true
-  file: /css/message.css
+  file: css/message.css
 izitoast_js:
   name: izitoast
   local: true
