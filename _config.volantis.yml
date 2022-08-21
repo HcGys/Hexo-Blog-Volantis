@@ -1,4 +1,5 @@
 InconfontFlag: true
+debug: false
 
 default:
   avatar: /img/default/avatar.svg
@@ -6,16 +7,26 @@ default:
   cover: /img/default/cover.svg
   image: /img/default/image.svg
 
-cdn:
-  enable: true
-  prefix: https://static.inkss.cn
-  set:
-    js:
-      app: /js/app.js
-      rightMenus: /js/plugins/rightMenus.js
+cdn_system:
+  system_config:
+    custom:
+      volantis_app: /js/app.js
+      volantis_style: /css/style.css
+      volantis_rightMenus: /js/plugins/rightMenus.js
       iconfontInkss: /js/szyink/iconfontInkss.js
-    css:
-      style: /css/style.css
+      busuanzi: https://cdn.dusays.com/bsz.js
+      artalk: https://static.szyink.com/storage/artalk/Artalk.js
+      artalk_css: https://static.szyink.com/storage/artalk/Artalk.css
+      fontawesome: https://static.szyink.com/fontawesome/css/all.min.css
+      aplayer_js: https://static.szyink.com/common/js/aplayer.min.js
+      aplayer_css: https://static.szyink.com/common/js/aplayer.min.js
+      meting: https://static.szyink.com/common/js/Meting.min.js
+      fancybox_js: https://static.inkss.cn/js/szyink/fancybox.umd.js
+      fancybox_css: https://static.inkss.cn/js/szyink/fancybox.css
+      vanilla-lazyload: https://static.inkss.cn/js/szyink/lazyload.min.js
+      izitoast_css: https://static.inkss.cn/css/message.css
+      izitoast_js: https://static.inkss.cn/js/szyink/message.js
+      pjax: https://static.inkss.cn/js/szyink/pjax.min.js
 
 replace:
 
@@ -197,8 +208,6 @@ comments:
     repo: inkss/blog-comments
     branch: master
   artalk:
-    js: https://static.szyink.com/storage/artalk/Artalk.js
-    css: https://static.szyink.com/storage/artalk/Artalk.css
     server: https://artalk.szyink.com
 
 sidebar:
@@ -270,10 +279,7 @@ sidebar:
           unit: ''
           enable: true
         visitcounter:
-          siteuv:
-            enable: false
-          sitepv:
-            enable: false
+          enable: false
     notice:
       sticky: true
       class: text
@@ -348,10 +354,20 @@ site_footer:
   powered: '<a href="/page/policy/">政策</a> · <a href="https://um.adc.ink/share/sKrpXWfJ/%E6%9E%8B%E6%9F%9A%E6%A2%93%E7%9A%84%E7%8C%AB%E4%BC%9A%E5%8F%91%E5%85%89">统计</a> | 本站使用 <a href="https://volantis.js.org/" target="_blank">Volantis</a> 主题设计'
 
 plugins:
-  fontawesome: https://static.szyink.com/fontawesome/css/all.min.css
-  fancybox:
-    css: /js/szyink/fancybox.css
-    js: /js/szyink/fancybox.umd.js
+  busuanzi:
+    enable: true
+  wordcount:
+    enable: true
+  lazyload:
+    enable: true
+    onlypost: false
+  aplayer:
+    enable: false
+    server: tencent
+    id: 7716882294
+  pjax:
+    cover: false
+    animation: false
   sitesjs:
     enable: false
   friendsjs:
@@ -361,30 +377,12 @@ plugins:
   preload:
     enable: false
     service: instant_page
-  lazyload:
-    js: /js/szyink/lazyload.min.js
-    enable: true
-    onlypost: false
   scrollreveal:
     enable: false
   highlightjs:
     enable: false
   fontawesome_animation:
     enable: false
-    css: /css/font-awesome-animation.min.css
-  wordcount:
-    enable: true
-  aplayer:
-    enable: false
-    js:
-      aplayer: https://static.szyink.com/common/js/aplayer.min.js
-      meting: https://static.szyink.com/common/js/Meting.min.js
-    server: tencent
-    id: 7716882294
-  pjax:
-    js: /js/szyink/pjax.min.js
-    cover: false
-    animation: false
   killOldVersionsOfIE:
     enable: false
   killNoScript:
@@ -397,8 +395,6 @@ plugins:
     enable: false
   message:
     enable: true
-    js:  /js/szyink/message.js
-    css: /css/message.css
     icon:     # 默认图标，支持对图标添加颜色，可选值：see：/source/css/_plugins/message.styl
       default: fa-light fa-info-circle light-blue
       quection: fa-light fa-question-circle light-blue
