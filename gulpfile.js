@@ -17,7 +17,7 @@ const minify_css = () => (
 
 // 压缩html文件
 const minify_html = () => (
-  gulp.src(['./public/*.html', '!./public/{lib,lib/**}'])
+  gulp.src(['./public/**/*.html', '!./public/{lib,lib/**}'])
     .pipe(replace('src="/js/', 'src="https://static.inkss.cn/js/'))
     .pipe(replace('../../img/article', 'https://static.inkss.cn/img/article'))
     .pipe(replace('/img/friend/', 'https://static.inkss.cn/img/friend/'))
