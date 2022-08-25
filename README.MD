@@ -8,3 +8,10 @@
 git submodule init
 git submodule update
 ```
+
+- *运行*
+
+```shell
+npm i
+npm run s
+```

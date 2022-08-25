@@ -137,17 +137,14 @@ jobs:
           rm -rf ~/inkss-cdn/css
           rm -rf ~/inkss-cdn/img
           rm -rf ~/inkss-cdn/icon
-          rm -rf ~/inkss-cdn/fonts
           mkdir -p ~/markdown/Hexo
           mkdir -p ~/inkss-cdn/js
           mkdir -p ~/inkss-cdn/css
           mkdir -p ~/inkss-cdn/img
           mkdir -p ~/inkss-cdn/icon
-          mkdir -p ~/inkss-cdn/fonts
           cp -R ~/work/Hexo-Blog/Hexo-Blog/source/_posts/* ~/markdown/Hexo
           cp -R ~/work/Hexo-Blog/Hexo-Blog/source/img/* ~/inkss-cdn/img
           cp -R ~/work/Hexo-Blog/Hexo-Blog/source/icon/* ~/inkss-cdn/icon
-          cp -R ~/work/Hexo-Blog/Hexo-Blog/source/fonts/* ~/inkss-cdn/fonts
           cp -R ~/inkss/js/* ~/inkss-cdn/js
           cp -R ~/inkss/css/* ~/inkss-cdn/css
       - name: '同步文档仓库'

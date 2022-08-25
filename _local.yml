@@ -11,3 +11,4 @@ theme_config:
         volantis_app: /js/app.js
         volantis_style: /css/style.css
         volantis_rightMenus: /js/plugins/rightMenus.js
+        fontawesome: https://static.szyink.com/fontawesome/css/all.min.css
