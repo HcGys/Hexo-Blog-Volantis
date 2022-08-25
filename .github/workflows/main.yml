@@ -83,6 +83,7 @@ jobs:
         run: |
           cat _config.yml >> _tencent.yml
           npm run rebuildTencent
+          rm -rf public/fonts
           npm run deployCos
       
       - name: '部署网站：三 - Github Repository'
@@ -91,6 +92,9 @@ jobs:
         run: | 
           cat _config.yml >> _github.yml
           npm run rebuildGithub
+          rm -rf public/fonts
+          rm -rf public/img/article
+          rm -rf public/img/friend
           npm run deployGitHub
   syncFile:
     runs-on: ubuntu-latest
@@ -141,11 +145,11 @@ jobs:
           mkdir -p ~/inkss-cdn/icon
           mkdir -p ~/inkss-cdn/fonts
           cp -R ~/work/Hexo-Blog/Hexo-Blog/source/_posts/* ~/markdown/Hexo
+          cp -R ~/work/Hexo-Blog/Hexo-Blog/source/img/* ~/inkss-cdn/img
+          cp -R ~/work/Hexo-Blog/Hexo-Blog/source/icon/* ~/inkss-cdn/icon
+          cp -R ~/work/Hexo-Blog/Hexo-Blog/source/fonts/* ~/inkss-cdn/fonts
           cp -R ~/inkss/js/* ~/inkss-cdn/js
           cp -R ~/inkss/css/* ~/inkss-cdn/css
-          cp -R ~/inkss/img/* ~/inkss-cdn/img
-          cp -R ~/inkss/icon/* ~/inkss-cdn/icon
-          cp -R ~/inkss/fonts/* ~/inkss-cdn/fonts
       - name: '同步文档仓库'
         run: |
           cd ~/markdown

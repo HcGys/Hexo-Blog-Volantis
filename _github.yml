@@ -3,7 +3,7 @@
 import:
   head_end:
     - <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/css/roboto-github.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/inkss/common@1/css/font-blog.css">
     - <script async defer data-website-id="ce840cfa-99c1-4abc-a304-9b377f904b50" src="https://um.adc.ink/szyinkum.js"></script>
 
 # Deployment 部署
@@ -42,3 +42,4 @@ theme_config:
       zoom-out: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/zoom-out.png
       zoom-in: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/zoom-in.png
       grab: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/openhand.png
+

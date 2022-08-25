@@ -20,6 +20,7 @@ const minify_html = () => (
   gulp.src(['./public/*.html', '!./public/{lib,lib/**}'])
     .pipe(replace('src="/js/', 'src="https://static.inkss.cn/js/'))
     .pipe(replace('../../img/article', 'https://static.inkss.cn/img/article'))
+    .pipe(replace('/img/friend/', 'https://static.inkss.cn/img/friend/'))
     .pipe(htmlclean())
     .pipe(htmlmin({
       collapseWhitespace: true,
@@ -35,6 +36,7 @@ const minify_html_github = () => (
   gulp.src(['./public/**/*.html', '!./public/{lib,lib/**}'])
     .pipe(replace('src="/js/', 'src="https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/'))
     .pipe(replace('../../img/article', 'https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/img/article'))
+    .pipe(replace('/img/friend/', 'https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/img/friend/'))
     .pipe(replace('https://static.inkss.cn/js/', 'https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/js/'))
     .pipe(htmlclean())
     .pipe(htmlmin({

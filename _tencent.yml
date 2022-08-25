@@ -4,7 +4,7 @@ import:
   head_end:
     - <link rel="preconnect" href="https://static.inkss.cn">
     - <link rel="preconnect" href="https://static.szyink.com">
-    - <link rel="stylesheet" href="https://static.inkss.cn/css/roboto.css">
+    - <link rel="stylesheet" href="https://static.szyink.com/common/css/roboto.css">
     - <script async defer data-website-id="ce840cfa-99c1-4abc-a304-9b377f904b50" src="https://um.adc.ink/szyinkum.js" data-domains="inkss.cn"></script>
   body_end:
     - <script type="module">import 'https://static.szyink.com/common/js/pwaupdate.js';const el = document.createElement('pwa-update');document.body.appendChild(el);</script>
@@ -36,11 +36,4 @@ theme_config:
   sidebar:
     for_page: [artalk, webinfo]
   ShowICPInfo: true
-  plugins:
-    fancybox:
-      css: https://static.inkss.cn/js/szyink/fancybox.css
-      js: https://static.inkss.cn/js/szyink/fancybox.umd.js
-    lazyload:
-      js: https://static.inkss.cn/js/szyink/lazyload.min.js
-    pjax:
-      js: https://static.inkss.cn/js/szyink/pjax.min.js
+

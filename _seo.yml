@@ -1,4 +1,0 @@
-# Deployment 部署 触发 SEO
-deploy:
-  - type: cjh_bing_url_submitter
-  - type: cjh_baidu_url_submitter
