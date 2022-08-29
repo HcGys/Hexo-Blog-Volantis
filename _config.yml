@@ -159,23 +159,7 @@ feed:
   icon: icon/android-chrome-192x192.png
   autodiscovery: true
 
-# 五、npm install hexo-tag-tiy --save （弃用）
-#tiy:
-#  enable: false                        # 是否启用插件
-#  base_url: "https://tiy.adc.ink/"     # 基础 URL
-#  height_pc: 500px                     # 电脑版高度
-#  height_mobile: 700px                 # 手机版高度
-#  width_pc: 100%                       # 电脑版宽度
-#  width_mobile: 100%                   # 手机版宽度
-#  margin: "1rem 0"                     # margin，遵循 CSS 格式
-#  border: "1px solid #eee"             # 边框样式，遵循 CSS 格式
-
-# 六、npm i -S hexo-tag-aplayer       （弃用）
-#aplayer:
-#  meting: true
-#  asset_inject: false
-
-# 七、npm install --save hexo-submit-urls-to-search-engine （弃用）
+# 五、npm install --save hexo-submit-urls-to-search-engine （弃用）
 #hexo_submit_urls_to_search_engine:
 #  submit_condition: count
 #  txt_path: submit.txt
@@ -186,7 +170,7 @@ feed:
 #  bing_host: https://inkss.cn
 #  bing_token: 0
 
-# 八、hexo-hide-posts
+# 六、hexo-hide-posts
 hide_posts:
   enable: true
   # 可以改成其他你喜欢的名字
@@ -197,7 +181,7 @@ hide_posts:
   # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
   noindex: true
 
-# 九、npm i -S hexo-generator-json-content
+# 七、npm i -S hexo-generator-json-content
 jsonContent:
   ignore:
     paths:
@@ -208,3 +192,22 @@ jsonContent:
       - js/
       - css/
       - page/
+      - categories/
+      - tags/
+  posts:
+    slug: false
+    link: false
+    comments: false
+    excerpt: false
+
+# 八、npm install hexo-algoliasearch --save
+algolia:
+  appId: "JS9FQWF0RD"
+  apiKey: "cb83a0d50e2ca5117c227c54959839d2"
+  adminApiKey: ""
+  chunkSize: 5000
+  indexName: "hexo-blog"
+  fields:
+    - path
+    - title
+    - content:strip

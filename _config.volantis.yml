@@ -369,6 +369,10 @@ rightmenus:
       - {id: 'prev', name: '查看上一篇', icon: 'fa-light fa-angles-left PETERRIVE', event: "volantis.rightmenu.jump('prev')", group: 'prevNext'}
       - {id: 'next', name: '查看下一篇', icon: 'fa-light fa-angles-right PETERRIVE', event: "volantis.rightmenu.jump('next')", group: 'prevNext'}
 
+search:
+  enable: true
+  service: algolia
+
 color_scheme:
   dark:
     site_bd: '#14171a'
