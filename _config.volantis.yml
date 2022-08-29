@@ -2,6 +2,9 @@ InconfontFlag: true
 debug: false
 replace:
 
+csp:
+  enable: false
+
 default:
   avatar: /img/default/avatar.svg
   link: /img/default/link.svg
