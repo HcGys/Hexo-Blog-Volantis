@@ -21,8 +21,16 @@ pjax:
 izitoast_css:
   name: izitoast
   local: true
-  file: css/message.css
+  file: source/js/szyink/message.css
 izitoast_js:
   name: izitoast
   local: true
   file: source/js/szyink/message.js
+docs_searchbar_css:
+  name: docs-searchbar.js
+  local: true
+  file: source/js/szyink/docs-searchbar.min.css
+docs_searchbar_js:
+  name: docs-searchbar.js
+  local: true
+  file: source/js/szyink/docs-searchbar.min.js

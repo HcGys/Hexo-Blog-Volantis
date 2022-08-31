@@ -182,23 +182,27 @@ hide_posts:
   noindex: true
 
 # 七、npm i -S hexo-generator-json-content
-jsonContent:
-  ignore:
-    paths:
-      - 404.html
-      - manifest.json
-      - pwabuilder-sw.js
-      - robots.txt
-      - js/
-      - css/
-      - page/
-      - categories/
-      - tags/
-  posts:
-    slug: false
-    link: false
-    comments: false
-    excerpt: false
+jsonContent: 
+  meta: false 
+  pages: false 
+  dateFormat: YYYY/MM/DD 
+  ignore: 
+    paths: 
+      - 404.html 
+      - manifest.json 
+      - pwabuilder-sw.js 
+      - robots.txt 
+      - js/ 
+      - css/ 
+  posts: 
+    title: true 
+    date: true 
+    updated: true 
+    path: true 
+    text: true 
+    categories: true 
+    tags: true 
+    uuid: true 
 
 # 八、npm install hexo-algoliasearch --save
 algolia:
