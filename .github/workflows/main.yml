@@ -86,6 +86,7 @@ jobs:
           npm run rebuildTencent
           rm -rf public/fonts
           npm run deployCos
+          cat _generator.yml >> _config.yml
           curl --location --request POST 'https://search.szyink.com/indexes/hexo/documents/?primaryKey=uuid' \
             --header "Authorization: Bearer ${{secrets.MEILISEARCH_KEY}}" \
             --header 'Content-Type: application/json' \

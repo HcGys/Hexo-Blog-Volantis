@@ -1,0 +1,17 @@
+jsonContent: 
+  meta: false 
+  pages: false 
+  dateFormat: YYYY/MM/DD 
+  ignore: 
+    paths: 
+      - 404.html 
+      - manifest.json 
+      - pwabuilder-sw.js 
+      - robots.txt 
+      - js/ 
+      - css/ 
+  posts: 
+    title: true 
+    path: true 
+    text: true 
+    uuid: true
