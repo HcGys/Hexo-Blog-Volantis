@@ -63,6 +63,7 @@ jobs:
           deploy.secretId: ${{secrets.TENCENT_ID}}
           deploy.secretKey: ${{secrets.TENCENT_KEY}}
           deploy.message: '${{ github.event.head_commit.message }}'
+          algolia.adminApiKey: '${{secrets.ALGOLIA_ADMIN_API_KEY}}'
 
       # - name: '部署网站：一 - Tencent CVS'    （弃用）
       #   uses: easingthemes/ssh-deploy@v2
@@ -92,8 +93,6 @@ jobs:
       - name: '部署网站：三 - Github Repository'
         timeout-minutes: 5
         continue-on-error: true
-        env:
-          ALGOLIA_ADMIN_API_KEY: ${{secrets.ALGOLIA_ADMIN_API_KEY}}
         run: | 
           cat _config.yml >> _github.yml
           npm run rebuildGithub
