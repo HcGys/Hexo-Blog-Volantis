@@ -87,9 +87,9 @@ jobs:
           rm -rf public/fonts
           npm run deployCos
           cat _generator.yml >> _config.yml
-          curl --location --request POST 'https://search.szyink.com/indexes/hexo/documents/?primaryKey=uuid' \
-            --header "Authorization: Bearer ${{secrets.MEILISEARCH_KEY}}" \
-            --header 'Content-Type: application/json' \
+          curl -X POST 'https://search.szyink.com/indexes/hexo/documents/?primaryKey=uuid' \
+            -H "Authorization: Bearer ${{secrets.MEILISEARCH_KEY}}" \
+            -H "Content-Type: application/json" \
             --data-binary '~/work/Hexo-Blog/Hexo-Blog/public/content.json'
       - name: '部署网站：三 - Github Repository'
         timeout-minutes: 5
