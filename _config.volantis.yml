@@ -352,6 +352,7 @@ rightmenus:
     seletctText:
       - {id: 'copyText', name: '复制文本', icon: 'fa-light PETERRIVE fa-copy', event: 'copyText', group: 'seletctText'}
       - {id: 'html2md', name: '复制为 MD', icon: 'fa-light PETERRIVE fa-file-signature', event: 'volantis.rightmenu.html2md()', group: 'seletctText'}
+      - {id: 'searchWord', name: '站内搜索', icon: 'fa-light PETERRIVE fa-search', event: 'OpenSearch(__text__)', group: 'seletctText'}
       - {id: 'bingSearch', name: '必应搜索', icon: 'fa-light PETERRIVE fa-search', event: 'window.open(`https://cn.bing.com/search?q=${__text__}`)', group: 'seletctText'}
     elementCheck:
       - {id: 'openTab', name: '新标签页打开', icon: 'fa-light PETERRIVE fa-external-link-square-alt', event: 'window.open(__link__)', group: 'elementCheck'}
@@ -366,7 +367,6 @@ rightmenus:
       - {id: 'about', name: '关于我', icon: 'fa-light fa-gingerbread-man WISTERIA', link: '/page/about/', group: 'link'}
       - {id: 'info', name: '留言板', icon: 'fa-light fa-hand-love ALIZARIN', link: '/page/info/', group: 'link'}
     darkMode: 
-      - {id: 'searchWord', name: '站内搜索', icon: 'fa-light PETERRIVE fa-search', event: 'OpenSearch()', group: 'darkMode'}
       - {id: 'darkMode', name: '暗黑模式', icon: 'fa-light fa-eclipse-alt WISTERIA', event: 'volantis.dark.toggle()', group: 'darkMode'}
     prevNext:
       - {id: 'prev', name: '查看上一篇', icon: 'fa-light fa-angles-left PETERRIVE', event: "volantis.rightmenu.jump('prev')", group: 'prevNext'}
@@ -374,11 +374,14 @@ rightmenus:
 
 search:
   enable: true
-  service: meilisearchdoc
+  service: meilisearch
+  algolia:
+    searchAsYouType: false
+    placeholder: '输关键词「回车」搜索' # The placeholder text of the input.
   meilisearch:
     placeholder: 'Search...'
     searchKey: '7e355c50fec0654ca07c507ca906d63a16d7a734215f87698a5c3d18c5e9d0c4'
-    indexName: 'hexo-doc'
+    indexName: 'hexo'
     hostUrl: 'https://search.adc.ink/'
 
 color_scheme:

@@ -196,12 +196,8 @@ jsonContent:
       - css/ 
   posts: 
     title: true 
-    date: true 
-    updated: true 
     path: true 
     text: true 
-    categories: true 
-    tags: true 
     uuid: true 
 
 # 八、npm install hexo-algoliasearch --save
