@@ -20,6 +20,24 @@ deploy:
   secretId: ''
   secretKey: ''
 
+jsonContent: 
+  meta: false 
+  pages: false 
+  dateFormat: YYYY/MM/DD 
+  ignore: 
+    paths: 
+      - 404.html 
+      - manifest.json 
+      - pwabuilder-sw.js 
+      - robots.txt 
+      - js/ 
+      - css/ 
+  posts: 
+    title: true 
+    path: true 
+    text: true 
+    uuid: true 
+
 # 主题配置覆盖
 theme_config:
   cdn_system:
@@ -36,4 +54,6 @@ theme_config:
   sidebar:
     for_page: [artalk, webinfo]
   ShowICPInfo: true
+  search:
+    service: meilisearch
 

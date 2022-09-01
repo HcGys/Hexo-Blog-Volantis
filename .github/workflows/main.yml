@@ -85,10 +85,15 @@ jobs:
           npm run rebuildTencent
           rm -rf public/fonts
           npm run deployCos
-      
+          curl --location --request POST 'https://search.szyink.com/indexes/hexo/documents/?primaryKey=uuid' \
+            --header "Authorization: Bearer ${{secrets.MEILISEARCH_KEY}}" \
+            --header 'Content-Type: application/json' \
+            --data-binary '~/work/Hexo-Blog/Hexo-Blog/public/content.json'
       - name: '部署网站：三 - Github Repository'
         timeout-minutes: 5
         continue-on-error: true
+        env:
+          ALGOLIA_ADMIN_API_KEY: ${{secrets.ALGOLIA_ADMIN_API_KEY}}
         run: | 
           cat _config.yml >> _github.yml
           npm run rebuildGithub
@@ -96,6 +101,7 @@ jobs:
           rm -rf public/img/article
           rm -rf public/img/friend
           npm run deployGitHub
+          npm run algolia
   syncFile:
     runs-on: ubuntu-latest
     needs: buildToGit

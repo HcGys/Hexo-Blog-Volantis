@@ -374,15 +374,14 @@ rightmenus:
 
 search:
   enable: true
-  service: meilisearch
   algolia:
     searchAsYouType: false
-    placeholder: '输关键词「回车」搜索' # The placeholder text of the input.
+    placeholder: '输关键词后「回车」搜索' # The placeholder text of the input.
   meilisearch:
     placeholder: 'Search...'
     searchKey: '7e355c50fec0654ca07c507ca906d63a16d7a734215f87698a5c3d18c5e9d0c4'
     indexName: 'hexo'
-    hostUrl: 'https://search.adc.ink/'
+    hostUrl: 'https://search.szyink.com/'
 
 color_scheme:
   dark:

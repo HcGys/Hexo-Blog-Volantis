@@ -15,6 +15,17 @@ deploy:
       url: git@github.com:inkss/inkss-website.git
       branch: me
 
+algolia:
+  appId: "JS9FQWF0RD"
+  apiKey: "cb83a0d50e2ca5117c227c54959839d2"
+  adminApiKey: ""
+  chunkSize: 5000
+  indexName: "hexo-blog"
+  fields:
+    - path
+    - title
+    - content:strip
+
 # 主题配置覆盖
 theme_config:
   cdn_system:
@@ -33,6 +44,8 @@ theme_config:
           avatar: https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/img/avatar.png
   comments:
     service: disqus
+  search:
+    service: algolia
   custom_css:
     cursor:
       text: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/text.png
