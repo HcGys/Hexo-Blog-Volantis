@@ -201,13 +201,13 @@ hide_posts:
 #    uuid: true 
 
 # 八、npm install hexo-algoliasearch --save
-#algolia:
-#  appId: "JS9FQWF0RD"
-#  apiKey: "cb83a0d50e2ca5117c227c54959839d2"
-#  adminApiKey: ""
-#  chunkSize: 5000
-#  indexName: "hexo-blog"
-#  fields:
-#    - path
-#    - title
-#    - content:strip
+algolia:
+  appId: "JS9FQWF0RD"
+  apiKey: "cb83a0d50e2ca5117c227c54959839d2"
+  adminApiKey: ""
+  chunkSize: 5000
+  indexName: "hexo-blog"
+  fields:
+    - path
+    - title
+    - content:strip

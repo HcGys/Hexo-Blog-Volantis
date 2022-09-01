@@ -58,7 +58,7 @@ jobs:
       - name: '配置密文填充'
         uses: microsoft/variable-substitution@v1
         with:
-          files: '_tencent.yml, _github.yml'
+          files: '_tencent.yml, _github.yml, _config.yml'
         env:
           deploy.secretId: ${{secrets.TENCENT_ID}}
           deploy.secretKey: ${{secrets.TENCENT_KEY}}
