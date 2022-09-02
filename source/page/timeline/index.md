@@ -11,6 +11,12 @@ layout: page
 <!-- tab 2022 -->
 {% timeline %}
 
+{% timenode 2022/09/02 %}
+
+部署了自建的搜索引擎，看起来还不错。
+
+{% endtimenode %}
+
 {% timenode 2022/07/22 %}
 
 为网站添加了 PWA 支持，感谢 PWABuilder。

@@ -379,7 +379,7 @@ search:
     placeholder: '输关键词后「回车」搜索' # The placeholder text of the input.
   meilisearch:
     placeholder: 'Search...'
-    searchKey: '7e355c50fec0654ca07c507ca906d63a16d7a734215f87698a5c3d18c5e9d0c4'
+    searchKey: 'cb7892d2b5cfa199e7a9afa390379615dc98c7a6d85d2d038e2c0f80be2dbdb0'
     indexName: 'hexo'
     hostUrl: 'https://search.szyink.com/'
 

@@ -90,7 +90,7 @@ jobs:
           curl -X POST 'https://search.szyink.com/indexes/hexo/documents/?primaryKey=uuid' \
             -H "Authorization: Bearer ${{secrets.MEILISEARCH_KEY}}" \
             -H "Content-Type: application/json" \
-            --data-binary '~/work/Hexo-Blog/Hexo-Blog/public/content.json'
+            --data-binary 'public/content.json'
       - name: '部署网站：三 - Github Repository'
         timeout-minutes: 5
         continue-on-error: true
