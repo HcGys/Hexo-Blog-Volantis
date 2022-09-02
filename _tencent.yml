@@ -52,6 +52,7 @@ theme_config:
         aplayer_css: https://static.szyink.com/common/js/aplayer.min.js
         meting: https://static.szyink.com/common/js/Meting.min.js
         instantsearch_v4: https://static.szyink.com/common/js/instantsearch.production.min.js
+        instant_meilisearch: https://static.szyink.com/common/js/instant-meilisearch.umd.min.js
   sidebar:
     for_page: [artalk, webinfo]
   ShowICPInfo: true
