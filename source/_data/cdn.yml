@@ -1,44 +1,32 @@
 iconfontInkss:
   name: iconfontInkss
   local: true
-  file: js/szyink/iconfontInkss.js
+  file: js/iconfontInkss.js
 fancybox_css:
   name: "@fancyapps/ui"
   local: true
-  file: js/szyink/fancybox.css
+  file: js/fancybox.css
 fancybox_js:
   name: "@fancyapps/ui"
   local: true
-  file: js/szyink/fancybox.umd.js
+  file: js/fancybox.umd.js
 vanilla-lazyload:
   name: vanilla-lazyload
   local: true
-  file: js/szyink/lazyload.min.js
+  file: js/lazyload.min.js
 pjax:
   name: pjax
   local: true
-  file: js/szyink/pjax.min.js
+  file: js/pjax.min.js
 izitoast_css:
   name: izitoast
   local: true
-  file: js/szyink/message.css
+  file: js/message.css
 izitoast_js:
   name: izitoast
   local: true
-  file: js/szyink/message.js
-docs_searchbar_css:
-  name: docs-searchbar.js
-  local: true
-  file: js/szyink/docs-searchbar.min.css
-docs_searchbar_js:
-  name: docs-searchbar.js
-  local: true
-  file: js/szyink/docs-searchbar.min.js
-instantsearch_v4:
-  name: instantsearch.js
-  file: js/szyink/instantsearch.production.min.js
-  local: true
+  file: js/message.js
 instant_meilisearch:
   name: "@meilisearch/instant-meilisearch"
-  file: js/szyink/instant-meilisearch.umd.min.js
+  file: js/instant-meilisearch.umd.min.js
   local: true
