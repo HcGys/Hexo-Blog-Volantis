@@ -28,7 +28,7 @@ sitemap: false
     rm -f /www/server/panel/data/bind.pl 
     ``` 
     {% endfolding %} 
-  - 自启动：[WSL 之宝塔面板的部署](/blog/b2b02edd/) 
+  - 自启动：[WSL 之宝塔面板的部署](/post/b2b02edd/) 
    
 - DOH：[Adguard Home](https://github.com/AdguardTeam/AdGuardHome/releases) 
   - DOH 域名： 
