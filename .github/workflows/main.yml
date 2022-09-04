@@ -87,7 +87,7 @@ jobs:
           rm -rf public/fonts
           npm run deployCos
           cat _generator.yml >> _config.yml
-          curl -X POST 'https://search.szyink.com/indexes/hexo/documents/?primaryKey=uuid' \
+          curl -X POST 'https://search.szyink.com/indexes/hexo/documents/?primaryKey=abbrlink' \
             -H "Authorization: Bearer ${{secrets.MEILISEARCH_KEY}}" \
             -H "Content-Type: application/json" \
             --data-binary '@public/content.json'

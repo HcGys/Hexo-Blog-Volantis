@@ -14,4 +14,4 @@ jsonContent:
     title: true 
     path: true 
     text: true 
-    uuid: true
+    abbrlink: true

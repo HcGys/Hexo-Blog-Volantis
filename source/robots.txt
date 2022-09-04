@@ -1,8 +1,4 @@
 # robots.txt https://inkss.cn
-User-agent: sogou spider
-Disallow: /
-User-agent: YodaoBot
-Disallow: /
 User-agent: *
 Disallow: 
 Disallow: /icon

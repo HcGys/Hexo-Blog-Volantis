@@ -19,7 +19,7 @@ root: /                           # 网站根目录
 permalink_defaults:               # 永久链接中各部分的默认值
 pretty_urls:                      # 改写 permalink 的值来美化 URL
   trailing_index: false           # 是否在永久链接中保留尾部的 index.html
-permalink: blog/:abbrlink/        # 文章的 永久链接 格式
+permalink: post/:abbrlink/        # 文章的 永久链接 格式
 
 # Directory 目录
 source_dir: source                # 资源文件夹，这个文件夹用来存放内容。
@@ -198,7 +198,7 @@ hide_posts:
 #    title: true 
 #    path: true 
 #    text: true 
-#    uuid: true 
+#    abbrlink: true 
 
 # 八、npm install hexo-algoliasearch --save
 algolia:
