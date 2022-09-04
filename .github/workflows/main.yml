@@ -79,7 +79,7 @@ jobs:
       #     TARGET: ${{ secrets.REMOTE_TARGET }}
       
       - name: '部署网站：二 - Tencent COS'
-        timeout-minutes: 10
+        timeout-minutes: 15
         continue-on-error: true
         run: |
           cat _config.yml >> _tencent.yml
