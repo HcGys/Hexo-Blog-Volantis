@@ -21,6 +21,7 @@ const minify_html = () => (
     .pipe(replace('src="/js/', 'src="https://static.inkss.cn/js/'))
     .pipe(replace('../../img/article', 'https://static.inkss.cn/img/article'))
     .pipe(replace('/img/friend/', 'https://static.inkss.cn/img/friend/'))
+    .pipe(replace('V=INKSSFLAG', 'v=' + Date.now()))
     .pipe(htmlclean())
     .pipe(htmlmin({
       collapseWhitespace: true,
