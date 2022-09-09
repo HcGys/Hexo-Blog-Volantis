@@ -25,9 +25,9 @@ nextNavbar:
     - name: '- 首页 °| Home'
       icon: 'fa-light fa-home'
       url: /
-    - name: '- 笔记 °| Notes'
-      icon: 'fa-light fa-notebook'
-      url: /page/notes/
+    - name: '- 分类 °| Categories'
+      icon: 'fa-light fa-th'
+      url: /categories/
     - name: '- 归档 °| Archives'
       icon: 'fa-light fa-archive'
       url: /archives/
@@ -230,14 +230,6 @@ sidebar:
     nextsite:
       class: nextsite
       display: [desktop, mobile, cus-shadow]
-    wiki-hexo-theme:
-      class: list
-      display: [desktop, cus-shadow]
-      sticky: true
-      header:
-        icon: fa-light fa-flower-daffodil ASBESTOS
-        title: 《个人笔记》
-        url: /page/notes/index.html
 
 tag_plugins:
   note:
@@ -358,7 +350,6 @@ rightmenus:
       - {id: 'copyImg', name: '复制图片文件', icon: 'fa-light PETERRIVE fa-image', event: 'copyImg', group: 'elementImage'}
   menus:
     links:
-      - {id: 'notes', name: '文档笔记', icon: 'fa-light fa-books GREENSEA', link: '/page/notes/', group: 'link'}
       - {id: 'friends', name: '我的朋友们', icon: 'fa-light fa-flower-daffodil AMETHYST', link: '/page/friends/', group: 'link'}
       - {id: 'archive', name: '文章归档', icon: 'fa-light fa-globe-asia CONCRETE', link: '/archives/', group: 'link'}
       - {id: 'about', name: '关于我', icon: 'fa-light fa-gingerbread-man WISTERIA', link: '/page/about/', group: 'link'}

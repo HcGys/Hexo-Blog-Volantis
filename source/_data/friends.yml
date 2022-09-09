@@ -1,5 +1,4 @@
-- group: <i class="fad fa-helmet-battle GREENSEA"></i>&nbsp;星火
-  icon: fad fa-candy-corn
+- group: 
   items:
     - title: W4J1e’s blog
       avatar: /img/friend/hinCool.png
@@ -18,6 +17,7 @@
     - title: 杜老师说
       avatar: /img/friend/dusays.png
       url: https://dusays.com
+      description: 师者，传道，授业，解惑！
     - title: 梦之国
       avatar: /img/friend/achivedreams.jpg
       url: https://www.dreamcs6.com
@@ -30,10 +30,6 @@
       avatar: /img/friend/hassanwong.jpg
       url: https://hassanwong.top
       description: 时不我待，只争朝夕
-    - title: 阅读・阅己
-      avatar: /img/friend/flypig.png
-      url: https://flypig.xyz
-      description: 逻辑只是工具，心地才是主宰！
     - title: 叶开楗博客
       avatar: /img/friend/xiamuyourenzhang.png
       url: https://qq.md/
@@ -42,9 +38,6 @@
       url: https://bowenyoung.cn
       avatar: /img/friend/bowenyoung.png
       description: 总之岁月漫长，然而值得等待等待
-- group: <i class="fad fa-candy-corn POMEGRANATE"></i>&nbsp;小可爱
-  icon: fad fa-candy-corn
-  items:
     - title: xaoxuu
       avatar: /img/friend/xaoxuu.jpg
       url: https://xaoxuu.com
@@ -119,21 +112,7 @@
     - title: Thrower 的博客
       avatar: /img/friend/thrower.jpg
       url: https://thrower.cc/
-
-- group: <i class="fad fa-siren-on red faa-flash faa-slow animated"></i>&nbsp;失联人士
-  icon: fad fa-siren-on
-  items:
-    - title: 淋竹
-      avatar: /img/friend/llscme.jfif
-      url: https://www.llscme.fun
-      backgroundColor: '#5b4c77' # 卡片背景颜色
-      textColor: '#fefefe'  # 卡片文字颜色
-      description: 冥然兀坐，万籁有声。
-    - title: 梦墨
-      avatar: /img/friend/idream.jpeg
-      url: https://idream.ink
-      backgroundColor: '#f1d6dd'
-      textColor: '#2e2e2e'
-      description: May you do good and not evil.
-      keywords:
-        - Zhou      
+    - title: 阅读・阅己
+      avatar: /img/friend/flypig.png
+      url: https://flypig.xyz
+      description: 逻辑只是工具，心地才是主宰！

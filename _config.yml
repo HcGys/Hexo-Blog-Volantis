@@ -151,7 +151,7 @@ sitemap:
 feed:
   type: atom
   path: atom.xml
-  limit: 5
+  limit: 3
   content: true
   content_limit: 140
   content_limit_delim: ' '

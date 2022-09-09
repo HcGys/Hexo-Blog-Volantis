@@ -16,9 +16,6 @@ navbar:
         - name: 文章归档
           icon: fa-light fa-archive PETERRIVE faa-vertical
           url: /archives/
-        - name: 个人笔记
-          icon: fa-light fa-books CARROT faa-vertical
-          url: /page/notes/
     - name: 页面
       icon: fa-light fa-anchor GREENSEA faa-vertical
       rows:
