@@ -95,6 +95,10 @@ article:
         custom: true # 开启后替代上方内容的版权显示
         customData:
           default: type1  # 默认授权声明
+          rules:
+            adapt:
+              text: 原作许可协议
+              desc: 本文演绎自他站，转载或引用本文时，请遵守原作许可协议！
 
 comments:
   title: <i class='fa-light fa-comments POMEGRANATE'></i> 评论
