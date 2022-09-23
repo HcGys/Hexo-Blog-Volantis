@@ -55,7 +55,7 @@ theme_config:
         instantsearch_v4: https://static.szyink.com/common/js/instantsearch.production.min.js?V=INKSSFLAG
         instant_meilisearch: https://static.szyink.com/common/js/instant-meilisearch.umd.min.js?V=INKSSFLAG
   sidebar:
-    for_page: [artalk, webinfo]
+    for_page: [artalk, started, webinfo]
   ShowICPInfo: true
   search:
     service: meilisearch
