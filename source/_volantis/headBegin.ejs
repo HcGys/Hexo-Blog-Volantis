@@ -12,3 +12,13 @@
 <meta name="msapplication-TileColor" content="#fbfcfc">
 <meta name="msapplication-config" content="/icons/browserconfig.xml">
 <meta name="theme-color" content="#fbfcfc">
+<script>
+  const CHECKURL = window.location.href.replace('/page/', '/post/');
+  if (window.location.href !== CHECKURL) {
+    if (typeof pjax === 'undefined') {
+      window.location.href = CHECKURL;
+    } else {
+      pjax?.loadUrl(CHECKURL)
+    }
+  }
+</script>
