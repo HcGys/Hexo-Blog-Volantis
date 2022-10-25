@@ -1,4 +1,5 @@
 ---
+title: 留言板
 layout: page
 seo_title: 留言板
 valine:

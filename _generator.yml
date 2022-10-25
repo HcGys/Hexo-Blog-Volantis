@@ -15,3 +15,4 @@ jsonContent:
     path: true 
     text: true 
     abbrlink: true
+    tags: true

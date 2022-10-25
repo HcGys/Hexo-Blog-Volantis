@@ -1,4 +1,5 @@
 ---
+title: ＲＳＳ
 seo_title: ＲＳＳ
 top_meta: []
 layout: page

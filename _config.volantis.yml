@@ -25,6 +25,9 @@ nextNavbar:
     - name: '- 首页 °| Home'
       icon: 'fa-light fa-home'
       url: /
+    - name: '- 笔记 °| Notes'
+      icon: 'fa-light fa-notebook'
+      url: /page/notes/
     - name: '- 分类 °| Categories'
       icon: 'fa-light fa-th'
       url: /categories/
@@ -253,6 +256,14 @@ sidebar:
           url: /post/8ab78feb/  
         - name: • 泛域名解析配置
           url: /post/e7617c8b/  
+    notes: 
+      class: group
+      display: [desktop, mobile]
+      seo_title: 文章笔记
+      url: /page/notes/
+      header:
+        icon: fa-light fa-notebook PETERRIVE
+        title: 文章笔记
 
 tag_plugins:
   note:

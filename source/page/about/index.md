@@ -1,4 +1,5 @@
 ---
+title: 关于
 layout: page
 seo_title: 关于
 comments: true
