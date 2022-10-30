@@ -3,7 +3,7 @@ layout: docs
 title: 个人笔记
 seo_title: 个人笔记
 short_title: 个人笔记
-sidebar: [nextsite, notes, toc]
+sidebar: [navigation, notes, toc]
 top_meta: []
 comments: false
 sitemap: false

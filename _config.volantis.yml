@@ -28,9 +28,6 @@ nextNavbar:
     - name: '- 笔记 °| Notes'
       icon: 'fa-light fa-notebook'
       url: /page/notes/
-    - name: '- 分类 °| Categories'
-      icon: 'fa-light fa-th'
-      url: /categories/
     - name: '- 归档 °| Archives'
       icon: 'fa-light fa-archive'
       url: /archives/
@@ -117,7 +114,7 @@ comments:
 
 sidebar:
   position: left # left right
-  for_page: [nextsite, nextblogger]
+  for_page: [nextsite, nextblogger, tagcloud]
   for_post: [nextsite, toc, webinfo]
   widget_library:
     nextblogger:
@@ -171,7 +168,7 @@ sidebar:
         icon: fa-light fa-tags WISTERIA 
         url: /tags/
       max_font: 24
-      min_font: 16
+      min_font: 14
     webinfo:
       display: [desktop, cus-shadow]
       header:
@@ -212,22 +209,22 @@ sidebar:
         title: 站内导航
       fixed: true # 固定宽度
       rows:
-        - name: ForeverBlog
-          icon: fa-light fa-glass-cheers
-          url: /page/foreverblog/
-        - name: History
-          icon: fa-light fa-history
-          url: /page/timeline/
-        - name: Tags
-          icon: fa-light fa-tags
-          url:  /tags/
-        - name: Hoppscotch
-          icon: fa-light fa-staff-aesculapius
-          url: https://hop.szyink.com/cn
-        - name: Github
-          icon: fa-light fa-code-merge
-          url: https://github.com/inkss
-        - name: RSS
+        - name: 首页
+          icon: fa-light fa-home
+          url: /
+        - name: 笔记
+          icon: fa-light fa-notebook
+          url: /page/notes/
+        - name: 归档
+          icon: fa-light fa-archive
+          url:  /archives/
+        - name: 留言
+          icon: fa-light fa-object-group
+          url: /page/info/
+        - name: 友链
+          icon: fa-light fa-link
+          url: /page/friends/
+        - name: 订阅
           icon: fa-light fa-rss
           url: /page/atom/
     artalk:
