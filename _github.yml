@@ -25,7 +25,7 @@ theme_config:
         fontawesome: https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.1.0/css/all.min.css
   sidebar:
     for_page: [notice, webinfo]
-    for_post: [nextsite, toc, webinfo]
+    for_post: [navigation, toc, webinfo]
   article:
     body:
       meta_library:

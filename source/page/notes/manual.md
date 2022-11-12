@@ -5,7 +5,7 @@ order: 1
 title: Volantis 主题用户手册
 short_title: Volantis 主题用户手册
 description: Volantis 主题用户手册 - 个人速查
-sidebar: [nextsite, notes, toc]
+sidebar: [navigation, notes, toc]
 top_meta: []
 comments: false
 sitemap: false

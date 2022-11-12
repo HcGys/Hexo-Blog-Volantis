@@ -4,6 +4,7 @@ layout: page
 seo_title: 关于
 comments: true
 top_meta: []
+sidebar: []
 artalk:
   placeholder: 吾法念无念念、行无行行、言无言言、修无修修，会者近尔，迷者远乎！
 ---

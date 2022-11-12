@@ -4,7 +4,7 @@ group: notes
 order: 2
 title: Windows 软件列表 
 short_title: Windows 软件列表 
-sidebar: [nextsite, notes, toc]
+sidebar: [navigation, notes, toc]
 top_meta: []
 comments: false
 sitemap: false
