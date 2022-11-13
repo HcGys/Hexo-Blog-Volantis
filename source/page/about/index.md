@@ -79,9 +79,7 @@ artalk:
 
 <!-- tab <i class="fa-light fa-guitar-electric"></i><i style="font-weight: normal;font-style: normal;">&nbsp;描绘着那场梦</i> -->
 
-<div style="height:485px;">
-<iframe width="100%" height="100%" class="embed-show" src="https://cloud.adc.ink/#fileView&path=https%3A%2F%2Fcloud.adc.ink%2F%3Fexplorer%2Fshare%2Ffile%26hash%3D2587KhSEa_i-76lE37QoUXIWxCwU3huFCZEtyYjtdKSH2KMWJpcK99kOvqLwgimueQ%26name%3D%2FYOASOBI%25E3%2580%258C%25E3%2581%2582%25E3%2581%25AE%25E5%25A4%25A2%25E3%2582%2592%25E3%2581%25AA%25E3%2581%259E%25E3%2581%25A3%25E3%2581%25A6%2520%2528Ballade%2520Ver.%2529%25E3%2580%258D%2520-%2520%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E6%2598%25A0%25E7%2594%25BB%25E3%2580%258E%25E5%25A4%25A2%25E3%2581%25AE%25E9%259B%25AB%25E3%2581%25A8%25E6%2598%259F%25E3%2581%25AE%25E8%258A%25B1%25E3%2580%258F%25E3%2582%25B3%25E3%2583%25A9%25E3%2583%259C%25E3%2582%25B9%25E3%2583%259A%25E3%2582%25B7%25E3%2583%25A3%25E3%2583%25AB%25E3%2583%25A0%25E3%2583%25BC%25E3%2583%2593%25E3%2583%25BC.mp4%26_etag%3Df8890" allowtransparency="true" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" scrolling="no"></iframe>
-</div>
+{% video /media/YOASOBI-あの夢をなぞって.mp4 %}
 
 <!-- endtab -->
 

@@ -6,7 +6,7 @@ updated: 2022/09/10 11:50
 sidebar: []
 ---
 
-{% p center logo gray, 暂停友链申请。 %}
+{% p center logo gray, 暂停友链互换。 %}
 
 <style>
 .friend-header {
@@ -15,6 +15,3 @@ sidebar: []
 </style>
 
 <!-- more -->
-
-
-

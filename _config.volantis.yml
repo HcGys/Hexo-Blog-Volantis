@@ -82,8 +82,7 @@ navbar:
   visiable: auto
   logo:
     img: /icon/favicon.svg
-    icon: 
-    title: 
+    title: '枋柚梓的猫会发光'
   menu:
     - name: 首页
       icon: fa-light fa-home CARROT faa-vertical
@@ -382,7 +381,6 @@ plugins:
     server: tencent
     id: 7716882294
   pjax:
-    cover: false
     animation: false
   sitesjs:
     enable: false
