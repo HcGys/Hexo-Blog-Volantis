@@ -131,15 +131,14 @@ navbar:
           icon: fa-light fa-route-interstate PETERRIVE faa-vertical
           description: 服务状态监控
           url: https://ut.adc.ink/status/me
-        - hr
         - name: Github
           description: 少年，来一份星星不？
           icon: fa-light fa-code-merge WISTERIA faa-vertical
           url: https://github.com/inkss
-        - name: Blog
-          description: 这是一份记录文字的博客站点
-          icon: fa-light fa-stream BELIZEHOLE faa-vertical
-          url: https://szyink.com
+    - name: 生活
+      description: 这是一份记录文字的博客站点
+      icon: fa-light fa-ghost BELIZEHOLE faa-vertical
+      url: https://szyink.com
     - name: 虫洞
       description: 十年之约，探索虫洞
       icon: fa-light fa-bullseye-pointer BELIZEHOLE faa-vertical
