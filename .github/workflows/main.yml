@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: "16"
       - name: '缓存依赖环境'
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         id: cache
         with:
           path: node_modules
