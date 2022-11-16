@@ -22,6 +22,7 @@ const minify_html = () => (
     .pipe(replace('src="/media/', 'src="https://static.inkss.cn/media/'))
     .pipe(replace('../../img/article', 'https://static.inkss.cn/img/article'))
     .pipe(replace('/img/friend/', 'https://static.inkss.cn/img/friend/'))
+    .pipe(replace('/img/wallhaven-j31omy.jpg', 'https://static.inkss.cn/img/wallhaven-j31omy.jpg'))
     .pipe(replace('V=INKSSFLAG', 'v=' + Date.now()))
     .pipe(htmlclean())
     .pipe(htmlmin({
