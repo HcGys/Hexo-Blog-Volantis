@@ -7,6 +7,8 @@ import:
 theme_config:
   cdn_system:
     system_config:
+      comments:
+        service: ''
       custom:
         volantis_app: /js/app.js
         volantis_style: /css/style.css

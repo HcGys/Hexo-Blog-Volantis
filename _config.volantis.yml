@@ -3,7 +3,7 @@ debug: false
 replace:
 
 csp:
-  enable: true
+  enable: false
 
 default:
   avatar: /img/default/avatar.svg
@@ -195,7 +195,6 @@ article:
 
 comments:
   title: <i class='fa-light fa-comments POMEGRANATE'></i> 评论
-  service: artalk
   disqus:
     shortname: inkss
     autoload: true

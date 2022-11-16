@@ -59,4 +59,6 @@ theme_config:
   ShowICPInfo: true
   search:
     service: meilisearch
+  comments:
+    service: artalk
 
