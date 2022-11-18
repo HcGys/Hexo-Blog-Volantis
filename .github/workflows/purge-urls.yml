@@ -1,0 +1,28 @@
+name: 'Hexo 部署 - 仅刷新'
+on: workflow_dispatch
+jobs:
+  purgeCDN:
+    runs-on: ubuntu-latest
+    needs: buildToGit
+    name: '部署博客：刷新'
+    env:
+      GPG_TTY: $(tty)
+      TZ: Asia/Shanghai
+    steps:
+      - name: '设定环境版本'
+        uses: actions/setup-node@master
+        with:
+          node-version: "16"      
+      - name: '用户密钥配置'
+        uses: webfactory/ssh-agent@v0.6.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE }}
+        env:
+          SSH_PRIVATE: ${{ secrets.SSH_PRIVATE }}
+      - name: '缓存刷新'
+        run: |
+          git clone git@github.com:inkss/tencent-purge-urls.git ~/tencent-purge-urls
+          cd ~/tencent-purge-urls
+          npm i
+          npm link
+          purge-urls -i ${{secrets.TENCENT_ID}} -k ${{secrets.TENCENT_KEY}} -u https://inkss.cn https://static.inkss.cn

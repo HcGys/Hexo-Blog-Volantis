@@ -1,0 +1,63 @@
+name: 'Hexo 部署 - 仅 COS'
+on: workflow_dispatch
+
+jobs:
+  buildToGit:
+    runs-on: ubuntu-latest
+    name: '部署博客：分发'
+    env:
+      GPG_TTY: $(tty)
+      TZ: Asia/Shanghai
+    steps:
+      - name: '显示服务地址'
+        run: |    
+          curl cip.cc  
+      - name: '同步仓库内容'
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+      - name: '设定环境版本'
+        uses: actions/setup-node@master
+        with:
+          node-version: "16"
+      - name: '缓存依赖环境'
+        uses: actions/cache@v3
+        id: cache
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-     
+      - name: '安装依赖环境'
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm ci          
+      - name: '用户密钥配置'
+        uses: webfactory/ssh-agent@v0.6.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE }}
+        env:
+          SSH_PRIVATE: ${{ secrets.SSH_PRIVATE }}
+      - name: '用户加密配置'
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE }}
+          passphrase: ${{ secrets.GPG_PASSWD }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+          git_tag_gpgsign: true
+          git_push_gpgsign: true
+      - name: '配置密文填充'
+        uses: microsoft/variable-substitution@v1
+        with:
+          files: '_tencent.yml, _github.yml, _config.yml'
+        env:
+          deploy.secretId: ${{secrets.TENCENT_ID}}
+          deploy.secretKey: ${{secrets.TENCENT_KEY}}    
+      - name: '部署网站：二 - Tencent COS'
+        timeout-minutes: 15
+        continue-on-error: true
+        run: |
+          cat _config.yml >> _tencent.yml
+          npm run rebuildTencent
+          rm -rf public/fonts
+          npm run deployCos
