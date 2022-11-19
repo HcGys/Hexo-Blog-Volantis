@@ -394,7 +394,7 @@ plugins:
   nodewaves:
     enable: false
   fontawesome_animation:
-    enable: true
+    enable: false
   killOldVersionsOfIE:
     enable: false
   killNoScript:
