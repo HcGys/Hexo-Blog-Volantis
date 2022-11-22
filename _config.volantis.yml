@@ -379,6 +379,7 @@ plugins:
     server: tencent
     id: 7716882294
   pjax:
+    enable: false
     animation: false
   sitesjs:
     enable: false
@@ -406,7 +407,7 @@ plugins:
   tag_plugin_load_on_demand:
     enable: false
   message:
-    enable: true
+    enable: false
     icon:
       default: fa-light fa-info-circle light-blue
       quection: fa-light fa-question-circle light-blue
@@ -430,7 +431,7 @@ plugins:
       - /img/wallhaven-j31omy.jpg
 
 rightmenus:
-  enable: true
+  enable: false
   order:
     - plugins.navigation  
     - hr
@@ -497,7 +498,7 @@ search:
 custom_css:
   toc_smooth: true # TOC 目录平滑滚动效果
   cursor:
-    enable: true
+    enable: false
     text: https://static.szyink.com/common/cursor/text.png
     pointer: https://static.szyink.com/common/cursor/pointer.png
     default: https://static.szyink.com/common/cursor/left_ptr.png
@@ -529,11 +530,6 @@ custom_css:
     codefont:
       fontfamily: 'JetBrainsMono, Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace'
       url: ''
-
-analytics:
-  leancloud:
-    app_id:
-    app_key:
 
 open_graph:
   image: icon/android-chrome-192x192.png
