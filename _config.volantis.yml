@@ -16,8 +16,6 @@ cdn_system:
     custom:
       busuanzi: /js/bsz.js
 
-
-
 nextNavbar:
   subtitle: 繁星永存，记忆亘古不变。
   menu:
@@ -49,7 +47,7 @@ nextNavbar:
       click: 'OpenSearch()'
 
 cover:
-  enable: true
+  enable: false
   height_scheme: full
   layout_scheme: dock
   display:
@@ -78,7 +76,7 @@ cover:
       url: /page/friends/
 
 navbar:
-  enable: true
+  enable: false
   visiable: auto
   logo:
     img: /icon/favicon.svg
@@ -206,8 +204,8 @@ comments:
 
 sidebar:
   position: left # left right
-  for_page: [nextblogger, navigation]
-  for_post: [navigation, toc, webinfo]
+  for_page: [nextsite, nextblogger, tagcloud]
+  for_post: [nextsite, nextblogger, toc, webinfo]
   widget_library:
     nextblogger:
       class: nextblogger
@@ -425,7 +423,7 @@ plugins:
       enable: true
       notice: true
   parallax:
-    enable: true
+    enable: false
     fade: 1000
     images:
       - /img/wallhaven-j31omy.jpg
@@ -516,7 +514,7 @@ custom_css:
     effect: [floatable, cus-shadow] # [shadow, floatable, blur]  
   navbar:
     effect: [floatable, cus-shadow]
-    height: 64px
+    height: 0px
   sidebar:
     effect: [floatable, cus-shadow] # [shadow, floatable, blur]  
   max_width: 1080px
