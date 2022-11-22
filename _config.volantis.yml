@@ -389,7 +389,7 @@ plugins:
     enable: false
     service: instant_page
   scrollreveal:
-    enable: true
+    enable: false
   nodewaves:
     enable: false
   fontawesome_animation:
@@ -533,7 +533,7 @@ open_graph:
   image: icon/android-chrome-192x192.png
 
 structured_data:
-  enable: true
+  enable: false
   # 以下是覆盖配置, 默认配置见 scripts/helpers/structured-data/lib/config.js
   data:
     person:
