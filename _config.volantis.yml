@@ -370,15 +370,14 @@ plugins:
   wordcount:
     enable: true
   lazyload:
-    enable: true
+    enable: false
     onlypost: false
   aplayer:
     enable: false
     server: tencent
     id: 7716882294
   pjax:
-    enable: false
-    animation: false
+    enable: true
   sitesjs:
     enable: false
   friendsjs:
@@ -429,7 +428,7 @@ plugins:
       - /img/wallhaven-j31omy.jpg
 
 rightmenus:
-  enable: false
+  enable: true
   order:
     - plugins.navigation  
     - hr
