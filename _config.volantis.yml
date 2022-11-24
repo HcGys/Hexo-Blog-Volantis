@@ -379,6 +379,7 @@ plugins:
     id: 7716882294
   pjax:
     enable: true
+    cover: false
   sitesjs:
     enable: false
   friendsjs:
