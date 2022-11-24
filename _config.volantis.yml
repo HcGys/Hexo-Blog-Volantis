@@ -326,6 +326,7 @@ sidebar:
     started:
       class: list
       display: [desktop, cus-shadow]
+      sticky: true
       header:
         icon: fa-light fa-thumbs-up WISTERIA
         title: 推荐阅读
@@ -445,7 +446,7 @@ rightmenus:
     - menus.darkMode
   options:
     iconPrefix: fa-light PETERRIVE
-    articleShowLink: false
+    articleShowLink: true
   plugins:
     navigation: 
       - {id: 'left', name: '转到上一页', icon: 'fa-light fa-arrow-left PETERRIVE', event: 'history.back()', group: 'navigation'}
@@ -461,7 +462,7 @@ rightmenus:
       - {id: 'copyCut', name: '剪切文本', icon: 'fa-light PETERRIVE fa-cut', event: 'copyCut', group: 'inputBox'}
     seletctText:
       - {id: 'copyText', name: '复制文本', icon: 'fa-light PETERRIVE fa-copy', event: 'copyText', group: 'seletctText'}
-      - {id: 'html2md', name: '复制为 MD', icon: 'fa-light PETERRIVE fa-file-signature', event: 'volantis.rightmenu.html2md()', group: 'seletctText'}
+      #- {id: 'html2md', name: '复制为 MD', icon: 'fa-light PETERRIVE fa-file-signature', event: 'volantis.rightmenu.html2md()', group: 'seletctText'}
       - {id: 'searchWord', name: '站内搜索', icon: 'fa-light PETERRIVE fa-search', event: 'OpenSearch(__text__)', group: 'seletctText'}
       - {id: 'bingSearch', name: '必应搜索', icon: 'fa-light PETERRIVE fa-search', event: 'window.open(`https://cn.bing.com/search?q=${__text__}`)', group: 'seletctText'}
     elementCheck:
@@ -519,10 +520,10 @@ custom_css:
   max_width: 1080px
   fontfamily:
     logofont:
-      fontfamily: 'Roboto, Noto Serif SC,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
+      fontfamily: 'system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif'
       url: ''
     bodyfont:
-      fontfamily: '"Noto Serif SC", Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
+      fontfamily: 'system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif'
       url: ''
     codefont:
       fontfamily: 'JetBrainsMono, Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace'
