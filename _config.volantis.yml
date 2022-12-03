@@ -444,7 +444,6 @@ rightmenus:
     - menus.links
     - hr
     - plugins.articlePage
-    - menus.darkMode
   options:
     iconPrefix: fa-light PETERRIVE
     articleShowLink: true
