@@ -129,3 +129,14 @@ article#post svg.iconfont
   &:hover
     transform: scale(3)
     display: inline;
+
+
+// 临时灰色
+#l_side section.widget:nth-child(-n+3),
+#l_main .post-list > .post-wrapper:nth-child(-n+2) {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
