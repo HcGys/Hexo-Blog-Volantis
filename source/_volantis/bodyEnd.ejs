@@ -21,4 +21,15 @@
     next.style.display = articleNext ? 'block' : 'none';
     next.title = articleNext ? articleNext.innerText : null;
   }, 'prevNext', false)
+
+  function checkLoaction() {
+    const pathName = window.location.pathname;
+    if (pathName === "/") {
+      document.querySelector('#l_body').classList.add('grayscale');
+    } else {
+      document.querySelector('#l_body').classList.remove('grayscale');
+    }
+  }
+  volantis.pjax.push(checkLoaction)
+  checkLoaction()
 </script>

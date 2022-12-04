@@ -474,6 +474,7 @@ rightmenus:
     links:
       - {id: 'friends', name: '我的朋友们', icon: 'fa-light fa-flower-daffodil AMETHYST', link: '/page/friends/', group: 'link'}
       - {id: 'archive', name: '文章归档', icon: 'fa-light fa-globe-asia CONCRETE', link: '/archives/', group: 'link'}
+      - {id: 'categorie ', name: '文章分类', icon: 'fa-light fa-folder-open ALIZARIN', link: '/categories/', group: 'link'}
       - {id: 'about', name: '关于我', icon: 'fa-light fa-gingerbread-man WISTERIA', link: '/page/about/', group: 'link'}
       - {id: 'info', name: '留言板', icon: 'fa-light fa-hand-love ALIZARIN', link: '/page/info/', group: 'link'}
     darkMode: 
@@ -520,10 +521,9 @@ custom_css:
   max_width: 1080px
   fontfamily:
     logofont:
-      fontfamily: 'system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif'
-      url: ''
+      fontfamily: '"Microsoft Jhenghei","Microsoft Yahei",WenQuanYi Micro Hei,sans-serif'
     bodyfont:
-      fontfamily: 'system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif'
+      fontfamily: '-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif'
       url: ''
     codefont:
       fontfamily: 'JetBrainsMono, Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace'
