@@ -1,3 +1,4 @@
+<script type="text/javascript" src="/js/css-doodle.min.js?V=INKSSFLAG"></script>
 <script>
   volantis.rightmenu.jump = (type) => {
     const item = document.querySelector(type === 'prev' ? 'article .prev-next a.prev' : 'article .prev-next a.next');
@@ -22,14 +23,26 @@
     next.title = articleNext ? articleNext.innerText : null;
   }, 'prevNext', false)
 
-  // function checkLoaction() {
-  //   const pathName = window.location.pathname;
-  //   if (pathName === "/") {
-  //     document.querySelector('#l_body').classList.add('grayscale');
-  //   } else {
-  //     document.querySelector('#l_body').classList.remove('grayscale');
-  //   }
-  // }
-  // volantis.pjax.push(checkLoaction)
-  // checkLoaction()
+  // 网页变灰校验（仅首页首屏）
+  function isDateBetween(start, end) {
+    const current = new Date();
+    return current >= new Date(start) && current < new Date(end)
+  }
+  function checkLoaction() {
+    const pathName = window.location.pathname;
+    const checkFlag = isDateBetween('2022/12/13', '2022/12/14') 
+    if (pathName === "/" && checkFlag) {
+      document.querySelector('html').classList.add('grayscale');
+    } else {
+      document.querySelector('html').classList.remove('grayscale');
+    }
+  }
+  checkLoaction()
+  volantis.pjax.push(checkLoaction)
+  
+  // 自定义背景更新
+  const _DOODLE_ = document.querySelector('css-doodle');
+  document.getElementById('safearea').addEventListener('click', e => {
+    if(e.target.id === 'safearea') _DOODLE_?.update()
+  })
 </script>

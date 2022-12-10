@@ -331,6 +331,8 @@ sidebar:
         icon: fa-light fa-thumbs-up WISTERIA
         title: 推荐阅读
       rows:
+        - name: • uBlacklist：拯救你的搜索结果
+          url: /post/8204c0ab/
         - name: • 自动化博客部署
           url: /post/42987b6b/
         - name: • 原生 JS 的右键菜单实现
