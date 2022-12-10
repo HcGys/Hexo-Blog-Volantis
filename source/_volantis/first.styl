@@ -76,6 +76,9 @@ article p
 #l_main>article.cus-indent p img
   display: block
 
+// 修复侧边栏 list 链接处字体粗细问题
+.widget.list .content a > div.name 
+  font-weight: initial; 
 
 // 背景色补充
 #doodle-bg {
@@ -102,6 +105,7 @@ article p
   z-index: 1;
 }
 
+// 首屏灰色
 html.grayscale::before {
   content: "";
   position: absolute;
