@@ -511,7 +511,7 @@ custom_css:
     size: 4px
     border: 2px  
   fontsize:
-    root: 16px
+    root: 22px
     footnote: .78rem
   body:
     effect: [floatable, cus-shadow] # [shadow, floatable, blur]  
@@ -520,12 +520,13 @@ custom_css:
     height: 0px
   sidebar:
     effect: [floatable, cus-shadow] # [shadow, floatable, blur]  
-  max_width: 1080px
+  max_width: 1440px
   fontfamily:
     logofont:
-      fontfamily: '"Microsoft Jhenghei","Microsoft Yahei",WenQuanYi Micro Hei,sans-serif'
+      fontfamily: '"LXGW WenKai Lite","Microsoft Yahei",WenQuanYi Micro Hei,sans-serif'
+      url: ''
     bodyfont:
-      fontfamily: '-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif'
+      fontfamily: '"LXGW WenKai Lite",PingFang SC,"Microsoft Yahei",WenQuanYi Micro Hei,sans-serif'
       url: ''
     codefont:
       fontfamily: 'JetBrainsMono, Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace'
