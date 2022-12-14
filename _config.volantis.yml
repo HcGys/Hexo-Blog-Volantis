@@ -257,8 +257,8 @@ sidebar:
         title: 标签列表
         icon: fa-light fa-tags WISTERIA 
         url: /tags/
-      max_font: 24
-      min_font: 14
+      max_font: 22
+      min_font: 18
     webinfo:
       display: [desktop, cus-shadow]
       header:
@@ -511,7 +511,7 @@ custom_css:
     size: 4px
     border: 2px  
   fontsize:
-    root: 22px
+    root: 20px
     footnote: .78rem
   body:
     effect: [floatable, cus-shadow] # [shadow, floatable, blur]  
@@ -520,7 +520,7 @@ custom_css:
     height: 0px
   sidebar:
     effect: [floatable, cus-shadow] # [shadow, floatable, blur]  
-  max_width: 1440px
+  max_width: 1200px
   fontfamily:
     logofont:
       fontfamily: '"LXGW WenKai Lite","Microsoft Yahei",WenQuanYi Micro Hei,sans-serif'

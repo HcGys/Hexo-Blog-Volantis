@@ -8,7 +8,7 @@ import:
 
 theme_config:
   comments:
-    service: ''
+    service: artalk
   cdn_system:
     system_config:
       custom:
