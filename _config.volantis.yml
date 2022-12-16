@@ -512,6 +512,7 @@ custom_css:
     border: 2px  
   fontsize:
     root: 20px
+    meta: .8125rem
     footnote: .78rem
   body:
     effect: [floatable, cus-shadow] # [shadow, floatable, blur]  
@@ -529,7 +530,7 @@ custom_css:
       fontfamily: '"LXGW WenKai Lite",PingFang SC,"Microsoft Yahei",WenQuanYi Micro Hei,sans-serif'
       url: ''
     codefont:
-      fontfamily: 'JetBrainsMono, Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace'
+      fontfamily: 'LXGW WenKai Mono Lite, Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace'
       url: ''
 
 open_graph:

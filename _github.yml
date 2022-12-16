@@ -3,7 +3,7 @@
 import:
   head_end:
     - <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/css/code-github.css">
+    # - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/css/code-github.css">
     # - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/css/roboto-github.css">
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@main/css/lxgwwenkailite-github.css">
     - <script async defer data-website-id="ce840cfa-99c1-4abc-a304-9b377f904b50" src="https://um.adc.ink/szyinkum.js"></script>
