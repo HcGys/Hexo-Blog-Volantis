@@ -72,9 +72,12 @@ article p
   @media screen and (max-width: 500px)
     font-size: 2rem
 
-//修复开启首行缩进后的图片
-#l_main>article.cus-indent p img
-  display: block
+//修复开启首行缩进后的图片，标签
+#l_main>article.cus-indent 
+  p img
+    display: block
+  div.checkbox p
+    text-indent: 0em
 
 // 修复侧边栏 list 链接处字体粗细问题
 .widget.list .content a > div.name 
