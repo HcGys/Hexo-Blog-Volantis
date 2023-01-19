@@ -445,6 +445,7 @@ rightmenus:
     - hr
     - menus.links
     - hr
+    - menus.darkMode
     - plugins.articlePage
   options:
     iconPrefix: fa-light PETERRIVE
