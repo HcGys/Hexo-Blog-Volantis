@@ -1,4 +1,4 @@
-- group: 
+- group:
   items:
     - title: 枋柚梓
       avatar: /img/start.png
@@ -22,18 +22,6 @@
       avatar: /img/friend/dusays.png
       url: https://dusays.com
       description: 师者，传道，授业，解惑！
-    - title: 梦之国
-      avatar: /img/friend/achivedreams.jpg
-      url: https://www.dreamcs6.com
-      description: IT技术分享平台
-    - title: 𝓗𝓪𝓻𝓻𝔂 の 心阁
-      avatar: /img/friend/mr90.jpeg
-      url: https://u.mr90.top/
-      description: 你必须非常努力，才能看起来毫不费力。
-    - title: Hassan's Blog
-      avatar: /img/friend/hassanwong.jpg
-      url: https://hassanwong.top
-      description: 时不我待，只争朝夕
     - title: 叶开楗博客
       avatar: /img/friend/xiamuyourenzhang.png
       url: https://qq.md/
@@ -49,6 +37,22 @@
       textColor: '#EFEFEF'
       keywords:
         - iOS
+    - title: MHuiG
+      avatar: /img/friend/mhuig.webp
+      url: https://blog.mhuig.top/
+      backgroundColor: '#f5dcca'
+      textColor: '#6d533f'
+      description: 'Be Yourself,Make a Difference.'
+    - title: Colsrch
+      avatar: /img/friend/colsrch.jpg
+      url: https://colsrch.cn
+      backgroundColor: '#d7d1d5'
+      textColor: '#5d5d5d'
+      description: '愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。'
+    - title: Ethan.Tzy
+      url: https://tzy1997.com/
+      avatar: /img/friend/tzy1997.jpg
+      description: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。
     - title: Reqwey
       avatar: /img/friend/lhkstudio.jpg
       url: https://reqwey.vercel.app
@@ -57,24 +61,14 @@
       keywords:
         - OIer
         - Qt
-    - title: MHuiG
-      avatar: /img/friend/mhuig.webp
-      url: https://blog.mhuig.top/
-      backgroundColor: '#f5dcca'
-      textColor: '#6d533f'
-      description: 'Be Yourself,Make a Difference.'
-    - title: Xu&#39;s Blog
-      avatar: /img/friend/hasaik.jpg
-      url: https://hasaik.com
-      backgroundColor: '#fcfcfc'
-      textColor: '#555'
-      description: '博观而约取，厚积而薄发！'
-    - title: Colsrch
-      avatar: /img/friend/colsrch.jpg
-      url: https://colsrch.cn
-      backgroundColor: '#d7d1d5'
-      textColor: '#5d5d5d'
-      description: '愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。'
+    - title: 梦之国
+      avatar: /img/friend/achivedreams.jpg
+      url: https://www.dreamcs6.com
+      description: IT技术分享平台
+    - title: 𝓗𝓪𝓻𝓻𝔂 の 心阁
+      avatar: /img/friend/mr90.jpeg
+      url: https://u.mr90.top/
+      description: 你必须非常努力，才能看起来毫不费力。
     - title: qinxs
       avatar: /img/friend/qinxs.png
       url: https://7bxing.com
@@ -89,14 +83,6 @@
       backgroundColor: '#c61a26' # 卡片背景颜色
       textColor: '#fefefe'  # 卡片文字颜色
       description: 人生在勤，不索何获。
-    - title: Charlie
-      avatar: /img/friend/charlie-zzy.png
-      url: https://charlie-zzy.github.io
-      backgroundColor: '#66CCFF'
-      textColor: '#EFEFEF'
-      keywords:
-        - OIer
-        - 版本跟进狂魔
     - title: Uncle_drew
       avatar: /img/friend/cndrew.png
       url: https://cndrew.cn
@@ -109,14 +95,3 @@
       avatar: /img/friend/modao.png
       url: https://modao.site
       description: 凡有所学，必有所得
-    - title: Ethan.Tzy
-      url: https://tzy1997.com/
-      avatar: /img/friend/tzy1997.jpg
-      description: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。
-    - title: Thrower 的博客
-      avatar: /img/friend/thrower.jpg
-      url: https://thrower.cc/
-    - title: 阅读・阅己
-      avatar: /img/friend/flypig.png
-      url: https://flypig.xyz
-      description: 逻辑只是工具，心地才是主宰！
