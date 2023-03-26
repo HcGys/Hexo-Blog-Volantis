@@ -1,4 +1,3 @@
-<script type="text/javascript" src="/js/css-doodle.min.js?V=INKSSFLAG"></script>
 <script>
   volantis.rightmenu.jump = (type) => {
     const item = document.querySelector(type === 'prev' ? 'article .prev-next a.prev' : 'article .prev-next a.next');
@@ -28,6 +27,7 @@
     const current = new Date();
     return current >= new Date(start) && current < new Date(end)
   }
+  
   function checkLoaction() {
     const pathName = window.location.pathname;
     const checkFlag = isDateBetween('2022/12/13', '2022/12/14') 
@@ -38,11 +38,6 @@
     }
   }
   checkLoaction()
-  volantis.pjax.push(checkLoaction)
   
-  // 自定义背景更新
-  const _DOODLE_ = document.querySelector('css-doodle');
-  document.getElementById('safearea').addEventListener('click', e => {
-    if(e.target.id === 'safearea') _DOODLE_?.update()
-  })
+  volantis.pjax.push(checkLoaction)
 </script>
