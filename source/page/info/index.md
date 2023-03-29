@@ -20,7 +20,7 @@ top_meta: []
 {% folding cyan, あの夢をなぞって %}
 
 <div style="text-align: center;">
-{% audio /media/YOASOBI-あの夢をなぞって.mp4 %}
+这里什么也没有~
 </div>
 
 {% endfolding %}

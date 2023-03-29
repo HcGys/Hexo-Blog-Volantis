@@ -77,10 +77,4 @@ artalk:
 
 <!-- endtab -->
 
-<!-- tab <i class="fa-light fa-guitar-electric"></i><i style="font-weight: normal;font-style: normal;">&nbsp;描绘着那场梦</i> -->
-
-{% video /media/YOASOBI-あの夢をなぞって.mp4 %}
-
-<!-- endtab -->
-
 {% endtabs %}
