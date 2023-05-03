@@ -98,7 +98,7 @@ navbar:
       icon: fa-light fa-anchor GREENSEA faa-vertical
       rows:
         - name: 站内留言
-          icon: fa-light fa-hand-love ALIZARIN faa-vertical
+          icon: fa-light fa-object-group ALIZARIN faa-vertical
           url: /page/info/
         - name: RSS 订阅
           icon: fa-light fa-rss SUNFLOWER faa-vertical
@@ -257,8 +257,8 @@ sidebar:
         title: 标签列表
         icon: fa-light fa-tags WISTERIA 
         url: /tags/
-      max_font: 22
-      min_font: 18
+      max_font: 18
+      min_font: 14
     webinfo:
       display: [desktop]
       header:
@@ -479,7 +479,7 @@ rightmenus:
       - {id: 'archive', name: '文章归档', icon: 'fa-light fa-globe-asia CONCRETE', link: '/archives/', group: 'link'}
       - {id: 'categorie ', name: '文章分类', icon: 'fa-light fa-folder-open ALIZARIN', link: '/categories/', group: 'link'}
       - {id: 'about', name: '关于我', icon: 'fa-light fa-gingerbread-man WISTERIA', link: '/page/about/', group: 'link'}
-      - {id: 'info', name: '留言板', icon: 'fa-light fa-hand-love ALIZARIN', link: '/page/info/', group: 'link'}
+      - {id: 'info', name: '留言板', icon: 'fa-light fa-object-group ALIZARIN', link: '/page/info/', group: 'link'}
     darkMode: 
       - {id: 'darkMode', name: '暗黑模式', icon: 'fa-light fa-eclipse-alt WISTERIA', event: 'volantis.dark.toggle()', group: 'darkMode'}
     prevNext:
@@ -513,8 +513,6 @@ custom_css:
     border: 2px  
   fontsize:
     root: 16px
-    meta: .8125rem
-    footnote: .78rem
   body:
     effect: [floatable] # [shadow, floatable, blur]  
   navbar:
