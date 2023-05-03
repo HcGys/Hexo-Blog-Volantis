@@ -7,6 +7,12 @@ import:
     - <link rel="preload" href="/css/lxgwwenkaiscreen-local.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 theme_config:
+  sidebar:
+    for_page: [lastupdate, webinfo]
+  ShowICPInfo:
+    enable: true
+    icp: 皖ICP备2021008088号-2
+    gov: 辽公网安备21021702000331号
   comments:
     service: ''
   cdn_system:

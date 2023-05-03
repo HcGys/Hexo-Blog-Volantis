@@ -61,4 +61,7 @@ theme_config:
     service: meilisearch
   comments:
     service: artalk
-  ShowICPInfo: true
+  ShowICPInfo:
+    enable: true
+    icp: 皖ICP备2021008088号-2
+    gov: 辽公网安备21021702000331号
