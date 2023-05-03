@@ -10,6 +10,7 @@ jsonContent:
       - robots.txt 
       - js/ 
       - css/ 
+      - img/
   posts: 
     title: true 
     path: true 

@@ -6,7 +6,8 @@ import:
     - <link rel="preconnect" href="https://static.szyink.com">
     # - <link rel="stylesheet" href="https://static.szyink.com/common/css/code.css?V=INKSSFLAG">
     # - <link rel="stylesheet" href="https://static.szyink.com/common/css/roboto.css?V=INKSSFLAG">
-    - <link rel="stylesheet" href="https://static.szyink.com/common/css/lxgwwenkailite.css?V=INKSSFLAG">
+    # - <link rel="stylesheet" href="https://static.szyink.com/common/css/lxgwwenkailite.css?V=INKSSFLAG">
+    - <link rel="stylesheet" href="https://static.szyink.com/common/css/lxgwwenkaiscreen.css?V=INKSSFLAG">
     - <script async defer data-website-id="ce840cfa-99c1-4abc-a304-9b377f904b50" src="https://um.adc.ink/szyinkum.js?V=INKSSFLAG" data-domains="inkss.cn"></script>
 
 # Deployment 部署

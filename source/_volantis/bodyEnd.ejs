@@ -30,7 +30,10 @@
   
   function checkLoaction() {
     const pathName = window.location.pathname;
-    const checkFlag = isDateBetween('2022/12/13', '2022/12/14') 
+    const year = new Date().getFullYear();
+    const checkFlag = 
+      isDateBetween(`${year}/4/4`, `${year}/4/5`) ||
+      isDateBetween(`${year}/12/13`, `${year}/12/14`)
     if (pathName === "/" && checkFlag) {
       document.querySelector('html').classList.add('grayscale');
     } else {

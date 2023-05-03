@@ -47,13 +47,13 @@ nextNavbar:
       click: 'OpenSearch()'
 
 cover:
-  enable: false
-  height_scheme: full
+  enable: true
+  height_scheme: blank
   layout_scheme: dock
   display:
-    home: true
-    archive: true
-    others: true
+    home: false
+    archive: false
+    others: false
   background: /img/wallhaven-j31omy.jpg
   title: '枋柚梓'
   subtitle: '繁星永存 记忆亘古不变'
@@ -76,8 +76,8 @@ cover:
       url: /page/friends/
 
 navbar:
-  enable: false
-  visiable: auto
+  enable: true
+  visiable: always
   logo:
     img: /icon/favicon.svg
     title: '枋柚梓的猫会发光'
@@ -203,13 +203,13 @@ comments:
     server: https://artalk.szyink.com
 
 sidebar:
-  position: left # left right
+  position: right # left right
   for_page: [nextsite, nextblogger, tagcloud]
   for_post: [nextsite, nextblogger, toc, webinfo]
   widget_library:
     nextblogger:
       class: nextblogger
-      display: [desktop, cus-shadow] # [desktop, mobile]
+      display: [desktop] # [desktop, mobile]
       avatar: /img/avatar.png
       url: /page/about/
       subtitle: 言语道断，非物所拘。
@@ -228,7 +228,7 @@ sidebar:
           title: Status
     blogger:
       class: blogger
-      display: [desktop, cus-shadow] # [desktop, mobile]
+      display: [desktop] # [desktop, mobile]
       avatar: /img/avatar.png
       shape: circle # circle, rectangle
       url: /page/about/
@@ -238,21 +238,21 @@ sidebar:
       social:
     lastupdate:
       class: lastupdate
-      display: [desktop, cus-shadow]
+      display: [desktop]
       header:
         icon: fa-light fa-clock WISTERIA
         title: 最近更新
     toc:
-      display: [desktop, mobile, cus-shadow]
+      display: [desktop, mobile]
       header:
         icon: fa-light fa-list ASBESTOS
     category:
-      display: [desktop, cus-shadow]
+      display: [desktop]
       header:
         icon: fa-light fa-folder-open ASBESTOS
         url: /categories/
     tagcloud:
-      display: [desktop, cus-shadow]
+      display: [desktop]
       header:
         title: 标签列表
         icon: fa-light fa-tags WISTERIA 
@@ -260,7 +260,7 @@ sidebar:
       max_font: 22
       min_font: 18
     webinfo:
-      display: [desktop, cus-shadow]
+      display: [desktop]
       header:
         icon: fa-light fa-award NEPHRITIS
       type:
@@ -275,7 +275,7 @@ sidebar:
     notice:
       sticky: true
       class: text
-      display: [desktop, mobile, cus-shadow]
+      display: [desktop, mobile]
       header:
         icon: fa-light fa-ghost PETERRIVE 
         title: 公共信息
@@ -284,7 +284,7 @@ sidebar:
         - '本站托管于 Github Page。'
     updateList:
       class: text
-      display: [desktop, cus-shadow]
+      display: [desktop]
       header:
         icon: fa-light fa-wrench SUNFLOWER 
         title: 更新日志
@@ -292,7 +292,7 @@ sidebar:
         - 暂无 
     navigation:
       class: grid
-      display: [desktop, cus-shadow]
+      display: [desktop]
       header:
         icon: fa-light fa-map-signs POMEGRANATE 
         title: 站内导航
@@ -319,13 +319,13 @@ sidebar:
     artalk:
       class: artalk
       sticky: true
-      display: [desktop, cus-shadow]
+      display: [desktop]
     nextsite:
       class: nextsite
-      display: [desktop, mobile, cus-shadow]
+      display: [desktop, mobile]
     started:
       class: list
-      display: [desktop, cus-shadow]
+      display: [desktop]
       sticky: true
       header:
         icon: fa-light fa-thumbs-up WISTERIA
@@ -364,8 +364,8 @@ tag_plugins:
 site_footer:
   layout: [copyright, powered]
   icon: '<i class="fa-light fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i>'
-  copyright: '<span>© 2018 - 2022&nbsp;</span><span><i class="fa-light fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i></span><span>&nbsp;枋柚梓</span>'
-  powered: '<a href="/page/policy/">政策</a> · <a href="https://um.adc.ink/share/sKrpXWfJ/%E6%9E%8B%E6%9F%9A%E6%A2%93%E7%9A%84%E7%8C%AB%E4%BC%9A%E5%8F%91%E5%85%89">统计</a> | 本站使用 <a href="https://volantis.js.org/" target="_blank">Volantis</a> 主题设计'
+  copyright: '<span>© 2018 - 2023&nbsp;</span><span><i class="fa-light fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i></span><span>&nbsp;枋柚梓</span>'
+  powered: '<a href="/page/policy/">政策</a> · <a href="https://v6.51.la/land/JgcVkXNZKtKny1eA">统计</a> | 本站使用 <a href="https://volantis.js.org/" target="_blank">Volantis</a> 主题设计'
 
 plugins:
   busuanzi:
@@ -380,7 +380,7 @@ plugins:
     server: tencent
     id: 7716882294
   pjax:
-    enable: true
+    enable: false
     cover: false
   sitesjs:
     enable: false
@@ -512,26 +512,26 @@ custom_css:
     size: 4px
     border: 2px  
   fontsize:
-    root: 20px
+    root: 16px
     meta: .8125rem
     footnote: .78rem
   body:
-    effect: [floatable, cus-shadow] # [shadow, floatable, blur]  
+    effect: [floatable] # [shadow, floatable, blur]  
   navbar:
-    effect: [floatable, cus-shadow]
-    height: 0px
+    effect: [floatable]
+    #height: 0px
   sidebar:
-    effect: [floatable, cus-shadow] # [shadow, floatable, blur]  
-  max_width: 1200px
+    effect: [floatable] # [shadow, floatable, blur]  
+  max_width: 1080px
   fontfamily:
     logofont:
-      fontfamily: '"LXGW WenKai Lite","Microsoft Yahei",WenQuanYi Micro Hei,sans-serif'
+      fontfamily: 'LXGW WenKai Screen,PingFang SC,Microsoft YaHei,SimHei,Arial,SimSun'
       url: ''
     bodyfont:
-      fontfamily: '"LXGW WenKai Lite",PingFang SC,"Microsoft Yahei",WenQuanYi Micro Hei,sans-serif'
+      fontfamily: 'LXGW WenKai Screen,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif'
       url: ''
     codefont:
-      fontfamily: 'LXGW WenKai Mono Lite, Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace'
+      fontfamily: 'LXGW WenKai Screen,Source Code Pro,DejaVu Sans Mono,Ubuntu Mono,Anonymous Pro,Droid Sans Mono,Menlo,Monaco,Consolas,Inconsolata,Courier,monospace,PingFang SC,Microsoft YaHei,sans-serif'
       url: ''
 
 open_graph:

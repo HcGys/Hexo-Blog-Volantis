@@ -4,7 +4,7 @@ import:
   head_end:
     - <link rel="preload" href="/css/code-local.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     - <link rel="preload" href="/css/roboto-local.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    - <link rel="preload" href="/css/lxgwwenkailite-local.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    - <link rel="preload" href="/css/lxgwwenkaiscreen-local.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 theme_config:
   comments:
