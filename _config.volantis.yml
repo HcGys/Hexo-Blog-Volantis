@@ -365,7 +365,7 @@ site_footer:
   layout: [copyright, powered]
   icon: '<i class="fa-light fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i>'
   copyright: '<span>© 2018 - 2023&nbsp;</span><span><i class="fa-light fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i></span><span>&nbsp;枋柚梓</span>'
-  powered: '<a href="/page/policy/">政策</a> · <a href="https://v6.51.la/land/JgcVkXNZKtKny1eA">统计</a> | 本站使用 <a href="https://volantis.js.org/" target="_blank">Volantis</a> 主题设计'
+  powered: '<a href="/page/policy/">政策</a> · <a href="https://um.adc.ink/share/sKrpXWfJ/%E6%9E%8B%E6%9F%9A%E6%A2%93%E7%9A%84%E7%8C%AB%E4%BC%9A%E5%8F%91%E5%85%89">统计</a> | 本站使用 <a href="https://volantis.js.org/" target="_blank">Volantis</a> 主题设计'
 
 plugins:
   busuanzi:
