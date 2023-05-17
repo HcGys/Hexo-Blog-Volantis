@@ -50,7 +50,7 @@ sidebar: []
   }
   function load_macy(done = null) {
     if(typeof Macy === "undefined") {
-      volantis.js("/js/macy.js").then(() => {
+      volantis.js("/common/macy.js").then(() => {
         if(done) done();
       })
     } else {
